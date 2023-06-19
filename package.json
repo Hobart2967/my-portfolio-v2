@@ -9,6 +9,7 @@
     "build": "vite"
   },
   "devDependencies": {
+    "sass": "^1.63.4",
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"
   },
