@@ -2,8 +2,12 @@
   "name": "my-portfolio-v2",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Marco Klein <marco.klein@trustedshops.de>",
+  "type": "module",
+  "author": "Marco Klein <hobart2967@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "vite"
+  },
   "devDependencies": {
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"
