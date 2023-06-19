@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Marco Klein <marco.klein@trustedshops.de>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "solid-js": "^1.7.6"
+  }
 }
