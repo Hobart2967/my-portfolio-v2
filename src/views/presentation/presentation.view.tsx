@@ -1,6 +1,6 @@
 export function PresentationView() {
   return (
-    <div>
+    <div class="card">
       Hello World!
     </div>
   );
