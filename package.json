@@ -9,12 +9,14 @@
     "build": "vite"
   },
   "devDependencies": {
+    "rollup-plugin-copy": "^3.4.0",
     "sass": "^1.63.4",
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
     "rxjs": "^7.8.1",
-    "solid-js": "^1.7.6"
+    "solid-js": "^1.7.6",
+    "vite-plugin-static-copy": "^0.16.0"
   }
 }
