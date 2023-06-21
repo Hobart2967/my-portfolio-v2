@@ -9,7 +9,23 @@ body {
 
   font-family: 'Darker Grotesque', cursive;
   font-size: 18px;
+  animation: background_animation infinite 240s ease-in-out;
+
+  @keyframes background_animation {
+    0% {
+      backdrop-filter: hue-rotate(0deg);
+    }
+    50% {
+      backdrop-filter: hue-rotate(360deg);
+    }
+
+    100% {
+      backdrop-filter: hue-rotate(0deg);
+    }
+  }
 }
+
+
 
 svg {
   fill:rgba(255, 255, 255, 0.6);
