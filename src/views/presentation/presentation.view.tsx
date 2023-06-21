@@ -8,7 +8,7 @@ export function PresentationView() {
       <TopBar />
       <div class="body">
         <div class="dp-f f-row">
-          <div class="dp-f f-col">
+          <div class="dp-f f-col left">
             <div class="card">
               <div class="dp-f">
                 <div>
@@ -57,6 +57,9 @@ export function PresentationView() {
                   Cloudbased systems!</p>
               </div>
             </div>
+          </div>
+          <div class="dp-f f-col right">
+
           </div>
         </div>
       </div>
