@@ -1,0 +1,62 @@
+.career {
+
+  .my-way {
+    position: relative;
+
+    svg {
+      position: absolute;
+      right: 0;
+
+      height: calc(100%);
+      margin-top: -16px;
+      margin-right: -16px;
+
+      path {
+        fill: rgb(216, 216, 216);
+        fill-opacity: 0;
+        stroke-width: 3px;
+        stroke: rgb(204, 204, 204);
+
+        stroke-dasharray: 3543.5290527344;
+        stroke-dashoffset: 3543.5290527344;
+        animation: presentation__drawcareerPath 2.2s linear forwards;
+        animation-iteration-count: 1;
+      }
+
+      @keyframes presentation__drawcareerPath {
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+    }
+
+    .stations {
+      width: 100%;
+
+      .career__station {
+        padding-bottom: 16px;
+
+        &:not(:first-child) {
+          padding-top: 16px;
+          border-top: 1px rgba(255, 255, 255, 0.4) dashed;
+        }
+
+        &__title {
+          text-transform: uppercase;
+          font-weight: 100;
+          font-size: 22px;
+        }
+
+        &__time-span {
+          font-weight: 100;
+        }
+
+        &__bullet {
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}

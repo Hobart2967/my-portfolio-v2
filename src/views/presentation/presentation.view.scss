@@ -25,35 +25,5 @@
       font-weight: 100;
       margin-top: 48px;
     }
-
-    .my-way {
-      .stations {
-        flex: 1;
-      }
-
-      svg {
-        height: 630px;
-        margin-top: -16px;
-        margin-right: -16px;
-
-        path {
-          fill: rgb(216, 216, 216);
-          fill-opacity: 0;
-          stroke-width: 3px;
-          stroke: rgb(204, 204, 204);
-
-          stroke-dasharray: 3543.5290527344;
-          stroke-dashoffset: 3543.5290527344;
-          animation: presentation__drawcareerPath 2.2s linear forwards;
-          animation-iteration-count: 1;
-        }
-
-        @keyframes presentation__drawcareerPath {
-          100% {
-            stroke-dashoffset: 0;
-          }
-        }
-      }
-    }
   }
 }

@@ -1,7 +1,7 @@
 import { TopBar } from '../../partials/top-bar/top-bar'
+import { Career } from '../../components/career/career.component';
 
 import './presentation.view.scss';
-import carreerPath from './assets/carreer-path.svg?raw';
 
 export function PresentationView() {
   return (
@@ -61,15 +61,7 @@ export function PresentationView() {
               </div>
             </div>
             <div class="dp-f f-col right">
-              <div class="title">I did it - my way! (CV)</div>
-              <div class="card my-way">
-                <div class="dp-f">
-                  <div class="stations">
-
-                  </div>
-                  <div innerHTML={carreerPath}></div>
-                </div>
-              </div>
+              <Career />
 
               <div class="title">Skills</div>
               <div class="card skills">
@@ -82,7 +74,7 @@ export function PresentationView() {
               <div class="title">Hobby Project - Game Engineering</div>
               <div class="card hobby-project">
                 <p>
-                  My passion for software development was basically originating from the will to create games. Because I discarded the thought of starting a carreer as a game developer before my studies, I decided to make it a hobby
+                  My passion for software development was basically originating from the will to create games. Because I discarded the thought of starting a career as a game developer before my studies, I decided to make it a hobby
                 </p>
                 <p>
                   This is why and how my first game engineering project started. Currently, it's called GWEN (Game without extra-ordinary name). It is developed using the awesome Godot Game Engine, and shall become an MMORPG, based on inspiration by games like World of Warcraft, Lord of the Rings Online, ARK, Minecraft and some others that I used to play in my spare time.

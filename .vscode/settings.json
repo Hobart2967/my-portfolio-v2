@@ -1,6 +1,8 @@
 {
   "conventionalCommits.scopes": [
     "core",
-    "navigation"
+    "navigation",
+    "home",
+    "career"
   ]
 }
