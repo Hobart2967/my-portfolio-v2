@@ -10,6 +10,8 @@ export function Career() {
     <div class="title">I did it - my way! (CV)</div>
     <div class="card my-way">
       <div class="dp-f">
+        <div class="career-path career-path__background" innerHTML={careerPath}></div>
+        <div class="career-path career-path__foreground" innerHTML={careerPath}></div>
         <div class="stations">
           <For each={stations}>
             {(station, index) => (
@@ -27,7 +29,6 @@ export function Career() {
             )}
           </For>
         </div>
-        <div innerHTML={careerPath}></div>
       </div>
     </div>
   </div>)

@@ -14,7 +14,7 @@
   box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.37);
   transition: scale .3s ease-in-out;
 
-  &:hover:not(&--zoom-disabled) {
+  &.zoomable:hover {
     scale: 1.02;
   }
 }

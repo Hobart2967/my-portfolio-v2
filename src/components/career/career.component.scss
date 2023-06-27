@@ -3,47 +3,103 @@
   .my-way {
     position: relative;
 
-    svg {
-      position: absolute;
-      right: 0;
+    .career-path {
+      $pathLength: 3543.5290527344;
+      $stationCount: 9;
 
-      height: calc(100%);
-      margin-top: -16px;
-      margin-right: -16px;
+      svg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
 
-      path {
-        fill: rgb(216, 216, 216);
-        fill-opacity: 0;
-        stroke-width: 3px;
-        stroke: rgb(204, 204, 204);
+        height: calc(100%);
+        filter: blur(5px);
 
-        stroke-dasharray: 3543.5290527344;
-        stroke-dashoffset: 3543.5290527344;
-        animation: presentation__drawcareerPath 2.2s linear forwards;
-        animation-iteration-count: 1;
+        path {
+          fill-opacity: 0;
+          stroke-width: 3px;
+          stroke: rgba(204, 204, 204);
+          stroke-opacity: .5;
+          stroke-dasharray: $pathLength;
+          stroke-dashoffset: $pathLength;
+        }
       }
 
-      @keyframes presentation__drawcareerPath {
-        100% {
-          stroke-dashoffset: 0;
+      &__foreground {
+        $step: calc($pathLength / ($stationCount - 1));
+
+        @for $i from 1 through $stationCount {
+          &:has(+ .stations .career__station:nth-child(#{$i}):hover) {
+            svg {
+              path {
+
+                stroke-dashoffset: #{$pathLength - $i * $step};
+              }
+            }
+          }
+        }
+
+        svg {
+          z-index: 200;
+
+          path {
+            stroke-opacity: 1;
+            transition: stroke-dashoffset .3s ease-in-out;
+          }
+        }
+      }
+
+      &__background {
+        svg {
+          path {
+            animation: presentation__drawcareerPath 2.2s linear forwards;
+            animation-iteration-count: 1;
+          }
+
+          @keyframes presentation__drawcareerPath {
+            100% {
+              stroke-dashoffset: 0;
+            }
+          }
         }
       }
     }
 
     .stations {
       width: 100%;
+      color: rgba(255, 255, 255, 0.8);
 
       .career__station {
+        padding-top: 16px;
         padding-bottom: 16px;
+
+        border-top: 1px transparent solid;
+        border-bottom: 1px transparent solid;
+        background-color: transparent;
+
+        transition:
+          padding .3s ease-in-out,
+          backdrop-filter .3s ease-in-out,
+          border-bottom-color .3s ease-in-out,
+          border-top-color .3s ease-in-out,
+          background-color .3s ease-in-out,
+          scale .3s ease-in-out;
+
+        &:hover {
+          padding: 16px;
+          background-color: rgba(255, 255, 255, 0.05);
+          border-bottom-color: rgba(255, 255, 255, 0.1);
+        }
 
         &:not(:first-child) {
           padding-top: 16px;
-          border-top: 1px rgba(255, 255, 255, 0.4) dashed;
+          border-top-color: rgba(255, 255, 255, 0.1);
         }
 
         &__title {
           text-transform: uppercase;
-          font-weight: 100;
           font-size: 22px;
         }
 

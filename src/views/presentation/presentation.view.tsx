@@ -6,15 +6,14 @@ import './presentation.view.scss';
 export function PresentationView() {
   return (
     <div>
-      <TopBar />
       <div class="content">
         <div class="body">
           <div class="dp-f f-row">
             <div class="dp-f f-col left">
               <div class="card">
-                <div class="dp-f">
+                <div class="dp-f title-box">
                   <div>
-                    <div class="me" ></div>
+                    <div class="me"></div>
                   </div>
                   <div>
                     <h1>Marco Klein</h1>
