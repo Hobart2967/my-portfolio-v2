@@ -22,9 +22,6 @@ export function Career() {
                 <div class="career__station__time-span">
                   {station.start.month} {station.start.year} until {station.end.month} {station.end.year}
                 </div>
-                <div class="career__station__bullet">
-                  i
-                </div>
               </div>
             )}
           </For>
