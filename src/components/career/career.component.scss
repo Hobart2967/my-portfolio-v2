@@ -34,7 +34,6 @@
           &:has(+ .stations .career__station:nth-child(#{$i}):hover) {
             svg {
               path {
-
                 stroke-dashoffset: #{$pathLength - $i * $step};
               }
             }
@@ -45,7 +44,7 @@
           z-index: 200;
 
           path {
-            stroke-opacity: 1;
+            stroke-opacity: 0.8;
             transition: stroke-dashoffset .3s ease-in-out;
           }
         }
@@ -68,8 +67,11 @@
     }
 
     .stations {
+      position: relative;
+      z-index: 500;
       width: 100%;
-      color: rgba(255, 255, 255, 0.8);
+      color: rgb(197, 197, 197);
+      text-shadow: 0px 5px 20px rgba(0, 0, 0, 1);
 
       .career__station {
         padding-top: 16px;
