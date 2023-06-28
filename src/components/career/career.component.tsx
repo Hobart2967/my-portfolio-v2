@@ -27,7 +27,7 @@ export function Career() {
           <div class="career-path career-path__foreground" innerHTML={careerPath}></div>
           <div class="stations">
             <For each={stations}>
-              {(station, index) => (
+              {(station) => (
                 <div class="career__station" onClick={() => showDetails(station)}>
                   <div class="career__station__title">
                     {station.job} @ {station.companyName}
