@@ -3,6 +3,7 @@ import { stations } from './career-stations';
 
 import careerPath from './assets/carreer-path.svg?raw';
 
+
 import './career.component.scss';
 import { CareerStation } from './career-station.interface';
 
@@ -13,6 +14,10 @@ export function Career() {
   function showDetails(station: CareerStation) {
     setSelectedStation(station);
     setDetailsVisible(true);
+  }
+
+  function parse(content: string) {
+    return content.replace(/\n/g, '<br />');
   }
 
   return (<div class="career">
@@ -49,10 +54,17 @@ export function Career() {
           <div class="back-bar" onClick={() => setDetailsVisible(false)}>
             &lt; Back to my career path
           </div>
-          <h1>{selectedStation().job}</h1>
-          <h2>@ {selectedStation().companyName}</h2>
-          <div>{selectedStation().start.month} {selectedStation().start.year} until {selectedStation().end.month} {selectedStation().end.year}</div>
-          <div>{selectedStation().description}</div>
+          <div class="station-details__metadata dp-f">
+            <div class="station-details__metadata__info">
+              <h1>{selectedStation().job}</h1>
+              <h2>@ {selectedStation().companyName}</h2>
+              <div>{selectedStation().start.month} {selectedStation().start.year} until {selectedStation().end.month} {selectedStation().end.year}</div>
+            </div>
+            <div class="station-details__metadata__logo">
+              <img src={selectedStation().companyLogo} />
+            </div>
+          </div>
+          <div innerHTML={parse(selectedStation().description)}></div>
         </div>
       </Show>
     </div>
