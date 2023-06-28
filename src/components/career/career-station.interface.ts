@@ -1,7 +1,6 @@
 export interface CareerStation {
   companyName: string;
   job: string;
-  atPath: number;
   description?: string;
   school?: boolean;
   start: {

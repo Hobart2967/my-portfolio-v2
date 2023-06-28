@@ -3,7 +3,6 @@ import { CareerStation } from './career-station.interface';
 export const stations: CareerStation[] = [{
   companyName: 'EA Games/Bright Future GmbH',
   job: 'Trainee Developer/Quality Assurance',
-  atPath: 14.5 / 100,
   description: 'During my time in school we were advised to do a training on a specific profession we prefer to learn in the future. My deepest desire was to become a professional game developer. Due to the possibilities and connections I had during the year 2006, I was given the chance to do a training inside the offices of a development studio of EA Games. Bright Future was the company developing the `Fußball Manager` title of each year.\n\nWhile pro-actively extending my trainee-period of two weeks to four in total, I got to know certain tasks of software development in general, but also insights into how video games are created. This was including the regular testing, preparing press media, developing the game itself and seeing how graphical elements evolve.',
   start: {
     month: 6,
@@ -17,7 +16,6 @@ export const stations: CareerStation[] = [{
   companyName: 'Mauser Group',
   job: 'Trainee IT-Administrator',
   description: 'During my time in school we were advised to do a second training on a profession we prefer to learn in the future. I decided to join the Mauser Group IT department.\n\nHere, I learned how software development could be useful when planning resources, adjusting infrastructures and many more. In addition, I was experiencing how colleagues problems are solved and what a fire-protection in a server rack looks like.\n\nFurthermore, I learned alot of things about what different roles there are in such a department and why they are important.',
-  atPath: 19 / 100,
   start: {
     month: 9,
     year: 2007,
@@ -28,7 +26,6 @@ export const stations: CareerStation[] = [{
   }
 }, {
   companyName: 'Grey Computer Cologne',
-  atPath: 24 / 100,
   job: 'PC Manufacturing',
   description: 'In my private spare time after school, I was working on my PC very often. Exchanging parts, upgrading the system and modifying it was much fun to me. To also earn some money and increasing my pocket money while still going to school, I applied to Grey Computer Cologne.\n\nThis company was one of the biggest computer stores close to my living town. It also had a manufacturing garage attached, where they still needed some help. This is where I came into play: I was working there, building PCs of different configurations. Water Coolings, super silent office PCs or extreme gaming machines - These are all builds that I have worked on there.',
   start: {
@@ -53,7 +50,6 @@ export const stations: CareerStation[] = [{
   After that, I was planning my first IT-System for Software-Development: It was a test lab, a multi-server environment connected to Microsoft Test Manager.
 
   Then I switched over to the development department: Here I was a part of the development of applications like Rich-Clients, WebApps, and Server-Side environments. Since it was company relying on Microsoft products, we 90% used C# as Coding language.`,
-  atPath: 35.3 / 100,
   start: {
     month: 7,
     year: 2011,
@@ -65,7 +61,6 @@ export const stations: CareerStation[] = [{
 }, {
   companyName: 'Serviceware SE',
   job: 'Work Student: Software Engineer',
-  atPath: 49 / 100,
   description: `My apprenticeship was shortened by 6 months and sucessfully finished, so I continued to work in the company as a working student.
   There, I continued to work as a software engineer in the Research and Development division.
 
@@ -88,7 +83,6 @@ export const stations: CareerStation[] = [{
     - Information Systems (Software development, IT Infrastructure, etc.)
     - Soft Skills
     - Languages (English & Dutch)`,
-  atPath: 57 / 100,
   school: true,
   start: {
     month: 10,
@@ -101,7 +95,6 @@ export const stations: CareerStation[] = [{
 }, {
   companyName: 'Serviceware SE',
   job: 'Full-Stack Software Engineer',
-  atPath: 65.3 / 100,
   description: `At the end of my integrated degree program I signed a contract to continue working for Serviceware SE.
   My first business project was exciting: I was set up to travel back and forth to the dutch site of the company, starting as a full stack developer in the dutch team. There, I was developing web frontends with angular.js and REST APIs written in ASP.NET.
   Furthermore I brought in my expertise on how to set up modern continuous integration pipelines with Microsoft Team Foundation Server.
@@ -122,7 +115,6 @@ export const stations: CareerStation[] = [{
 }, {
   companyName: 'Trusted Shops GmbH',
   job: 'Senior Full-Stack Software Engineer',
-  atPath: 73.5 / 100,
   description: `At Trusted Shops, I officially started as a frontend developer only. I started as a part of their Consumer UX Team, being responsible for the consumer web frontend. During the time in this team, I deep-dived into Angular 2 and all further versions released - learning and expanding my knowledge about the framework.
 
   After working on the consumer platform, I continued to work on a website relaunch, based on Wordpress and Angular.
