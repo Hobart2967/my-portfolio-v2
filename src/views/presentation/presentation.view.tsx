@@ -1,4 +1,5 @@
 import { Career } from '../../components/career/career.component';
+import { Skills } from '../../components/skills/skills.component';
 
 import './presentation.view.scss';
 
@@ -67,6 +68,7 @@ export function PresentationView() {
 
               <div class="title">Skills</div>
               <div class="card skills">
+                <Skills />
               </div>
 
               <div class="title">Projects and references</div>

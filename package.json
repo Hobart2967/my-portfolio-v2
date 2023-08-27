@@ -15,9 +15,12 @@
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
+    "3d-force-graph": "^1.72.2",
     "@fortawesome/fontawesome-free": "^6.4.2",
+    "d3": "^7.8.5",
     "rxjs": "^7.8.1",
     "solid-js": "^1.7.6",
+    "three": "^0.155.0",
     "vite-plugin-static-copy": "^0.16.0"
   }
 }
