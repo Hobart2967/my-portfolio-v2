@@ -5,6 +5,7 @@ import mauser from './assets/mauser.jpeg';
 import greyComputer from './assets/grey-computer.jpeg';
 import trustedshops from './assets/trustedshops.png';
 import eufh from './assets/eufh.png';
+import belonio from './assets/belonio.png';
 
 export const stations: CareerStation[] = [{
   companyName: 'EA Games/Bright Future GmbH',
@@ -137,6 +138,25 @@ export const stations: CareerStation[] = [{
   Since I also wanted to bring in my infrastructure and backend skills, I implemented a modular and pluggable test environment created with docker.
 
   Today, I am working as a full-stack developer responsible for building a pluggable micro-frontend platform and reusable libraries together with my current team.`,
+  start: {
+    month: 2,
+    year: 2018,
+  },
+  end: {
+    month: new Date(Date.now()).getMonth() + 1,
+    year: new Date(Date.now()).getFullYear()
+  }
+}, {
+  companyName: 'Belonio GmbH',
+  job: 'Senior Full-Stack Software Engineer',
+  companyLogo: belonio,
+  css: `
+    filter: drop-shadow(0px 0px 10px #fff);
+  `,
+  description: `At Belonio, I am responsible for the technical implementation of a variety of different processes dealing with employee salary benefits.
+  In Germany, we have a lot of laws and regulations dealing with different kinds of possibilities to improve your salary value.
+
+  It's a system fully built using AWS, while utilizing alot of services offered by them. Mostly, the aim is to go for a serverless implementation.`,
   start: {
     month: 2,
     year: 2018,

@@ -2,6 +2,7 @@ export interface CareerStation {
   companyName: string;
   job: string;
   description?: string;
+  css?: string;
   school?: boolean;
   companyLogo: string;
   start: {

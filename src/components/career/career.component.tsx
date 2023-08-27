@@ -57,7 +57,7 @@ export function Career() {
                   <div>{station.start.month} {station.start.year} until {station.end.month} {station.end.year}</div>
                 </div>
                 <div class="station-details__metadata__logo">
-                  <img src={station.companyLogo} />
+                  <img src={station.companyLogo} style={station.css || ''}/>
                 </div>
               </div>
               <div innerHTML={parse(station.description)}></div>
