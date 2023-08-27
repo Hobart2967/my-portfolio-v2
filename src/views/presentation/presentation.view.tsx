@@ -1,4 +1,3 @@
-import { TopBar } from '../../partials/top-bar/top-bar'
 import { Career } from '../../components/career/career.component';
 
 import './presentation.view.scss';
@@ -6,6 +5,14 @@ import './presentation.view.scss';
 export function PresentationView() {
   return (
     <div>
+      <div class="head ">
+        <div class="nav-links card">
+          <a target="_blank" class="fa-brands fa-github" href="https://github.com/Hobart2967"></a>
+          <a target="_blank" class="fa-brands fa-dev" href="https://dev.to/Hobart2967"></a>
+          <a target="_blank" class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/klein-marco/"></a>
+          <a target="_blank" class="fa-brands fa-xing" href="https://www.xing.com/profile/Marco_Klein51/cv"></a>
+        </div>
+      </div>
       <div class="content">
         <div class="body">
           <div class="dp-f f-row">
@@ -37,14 +44,10 @@ export function PresentationView() {
               <div class="card">
                 <h3>Professional Status</h3>
                 <div class="row">
-                  <p>Currently, I am working for <a href="https://www.trustedshops.com">Trusted Shops</a>, europes leading trust brand -
-                    A company creating review systems for all kinds of markets, including its origin market, e-commerce.</p>
-                  <p>I officially started there as a pure frontend developer. I joined their Consumer UX Team, being responsible for the
-                    consumer web frontend. After working on a consumer portal application, I continued to work on a website relaunch,
-                    based on Wordpress and Angular Universal. Since I also wanted to use my infrastructure and backend skills, I
-                    implemented a modular and pluggable test environment created with docker.</p>
-                  <p>Today, I am working as a full-stack developer, responsible for building a pluggable micro-frontend platform and
-                    reusable libraries together with my current team.</p>
+                  <p>
+                    Today, I am working for <a href="https://www.belonio.de">Belonio</a> as a full stack developer, who is providing a simple,
+                    secure and attractive software solution for providing employee benefits in terms of salary extras.
+                  </p>
                 </div>
               </div>
               <div class="card">
@@ -54,7 +57,7 @@ export function PresentationView() {
                     apps, web apps, hybrid native desktop apps, rich clients, websites and many more things.</p>
                   <p>Backend-wise I have created different systems with NodeJS, C# and a little Java. This all includes a bunch of
                     REST-Apis, Database Backends and even Database Driven Business Logic.</p>
-                  <p>I have seen and worked on different infrastructural approaches, such as on-premise, self-hosted SaaS or even AWS
+                  <p>I have seen and intensively worked on different infrastructural approaches, such as on-premise, self-hosted SaaS or even AWS
                     Cloudbased systems!</p>
                 </div>
               </div>
