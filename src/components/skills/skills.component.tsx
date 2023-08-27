@@ -311,6 +311,8 @@ export function Skills() {
       extraRenderers: [new CSS2DRenderer() as any]
     });
 
+    myGraph.width(200);
+
     const groupColors: string[]= [
       '#1d948f',
       '#1d941d',
