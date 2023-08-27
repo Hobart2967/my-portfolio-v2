@@ -143,8 +143,8 @@ export const stations: CareerStation[] = [{
     year: 2018,
   },
   end: {
-    month: new Date(Date.now()).getMonth() + 1,
-    year: new Date(Date.now()).getFullYear()
+    month: 6,
+    year: 2023
   }
 }, {
   companyName: 'Belonio GmbH',
@@ -158,8 +158,8 @@ export const stations: CareerStation[] = [{
 
   It's a system fully built using AWS, while utilizing alot of services offered by them. Mostly, the aim is to go for a serverless implementation.`,
   start: {
-    month: 2,
-    year: 2018,
+    month: 7,
+    year: 2023,
   },
   end: {
     month: new Date(Date.now()).getMonth() + 1,
