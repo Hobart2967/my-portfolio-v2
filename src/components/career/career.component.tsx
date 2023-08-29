@@ -26,14 +26,22 @@ export function Career() {
           <div class="career-path career-path__foreground" innerHTML={careerPath}></div>
           <div class="stations">
             <For each={stations}>
-              {(station) => (
+              {(station, index) => (
                 <div class="career__station" onClick={() => setSelectedStation(station)}>
+
                   <div class="career__station__title">
-                    {station.job} @ {station.companyName}
+                    <div class="career__station__date">
+                      {station.start.month.toString().padStart(2, '0')} {station.start.year}&nbsp;
+                      <Show when={station.end.month != station.start.month || station.end.year !== station.start.year}>
+                        &mdash; {station.end.month.toString().padStart(2, '0')} {station.end.year}
+                      </Show>
+                    </div>
+                    <div>{(index() + 1).toString().padStart(stations.length.toString().length, '0')}. {station.job}</div>
+                    <div class="career__station__sub-title">
+                      @ {station.companyName}
+                    </div>
                   </div>
-                  <div class="career__station__time-span">
-                    {station.start.month} {station.start.year} until {station.end.month} {station.end.year}
-                  </div>
+
                 </div>
               )}
             </For>

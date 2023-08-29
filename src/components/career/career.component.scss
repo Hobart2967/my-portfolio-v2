@@ -116,9 +116,22 @@
             font-size: 20px;
           }
 
+          &__date, &__sub-title {
+            font-size: 14px;
+            color: var(--lighter-text);
+          }
+
+          &__date {
+            margin-bottom: -6px;
+          }
+
+          &__sub-title {
+            margin-top: -6px;
+          }
+
           &__time-span {
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
             color: var(--lighter-text);
           }
         }

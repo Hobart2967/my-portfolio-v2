@@ -3,7 +3,7 @@
 
 a {
   &, &:visited, &:focus, &:active {
-    color: rgba(var(--foreground), var(--foreground-op));
+    color: rgba(var(--foreground), 0.8);
     text-decoration: none;
     transition: color .3s ease-in-out;
 
@@ -12,10 +12,16 @@ a {
       content: fa-content(map-get($fa-icons, 'arrow-up-right-from-square'));
       font-size: 12px;
       margin-left: 4px;
+
+      &:hover {
+        color: rgba(var(--foreground), 1);
+        text-decoration: underline;
+      }
     }
 
     &:hover {
-      color: rgba(var(--foreground), 0.3);
+      color: rgba(var(--foreground), 1);
+      text-decoration: underline;
     }
   }
 
