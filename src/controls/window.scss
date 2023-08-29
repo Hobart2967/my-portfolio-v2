@@ -1,15 +1,55 @@
+body.dark {
+  --background: rgb(31, 29, 43);
+  --foreground: 255, 255, 255;
+  --foreground-op: 0.6;
+  --background-card: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0));
+  --text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  --light-text: rgb(168, 168, 168);
+  --lighter-text: rgba(200, 200, 200, 0.6);
+  --visual-foreground: rgba(204, 204, 204);
+}
+
+:root {
+  --theme-switch-duration: 1.5s;
+}
+
+body.light {
+  --background: rgba(224, 224, 224, 0.6);
+  --foreground: 31, 29, 43;
+  --foreground-op: 1;
+  --background-card: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0));
+  --text-shadow: 5px 5px 5px rgb(65 65 65 / 50%);
+  --light-text: rgb(87, 87, 87);
+  --lighter-text: rgba(55, 55, 55, 0.6);
+  --visual-foreground: rgba(51, 51, 51);
+}
+
+body.theme-switching {
+  opacity: 0;
+}
+
 body {
   margin: 0;
 
-  background-color: #1F1D2B;
-  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--background);
+  color: rgba(var(--foreground), var(--foreground-op));
   background-image: url(/assets/images/gradient.svg);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top -200px center;
+  background-attachment: fixed;
 
   font-family: 'Darker Grotesque', cursive;
   font-size: 18px;
-  animation: background_animation infinite 240s ease-in-out;
+  transition:
+    opacity .5s ease-in-out,
+    background-color 1s ease-out;
+  animation: background_animation infinite 120s ease-in-out;
 
   @keyframes background_animation {
     0% {

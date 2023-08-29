@@ -1,0 +1,22 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/_functions.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/_variables.scss";
+
+a {
+  &, &:visited, &:focus, &:active {
+    color: rgba(var(--foreground), var(--foreground-op));
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+
+    &[target=_blank]:not(.fa-brands):after {
+      font-family: 'Font Awesome 6 Free';
+      content: fa-content(map-get($fa-icons, 'arrow-up-right-from-square'));
+      font-size: 12px;
+      margin-left: 4px;
+    }
+
+    &:hover {
+      color: rgba(var(--foreground), 0.3);
+    }
+  }
+
+}

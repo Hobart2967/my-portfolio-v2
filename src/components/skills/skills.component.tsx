@@ -413,6 +413,13 @@ export function Skills() {
       focusedNode = node;
       focusNode(node, graph);
     }, 500);
+
+    graphElement.querySelector('canvas').addEventListener('wheel', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      return false;
+    });
+
     let rotation: Euler = null;
     document.defaultView.setInterval(() => {
       const cameraPosition = graph.cameraPosition();

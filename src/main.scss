@@ -1,8 +1,9 @@
-@import "./controls/card.scss";
-@import "./controls/flex-box.scss";
-@import "./controls/headlines.scss";
-@import "./controls/window.scss";
-
 @import "./node_modules/@fortawesome/fontawesome-free/css/fontawesome.css";
 @import "./node_modules/@fortawesome/fontawesome-free/css/brands.css";
 @import "./node_modules/@fortawesome/fontawesome-free/css/solid.css";
+
+@import "./controls/card.scss";
+@import "./controls/links.scss";
+@import "./controls/flex-box.scss";
+@import "./controls/headlines.scss";
+@import "./controls/window.scss";

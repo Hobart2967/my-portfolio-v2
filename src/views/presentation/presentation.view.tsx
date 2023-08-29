@@ -1,17 +1,44 @@
+import { createEffect, createSignal } from 'solid-js';
 import { Career } from '../../components/career/career.component';
 import { Skills } from '../../components/skills/skills.component';
 
 import './presentation.view.scss';
 
 export function PresentationView() {
+  const [theme, setTheme] = createSignal('dark');
+
+  createEffect(() => {
+    if (document.body.classList.contains(theme())) {
+      return;
+    }
+
+    document.body.classList.remove('dark');
+    document.body.classList.remove('light');
+    document.body.classList.add(theme())
+  });
+
+  async function switchTheme(toValue: 'light' | 'dark') {
+    if (document.body.classList.contains(toValue)) {
+      return;
+    }
+    document.body.classList.add('theme-switching');
+    await new Promise(resolve => setTimeout(resolve, 500));
+    setTheme(toValue);
+    document.body.classList.remove('theme-switching');
+  }
+
   return (
     <div>
       <div class="head ">
-        <div class="nav-links card">
+        <div class="nav-links side card">
           <a target="_blank" class="fa-brands fa-github" href="https://github.com/Hobart2967"></a>
           <a target="_blank" class="fa-brands fa-dev" href="https://dev.to/Hobart2967"></a>
           <a target="_blank" class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/klein-marco/"></a>
           <a target="_blank" class="fa-brands fa-xing" href="https://www.xing.com/profile/Marco_Klein51/cv"></a>
+        </div>
+
+        <div class="theme side card">
+          <i class="fa-solid fa-moon" onClick={() => switchTheme(theme() === 'light' ? 'dark' : 'light')}></i>
         </div>
       </div>
       <div class="content">
@@ -46,7 +73,7 @@ export function PresentationView() {
                 <h3>Professional Status</h3>
                 <div class="row">
                   <p>
-                    Today, I am working for <a href="https://www.belonio.de">Belonio</a> as a full stack developer, who is providing a simple,
+                    Today, I am working for <a href="https://www.belonio.de" target='_blank'>Belonio</a> as a full stack developer, who is providing a simple,
                     secure and attractive software solution for providing employee benefits in terms of salary extras.
                   </p>
                 </div>
