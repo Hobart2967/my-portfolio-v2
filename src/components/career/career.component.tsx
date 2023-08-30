@@ -6,6 +6,7 @@ import careerPath from './assets/carreer-path.svg?raw';
 
 import './career.component.scss';
 import { CareerStation } from './career-station.interface';
+import { CompanyInfo } from './company-info.interface';
 
 export function Career() {
   const [selectedStation, setSelectedStation] = createSignal<CareerStation>(null);
@@ -38,7 +39,14 @@ export function Career() {
                     </div>
                     <div>{(index() + 1).toString().padStart(stations.length.toString().length, '0')}. {station.job}</div>
                     <div class="career__station__sub-title">
-                      @ {station.companyName}
+                      @ <For each={station.companies}>
+                        {(item, index) => (
+                          <>
+                            <span>{(typeof item === 'string') ? item : (item as CompanyInfo).name}</span>
+                            <Show when={index() !== station.companies.length - 1}><span> / </span></Show>
+                          </>
+                        )}
+                      </For>
                     </div>
                   </div>
 
@@ -61,7 +69,19 @@ export function Career() {
               <div class="station-details__metadata dp-f">
                 <div class="station-details__metadata__info">
                   <h1>{station.job}</h1>
-                  <h2>@ {station.companyName}</h2>
+                  <h2>
+                    @ <For each={station.companies}>
+                        {(item, index) => (
+                          <>
+                            <Show when={typeof item === 'string'}>{item as string}</Show>
+                            <Show when={typeof item !== 'string'}>
+                              <a href={(item as CompanyInfo).url} target='_blank'>{(item as CompanyInfo).name}</a>
+                            </Show>
+                            <Show when={index() !== station.companies.length - 1}><span> / </span></Show>
+                          </>
+                        )}
+                      </For>
+                  </h2>
                   <div>{station.start.month} {station.start.year} until {station.end.month} {station.end.year}</div>
                 </div>
                 <div class="station-details__metadata__logo">

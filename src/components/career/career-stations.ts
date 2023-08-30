@@ -8,7 +8,13 @@ import eufh from './assets/eufh.png';
 import belonio from './assets/belonio.png';
 
 export const stations: CareerStation[] = [{
-  companyName: 'EA Games/Bright Future GmbH',
+  companies: [{
+    name: 'EA Games',
+    url: 'https://www.ea.com/'
+  }, {
+    name: 'Bright Future GmbH',
+    url: 'https://www.brightfuture.de/'
+  }],
   job: 'Trainee Developer/Quality Assurance',
   description: 'During my time in school we were advised to do a training on a specific profession we prefer to learn in the future. My deepest desire was to become a professional game developer. Due to the possibilities and connections I had during the year 2006, I was given the chance to do a training inside the offices of a development studio of EA Games. Bright Future was the company developing the `Fußball Manager` title of each year.\n\nWhile pro-actively extending my trainee-period of two weeks to four in total, I got to know certain tasks of software development in general, but also insights into how video games are created. This was including the regular testing, preparing press media, developing the game itself and seeing how graphical elements evolve.',
   companyLogo: brightFuture,
@@ -21,7 +27,7 @@ export const stations: CareerStation[] = [{
     year: 2006
   }
 }, {
-  companyName: 'Mauser Group',
+  companies: [{ name: 'Mauser Group', url: 'https://www.mauserpackaging.com' }],
   job: 'Trainee IT-Administrator',
   description: 'During my time in school we were advised to do a second training on a profession we prefer to learn in the future. I decided to join the Mauser Group IT department.\n\nHere, I learned how software development could be useful when planning resources, adjusting infrastructures and many more. In addition, I was experiencing how colleagues problems are solved and what a fire-protection in a server rack looks like.\n\nFurthermore, I learned alot of things about what different roles there are in such a department and why they are important.',
   companyLogo: mauser,
@@ -34,7 +40,7 @@ export const stations: CareerStation[] = [{
     year: 2007
   }
 }, {
-  companyName: 'Grey Computer Cologne',
+  companies: ['Grey Computer Cologne'],
   job: 'PC Manufacturing',
   description: 'In my private spare time after school, I was working on my PC very often. Exchanging parts, upgrading the system and modifying it was much fun to me. To also earn some money and increasing my pocket money while still going to school, I applied to Grey Computer Cologne.\n\nThis company was one of the biggest computer stores close to my living town. It also had a manufacturing garage attached, where they still needed some help. This is where I came into play: I was working there, building PCs of different configurations. Water Coolings, super silent office PCs or extreme gaming machines - These are all builds that I have worked on there.',
   companyLogo: greyComputer,
@@ -47,7 +53,7 @@ export const stations: CareerStation[] = [{
     year: 2011
   }
 }, {
-  companyName: 'Serviceware SE',
+  companies: [{ name: 'Serviceware SE', url: 'https://www.serviceware-se.com/' }],
   job: 'Apprenticeship: Computer Science Expert',
   companyLogo: serviceware,
   description: `After finishing my graduation at a german Gymnasium, I applied for studying in an integrated degree program.
@@ -70,7 +76,7 @@ export const stations: CareerStation[] = [{
     year: 2014
   }
 }, {
-  companyName: 'Serviceware SE',
+  companies: [{ name: 'Serviceware SE', url: 'https://www.serviceware-se.com/' }],
   job: 'Work Student: Software Engineer',
   companyLogo: serviceware,
   description: `My apprenticeship was shortened by 6 months and sucessfully finished, so I continued to work in the company as a working student.
@@ -87,7 +93,7 @@ export const stations: CareerStation[] = [{
     year: 2014
   }
 }, {
-  companyName: 'EUFH Bruehl',
+  companies: [{ name: 'EUFH Bruehl', url: 'https://www.eufh.de'}],
   job: 'Bachelor Degree: Business Information Systems',
   companyLogo: eufh,
   description: `In 2014, I finally got my bachelor degree in information systems and completed my studies of three years. In that time, I learned topics from the following areas:
@@ -106,7 +112,7 @@ export const stations: CareerStation[] = [{
     year: 2014
   }
 }, {
-  companyName: 'Serviceware SE',
+  companies: [{ name: 'Serviceware SE', url: 'https://www.serviceware-se.com/' }],
   job: 'Full-Stack Software Engineer',
   companyLogo: serviceware,
   description: `At the end of my integrated degree program I signed a contract to continue working for Serviceware SE.
@@ -127,7 +133,7 @@ export const stations: CareerStation[] = [{
     year: 2018
   }
 }, {
-  companyName: 'Trusted Shops GmbH',
+  companies: [{ name: 'Trusted Shops GmbH', url: 'https://www.trustedshops.de' }],
   job: 'Senior Full-Stack Software Engineer',
   companyLogo: trustedshops,
   description: `At Trusted Shops, I officially started as a frontend developer only. I started as a part of their Consumer UX Team, being responsible for the consumer web frontend. During the time in this team, I deep-dived into Angular 2 and all further versions released - learning and expanding my knowledge about the framework.
@@ -147,7 +153,7 @@ export const stations: CareerStation[] = [{
     year: 2023
   }
 }, {
-  companyName: 'Belonio GmbH',
+  companies: [{ name: 'Belonio GmbH', url: 'https://www.belonio.de' }],
   job: 'Senior Full-Stack Software Engineer',
   companyLogo: belonio,
   css: `

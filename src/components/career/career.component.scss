@@ -102,8 +102,8 @@
 
           &:hover {
             padding: 16px;
-            background-color: var(--station-hover-color, 0.05);
-            border-bottom-color: var(--station-hover-color, 0.1);
+            background-color: rgba(var(--station-hover-color), 0.05);
+            border-bottom-color: rgba(var(--station-hover-color), 0.1);
           }
 
           &:not(:first-child) {
@@ -143,6 +143,7 @@
       top: 0;
       left: 0;
       opacity: 0;
+      pointer-events: none;
 
       transition: opacity .3s ease-in-out;
 
@@ -150,6 +151,7 @@
 
       &--visible {
         opacity: 1;
+        pointer-events: all;
       }
 
       &__metadata {

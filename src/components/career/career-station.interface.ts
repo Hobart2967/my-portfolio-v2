@@ -1,5 +1,7 @@
+import { CompanyInfo } from './company-info.interface';
+
 export interface CareerStation {
-  companyName: string;
+  companies: string[] | CompanyInfo[];
   job: string;
   description?: string;
   css?: string;

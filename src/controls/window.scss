@@ -10,7 +10,7 @@ body.dark {
   --light-text: rgb(168, 168, 168);
   --lighter-text: rgba(200, 200, 200, 0.6);
   --visual-foreground: rgba(204, 204, 204);
-  --station-hover-color: rgb(255, 255, 255);
+  --station-hover-color: 255, 255, 255;
 }
 
 :root {
@@ -29,7 +29,7 @@ body.light {
   --light-text: rgb(87, 87, 87);
   --lighter-text: rgba(55, 55, 55, 0.6);
   --visual-foreground: rgba(51, 51, 51);
-  --station-hover-color: rgb(0, 0, 0);
+  --station-hover-color: 0, 0, 0;
 }
 
 body.theme-switching {
