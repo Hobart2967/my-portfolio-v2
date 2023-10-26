@@ -1,0 +1,19 @@
+.project {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+  }
+  &__image img {
+    max-width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 5px;
+    margin: 0 auto;
+    max-height: 150px;
+    display: block;
+  }
+}

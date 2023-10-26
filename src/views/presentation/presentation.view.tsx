@@ -3,6 +3,7 @@ import { Career } from '../../components/career/career.component';
 import { Skills } from '../../components/skills/skills.component';
 
 import './presentation.view.scss';
+import { Projects } from '../../components/projects/projects.component';
 
 export function PresentationView() {
   const [theme, setTheme] = createSignal('dark');
@@ -43,7 +44,7 @@ export function PresentationView() {
       </div>
       <div class="content">
         <div class="body">
-          <div class="dp-f f-row">
+          <div class="dp-f f-row row-wrapper">
             <div class="dp-f f-col left">
               <div class="card">
                 <div class="dp-f title-box">
@@ -99,11 +100,12 @@ export function PresentationView() {
               </div>
 
               <div class="title">Projects and references</div>
-              <div class="card projects">
+              <div class="projects">
+                <Projects></Projects>
               </div>
 
               <div class="title">Hobby Project - Game Engineering</div>
-              <div class="card hobby-project">
+              <div class="card hobby-project gwen">
                 <p>
                   My passion for software development was basically originating from the will to create games. Because I discarded the thought of starting a career as a game developer before my studies, I decided to make it a hobby
                 </p>
@@ -115,6 +117,11 @@ export function PresentationView() {
                 <p>
                   In parallel, I try to build a Godot-dedicated library based on common software design patterns that have become established over the last years.
                 </p>
+                <div class="screenshots">
+                  <img src="/assets/images/gwen/gwen1.png" />
+                  <img src="/assets/images/gwen/gwen2.png" />
+                  <img src="/assets/images/gwen/gwen3.png" />
+                </div>
               </div>
             </div>
           </div>
