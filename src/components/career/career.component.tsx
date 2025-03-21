@@ -10,9 +10,30 @@ import { CompanyInfo } from './company-info.interface';
 
 export function Career() {
   const [selectedStation, setSelectedStation] = createSignal<CareerStation>(null);
+  const [forceActive, setForceActive] = createSignal(0);
 
   function parse(content: string) {
     return content.replace(/\n/g, '<br />');
+  }
+
+  requestAnimationFrame(() => updateForceActive());
+  let lastScrollTop = 0;
+  function updateForceActive() {
+    if (window.scrollY === lastScrollTop) {
+      requestAnimationFrame(() => updateForceActive());
+      return;
+    }
+
+    lastScrollTop = window.scrollY;
+
+    document.querySelectorAll('.career__station').forEach((station: HTMLElement, index: number) => {
+      // when station is in top 60% of screen
+      if (station.getBoundingClientRect().top < window.innerHeight * 0.6) {
+        setForceActive(index + 1);
+      }
+    });
+
+    requestAnimationFrame(() => updateForceActive());
   }
 
   return (<div class="career">
@@ -25,7 +46,7 @@ export function Career() {
         <div class="dp-f">
           <div class="career-path career-path__background" innerHTML={careerPath}></div>
           <div class="career-path career-path__foreground" innerHTML={careerPath}></div>
-          <div class="stations">
+          <div class={"stations " + (forceActive() > 0 ? 'stations--force-active-' + forceActive() : '')}>
             <For each={stations}>
               {(station, index) => (
                 <div class="career__station" onClick={() => setSelectedStation(station)}>
@@ -96,3 +117,5 @@ export function Career() {
     </div>
   </div>)
 }
+
+

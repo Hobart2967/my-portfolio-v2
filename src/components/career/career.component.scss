@@ -40,7 +40,8 @@
           $step: calc($pathLength / ($stationCount - 1));
 
           @for $i from 1 through $stationCount {
-            &:has(+ .stations .career__station:nth-child(#{$i}):hover) {
+            &:has(+ .stations .career__station:nth-child(#{$i}):hover),
+            &:has(+ .stations.stations--force-active-#{$i}) {
               svg {
                 path {
                   stroke-dashoffset: #{$pathLength - $i * $step};
