@@ -1,5 +1,6 @@
-.head{
+@import "../../variables";
 
+.head {
   position: sticky;
   z-index: 10000;
   top: 56px;
@@ -50,10 +51,16 @@
 
 .content {
   padding: 56px;
-
+  @media screen and (max-width: $column-breakpoint) {
+    padding: 56px 24px 56px 56px;
+  }
   .row-wrapper {
     display: flex;
     gap: 32px;
+
+    @media screen and (max-width: $column-breakpoint) {
+      flex-flow: column;
+    }
   }
 
   .title-box {
@@ -61,6 +68,11 @@
   }
 
   .me {
+    @media screen and (max-width: $column-breakpoint) {
+      width: 64px;
+      height: 64px;
+    }
+
     background-image: url(../../assets/images/me.png);
     background-size: 101%;
     width: 128px;
@@ -75,6 +87,18 @@
     display: flex;
     flex-flow: column;
     gap: 32px;
+
+    @media screen and (max-width: $column-breakpoint) {
+      width: 100%;
+      max-width: 100%;
+
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
   }
 
   .right {
@@ -97,8 +121,16 @@
       gap: 16px;
       flex-wrap: wrap;
 
+      @media screen and (max-width: $column-breakpoint) {
+        flex-flow: column;
+      }
+
       & > * {
         width: calc(33% - 48px);
+
+        @media screen and (max-width: $column-breakpoint) {
+          width: calc(100% - 48px);
+        }
       }
     }
 

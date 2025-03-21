@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .project {
   display: flex;
   flex-flow: column;
@@ -8,6 +10,7 @@
     font-size: 24px;
     text-align: center;
   }
+
   &__image img {
     max-width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.18);
