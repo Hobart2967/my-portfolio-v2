@@ -12,7 +12,6 @@ export const [modal, setModal] = createSignal(null);
 export function PresentationView() {
   const [theme, setTheme] = createSignal('dark');
 
-
   createEffect(() => {
     if (document.body.classList.contains(theme())) {
       return;
@@ -44,7 +43,6 @@ export function PresentationView() {
   }
 
   return (
-
     <div class="overlay-wrapper">
       <Show when={modal()}>
         <div class="overlay">
