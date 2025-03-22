@@ -9,4 +9,8 @@ jobs:
       - uses: actions/setup-node@v4
       - run: yarn
       - run: yarn build
-      - run: yarn gh-pages -d ./dist
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
