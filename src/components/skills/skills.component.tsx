@@ -700,22 +700,27 @@ export function Skills() {
   }
 
   return (
-    <div class="skills-wrapper">
-      <div class={"deactivate-toggle " + (disabled() ? "active" : "")}>
-        <button class="button" onClick={() => setDisabled(!disabled())}>
-          Deactivate Skill-Tree
-        </button>
-      </div>
-      <div class={"card overlay " + (disabled() ? "active" : "")}>
-        <button class="button" onClick={() => setDisabled(!disabled())}>
-          Reveal my Skill-Tree
-        </button>
-      </div>
-      <div ref={graph}></div>
-      <div class={"deactivate-toggle " + (disabled() ? "active" : "")}>
-        <button class="button" onClick={() => setDisabled(!disabled())}>
-          Deactivate Skill-Tree
-        </button>
+    <div>
+      <div class="title">Skills</div>
+      <div class="card skills">
+        <div class="skills-wrapper">
+          <div class={"deactivate-toggle " + (disabled() ? "active" : "")}>
+            <button class="button" onClick={() => setDisabled(!disabled())}>
+              Deactivate Skill-Tree
+            </button>
+          </div>
+          <div class={"card overlay " + (disabled() ? "active" : "")}>
+            <button class="button" onClick={() => setDisabled(!disabled())}>
+              Reveal my Skill-Tree
+            </button>
+          </div>
+          <div ref={graph}></div>
+          <div class={"deactivate-toggle " + (disabled() ? "active" : "")}>
+            <button class="button" onClick={() => setDisabled(!disabled())}>
+              Deactivate Skill-Tree
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

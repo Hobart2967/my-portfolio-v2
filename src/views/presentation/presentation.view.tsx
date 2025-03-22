@@ -201,14 +201,8 @@ export function PresentationView() {
             </div>
             <div class="dp-f f-col right">
               <Career />
-              <div>
-                <div class="title">Skills</div>
-                <div class="card skills">
-                  <Skills />
-                </div>
-              </div>
-
-             <Projects />
+              <Skills />
+              <Projects />
 
               <div>
                 <div class="title">Hobby Project - Game Engineering</div>
