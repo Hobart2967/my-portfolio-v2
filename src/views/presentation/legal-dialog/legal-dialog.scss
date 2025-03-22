@@ -1,0 +1,21 @@
+@import "../../../variables.scss";
+
+.legal-dialog {
+  @for $i from 1 through 4 {
+    h#{$i}{
+      font-size: 30px - (4 * $i);
+    }
+  }
+
+  .header {
+    @media screen and (max-width: $column-breakpoint) {
+      flex-flow: column;
+    }
+  }
+
+  .button {
+    position: sticky;
+    bottom: 16px;
+    left: 0;
+  }
+}

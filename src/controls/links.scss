@@ -7,7 +7,7 @@ a {
     text-decoration: none;
     transition: color .3s ease-in-out;
 
-    &[target=_blank]:not(.fa-brands):after {
+    &[target=_blank]:not(.fa-brands):not(.fa-solid):after {
       font-family: 'Font Awesome 6 Free';
       content: fa-content(map-get($fa-icons, 'arrow-up-right-from-square'));
       font-size: 12px;

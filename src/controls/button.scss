@@ -4,12 +4,13 @@
   text-decoration: none;
   color: #fff;
   overflow: hidden;
-  background: rgba(100, 100, 100, 0.7);
+  background: rgba(100, 100, 100, 0.9);
   backdrop-filter: blur(7.5px);
   border: 1px solid rgb(255 255 255 / 20%);
   box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   transition: background .25s ease-in-out;
+  cursor: pointer;
 
   &:hover {
     background: rgba(180, 180, 180, 0.7);

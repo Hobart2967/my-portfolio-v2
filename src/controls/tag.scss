@@ -1,0 +1,16 @@
+.tag {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 8px;
+  overflow: hidden;
+  background: rgba(100, 100, 100, 0.2);
+  backdrop-filter: blur(7.5px);
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 10px;
+  transition: background .25s ease-in-out;
+  white-space: nowrap;
+  color: var(--tag-text-color);
+  border: var(--tag-border);
+}

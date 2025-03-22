@@ -5,8 +5,10 @@ $column-breakpoint: 1068px;
 @import "./node_modules/@fortawesome/fontawesome-free/css/solid.css";
 
 @import "./controls/card.scss";
+@import "./controls/tag.scss";
 @import "./controls/button.scss";
 @import "./controls/links.scss";
+@import "./controls/typography.scss";
 @import "./controls/flex-box.scss";
 @import "./controls/headlines.scss";
 @import "./controls/window.scss";

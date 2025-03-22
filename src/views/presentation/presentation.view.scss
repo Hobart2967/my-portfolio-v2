@@ -1,8 +1,37 @@
 @import "../../variables";
+.overlay-wrapper {
+  .overlay {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    overflow: auto;
+
+    .overlay-backdrop {
+      height: 100vh;
+      width: 100vw;
+      background: var(--backdrop);
+      position: relative;
+      z-index: 2000;
+      top: 0;
+      left: 0;
+      padding-left: 50px;
+      padding-right: 15px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+      overflow: auto;
+    }
+
+
+  }
+}
 
 .head {
   position: sticky;
-  z-index: 10000;
+  z-index: 1000;
   top: 56px;
 
   .nav-links {
@@ -10,7 +39,20 @@
   }
 
   .theme {
+    top: 235px;
+  }
+
+  a.cv {
+    padding: 13px 5px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .legal {
     top: 300px;
+
+    i {
+      padding: 13px 5px !important;
+    }
   }
 
   .side.card  {
@@ -22,7 +64,7 @@
     border-left: none;
     background: var(--background-card);
     border-bottom-left-radius: 0;
-    z-index: 10000;
+    z-index: 1000;
     display: flex;
 
     flex-flow: column;
@@ -30,6 +72,7 @@
     font-size: 18px;
     transition:
       background-color var(--theme-switch-duration) ease-in-out;
+
 
     > a, > span, > i {
       text-decoration: none;
@@ -114,6 +157,9 @@
       font-size: 32px;
       font-weight: 100;
       margin-top: 48px;
+      position: sticky;
+      top: 0;
+      z-index: 2000;
     }
 
     .projects {
@@ -127,8 +173,12 @@
 
       & > * {
         width: calc(33% - 48px);
+        @media screen and (max-width: 1919px) {
+          width: calc(50% - 48px);
+        }
 
-        @media screen and (max-width: $column-breakpoint) {
+
+        @media screen and (max-width: 1600px) {
           width: calc(100% - 48px);
         }
       }

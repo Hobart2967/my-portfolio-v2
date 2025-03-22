@@ -16,10 +16,11 @@ export function Career() {
     return content.replace(/\n/g, '<br />');
   }
 
-  requestAnimationFrame(() => updateForceActive());
-  let lastScrollTop = 0;
-  function updateForceActive() {
-    if (window.scrollY === lastScrollTop) {
+  requestAnimationFrame(() => updateForceActive(true));
+
+  let lastScrollTop = -1;
+  function updateForceActive(force?: boolean) {
+    if (window.scrollY === lastScrollTop || force) {
       requestAnimationFrame(() => updateForceActive());
       return;
     }
@@ -28,7 +29,7 @@ export function Career() {
 
     document.querySelectorAll('.career__station').forEach((station: HTMLElement, index: number) => {
       // when station is in top 60% of screen
-      if (station.getBoundingClientRect().top < window.innerHeight * 0.6) {
+      if (station.getBoundingClientRect().top < window.innerHeight * 0.25) {
         setForceActive(index + 1);
       }
     });

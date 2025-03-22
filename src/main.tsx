@@ -7,6 +7,6 @@ const app = document.getElementById('app');
 
 if (app) {
   render(
-    () => <PresentationView />,
+    () => <PresentationView  />,
     app);
 }

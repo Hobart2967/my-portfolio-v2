@@ -7,6 +7,7 @@ export function Projects() {
         title="avsn.de"
         image="/assets/images/portfolio/avsn.de.png"
         link="https://www.avsn.de"
+        techStack={['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'PostNuke']}
       >
         <p>
           avsn.de (short for: adventurespiele.net) is a german news magazine
@@ -34,6 +35,7 @@ export function Projects() {
         title="strawberry-py"
         image="/assets/images/portfolio/strawberry-py.png"
         link="https://www.github.com/Hobart2967/strawberry-py"
+        techStack={['Python', 'OpenApi', 'AWS Lambda', 'AWS API Gateway']}
       >
         <p>
           strawberry-py is a rest api framework written by me. It enables
@@ -41,18 +43,13 @@ export function Projects() {
           SpringBoot for Java. It uses decorators to declare controllers,
           endpoints and parameters.
         </p>
-
-        <p>
-          The issue with the usual web console is that you can only use one
-          account at one time. Switching accounts - even in a different browser
-          tab - causes the old session to invalidate, not being usable anymore.
-        </p>
       </Project>
 
       <Project
         title="aws-sso-console"
         image="/assets/images/portfolio/aws-sso-console.png"
         link="https://www.github.com/Hobart2967/aws-sso-console"
+        techStack={['Electron', 'TypeScript', 'Webpack', 'Amazon Web Services Console']}
       >
         <p>
           The AWS SSO console is a tool for working on multiple AWS accounts at
@@ -87,6 +84,7 @@ export function Projects() {
         title="skwid"
         image="/assets/images/portfolio/skwid.png"
         link="https://www.github.com/codewyre/skwid"
+        techStack={['Node.js', 'TypeScript', 'Yarn', 'Webpack', 'semantic-release', 'inversify', 'jasmine']}
       >
         <p>
           Skwid aims to be a Makefile replacement and a multi-technology project
@@ -104,6 +102,36 @@ export function Projects() {
           <li>Declarative and documentable definition language.</li>
           <li>Logical Flow Control of your project processes</li>
           <li>Pluggable job system - Missing something? Add it! \o/</li>
+        </ul>
+
+        <p>
+          This tool was written by me and for now, it is available as an app for
+          Mac OS and Linux based Systems only. In the future, I plan to release
+          it for Windows, too. It should also be available as chocolatey,
+          snap/apt and brew package, without the need to install Node.js
+        </p>
+      </Project>
+
+      <Project
+        title="shoplet"
+        image="/assets/images/portfolio/strawberry-py.png"
+        link={null}
+        techStack={['docker', 'docker-compose', 'LocalStack', 'Terraform', 'solidjs', 'Node.js', 'TypeScript', 'Yarn', 'Vite', 'Open API', 'inversify', 'Keycloak', 'OpenApi', 'tsoa', 'AWS', 'AWS S3', 'AWS DynamoDB', 'AWS Lambda', 'AWS ApiGateway', 'AWS CloudFront', 'AWS CloudWatch', 'AWS SQS', 'AWS Route53', 'AWS ACM', 'AWS SSM', 'AWS RDS']}
+      >
+        <p>
+          Shoplet is a private project of mine with a focus on support small shoplets
+        </p>
+
+        <ul>
+          <li>
+            It is built upon the serverless way of thinking.
+          </li>
+          <li>
+            Except for Keycloak and the relational databases,
+            all required tools and services are using serverless services of AWS.
+          </li>
+          <li>Frontend build with the newcomer framework solidjs</li>
+          <li>Docker and docker-compose for local environments</li>
         </ul>
 
         <p>

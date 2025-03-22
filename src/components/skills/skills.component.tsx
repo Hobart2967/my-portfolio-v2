@@ -511,7 +511,7 @@ export function Skills() {
       })
       .nodeThreeObjectExtend(true)
       .width((graphElement as HTMLElement).clientWidth)
-      .height(450)
+      .height(765)
       .nodeColor(({ groupIndex, id }: any) =>
         id === "me" ? "#ff0000" : groupColors[groupIndex % groupColors.length]
       )
@@ -535,6 +535,7 @@ export function Skills() {
       });
 
     let rotation: Euler = null;
+
     document.defaultView.setInterval(() => {
       const cameraPosition = graph.cameraPosition();
 
@@ -576,9 +577,23 @@ export function Skills() {
       });
     }, 1000 / 30);
 
-    elementResizeDetectorMaker().listenTo(graphElement, (el) =>
-      myGraph.width(el.offsetWidth)
-    );
+    let lastWidth = 0;
+
+    function refreshWidth() {
+      const width = graphElement.offsetWidth;
+      if (lastWidth === width) {
+
+        requestAnimationFrame(() => refreshWidth());
+        return;
+      }
+
+      myGraph.width(width);
+      lastWidth = width;
+
+      requestAnimationFrame(() => refreshWidth());
+    }
+
+    requestAnimationFrame(() => refreshWidth());
   }
 
   function isChildOf(parent: any, child: any, links: GraphNodeLink[]) {
@@ -603,6 +618,7 @@ export function Skills() {
     const maxDistance = node.children
       .map((child) => calculate3dDistance(node, child))
       .reduce((prev, cur) => Math.max(prev, cur), 0);
+
     const distance = (maxDistance + 20) * 2;
     const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
 

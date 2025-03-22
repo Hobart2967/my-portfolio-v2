@@ -1,4 +1,4 @@
-import { JSXElement, children } from 'solid-js';
+import { For, JSXElement, children } from 'solid-js';
 import './project.component.scss';
 
 export function Project(props: {
@@ -6,6 +6,7 @@ export function Project(props: {
   image: string;
   children: JSXElement;
   link: string;
+  techStack: string[]
 }) {
   return <div class="card project">
     <div class="project__title">{props.title}</div>
@@ -14,6 +15,11 @@ export function Project(props: {
     </div>
     <div class="project__description">
       {props.children}
+    </div>
+    <div class="project_tech_stack dp-f g-8 mt-16 fw-wrap">
+      <For each={props.techStack}>{item =>
+        <div class="tag">{item}</div>
+      }</For>
     </div>
   </div>
 }
