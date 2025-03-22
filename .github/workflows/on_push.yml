@@ -1,5 +1,9 @@
 on: push
 
+permissions:
+  contents: write
+  pages: write
+
 name: Build & Deploy
 jobs:
   Deploy:
