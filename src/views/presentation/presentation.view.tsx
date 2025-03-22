@@ -3,7 +3,6 @@ import { Career } from '../../components/career/career.component';
 import { Skills } from '../../components/skills/skills.component';
 
 import { Projects } from '../../components/projects/projects.component';
-import { Dynamic } from 'solid-js/web';
 import './presentation.view.scss';
 import { LegalDialog } from './legal-dialog/legal-dialog';
 export const [modal, setModal] = createSignal(null);
@@ -34,11 +33,11 @@ export function PresentationView() {
     document.body.classList.remove('theme-switching');
   }
 
-  function showLegalDialog() {
-    if (modal()) {
+  function showDialog(modal) {
+    if (!modal) {
       hideModal();
     } else {
-      setModal(() => <LegalDialog onClose={() => hideModal()} />);
+      setModal(modal);
       document.body.style.overflow = 'hidden';
     }
   }
@@ -49,7 +48,8 @@ export function PresentationView() {
       <Show when={modal()}>
         <div class="overlay">
           <div class="overlay-backdrop">
-            <Dynamic component={modal()}></Dynamic>
+            {/* FIXME: Workaround: Hard-Code modal for now, as Dynamic does not seem to work in build mode. Only works in dev server mode... */}
+            <LegalDialog onClose={() => hideModal()} />
           </div>
         </div>
       </Show>
@@ -66,7 +66,7 @@ export function PresentationView() {
           <i class="fa-solid fa-moon" onClick={() => switchTheme(theme() === 'light' ? 'dark' : 'light')}></i>
         </div>
 
-        <div class="legal side card" onClick={() => showLegalDialog()}>
+        <div class="legal side card" onClick={() => showDialog(() => <LegalDialog onClose={() => hideModal()} />)}>
           <i class="fa-solid fa-scale-unbalanced-flip"></i>
         </div>
       </div>

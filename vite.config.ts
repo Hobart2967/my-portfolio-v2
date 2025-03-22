@@ -6,6 +6,9 @@ import solidPlugin from 'vite-plugin-solid';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
+  build: {
+    minify: false
+  },
   plugins: [
     solidPlugin(),
     viteStaticCopy({
