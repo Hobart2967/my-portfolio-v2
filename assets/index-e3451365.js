@@ -1054,7 +1054,7 @@ const stations = [{
 }];
 const careerPath = '<svg viewBox="18.426 -301.115 500.032 867.64" preserveAspectRatio="none">\n  <path\n    d="M 147.491 -42.667 C 147.491 -42.667 71.484 -35.629 36.398 -8.413 C 24.498 0.818 103.26 -17.589 100.514 -5.59 C 99.058 0.772 46.942 3.358 34.826 13.585 C 27.205 20.018 63.558 13.705 60.752 20.917 C 58.202 27.472 45.661 22.516 37.651 30.688 C 33.453 34.972 57.724 26.899 54.654 32.707 C 52.648 36.502 28.989 39.401 23.242 44.965 C 19.682 48.412 36.248 52.173 35.395 55.701 C 33.637 62.974 17.664 69.256 17.853 69.752 C 38.206 123.269 96.679 41.543 93.596 94.569 C 90.916 140.654 15.167 126.148 33.345 149.774 C 49.571 170.862 118.924 142.228 121.603 179.825 C 124.933 226.565 40.523 138.512 68.866 185.634 C 90.356 221.363 154.748 223.234 137.813 249.622 C 135.258 253.603 136.404 259.174 124.703 244.187 C 119.372 237.359 115.686 254.757 109.279 248.524 C 101.88 241.327 102.018 229.663 96.192 225.102 C 91.855 221.706 91.849 228.748 88.315 235.401 C 85.409 240.871 79.042 240.352 80.457 251.218 C 82.282 265.238 32.262 268.976 34.751 278.309 C 41.202 302.496 113.712 266.392 128.972 269.269 C 139.795 271.31 102.114 293.034 107.027 295.265 C 119.19 300.788 162.577 287.405 169.981 294.924 C 185.997 311.189 22.138 359.547 34.597 376.971 C 46.396 393.47 57.321 349.298 95.468 360.808 C 127.088 370.348 23.044 384.962 60.392 405.68 C 70.695 411.395 103.177 362.575 138.114 352.799 C 151.337 349.099 132.561 369.129 145.326 375.124 C 161.202 382.581 167.572 376.237 178.506 379.065 C 210.634 387.374 -13.872 440.84 0.027 461.952 C 15.19 484.985 92.798 427.964 104.373 464.86 C 115.926 501.685 -3.428 478.702 6.559 513.158 C 9.87 524.58 18.393 505.912 20.547 509.886 C 28.772 525.06 5.359 521.197 6.684 528.939 C 7.616 534.384 12.892 539.006 20.336 538.336 C 27.189 537.719 21.356 527.702 29.466 525.916 C 69.961 516.995 94.705 518.599 94.924 527.247 C 96.147 575.41 -8 559.57 13.677 604.7 C 36.883 653.013 84.466 560.438 135.347 577.285 C 197.76 597.95 24.257 615.848 33.765 653.789 C 39.71 677.513 175.691 650.409 197.317 665.529 C 216.689 679.074 114.766 755.796 135.228 767.63 C 159.593 781.721 259.822 699.545 265.884 723.909 C 268.154 733.035 240.48 779.054 257.706 778.58 C 269.195 778.264 261.316 787.395 266.314 794.338 C 268.616 797.535 322.202 782.113 345.111 794.963 C 351.364 798.47 353.414 810.031 356.469 813.228 C 368.969 826.307 376.752 796.36 383.971 796.871 C 388.008 797.157 389.52 817.273 392.38 819.026 C 396.613 821.621 448.167 823.27 458.554 814.285 C 468.101 806.026 499.438 824.973 499.438 824.973"\n    transform="matrix(1, 0, 0, 1, 19.019194, -258.447906)"></path>\n</svg>';
 const career_component = "";
-const _tmpl$$5 = /* @__PURE__ */ template(`<div class="career"><div class="title">I did it - my way! (CV)</div><div class="card"><div><div class="dp-f"><div class="career-path career-path__background"></div><div class="career-path career-path__foreground"></div><div>`), _tmpl$2$3 = /* @__PURE__ */ template(`<div class="career__station"><div class="career__station__title"><div class="career__station__date"> <!>&nbsp;</div><div>. </div><div class="career__station__sub-title">@ `), _tmpl$3$1 = /* @__PURE__ */ template(`<span>`), _tmpl$4$1 = /* @__PURE__ */ template(`<span> / `), _tmpl$5$1 = /* @__PURE__ */ template(`<div><div class="back-bar">&lt; Back to my career path</div><div class="station-details__metadata dp-f"><div class="station-details__metadata__info"><h1></h1><h2>@ </h2><div> <!> until <!> </div></div><div class="station-details__metadata__logo"><img></div></div><div>`), _tmpl$6$1 = /* @__PURE__ */ template(`<a target="_blank">`);
+const _tmpl$$6 = /* @__PURE__ */ template(`<div class="career"><div class="title">I did it - my way! (CV)</div><div class="card"><div><div class="dp-f"><div class="career-path career-path__background"></div><div class="career-path career-path__foreground"></div><div>`), _tmpl$2$3 = /* @__PURE__ */ template(`<div class="career__station"><div class="career__station__title"><div class="career__station__date"> <!>&nbsp;</div><div>. </div><div class="career__station__sub-title">@ `), _tmpl$3$1 = /* @__PURE__ */ template(`<span>`), _tmpl$4$1 = /* @__PURE__ */ template(`<span> / `), _tmpl$5$1 = /* @__PURE__ */ template(`<div><div class="back-bar">&lt; Back to my career path</div><div class="station-details__metadata dp-f"><div class="station-details__metadata__info"><h1></h1><h2>@ </h2><div> <!> until <!> </div></div><div class="station-details__metadata__logo"><img></div></div><div>`), _tmpl$6$1 = /* @__PURE__ */ template(`<a target="_blank">`);
 function Career() {
   const [selectedStation, setSelectedStation] = createSignal(null);
   const [forceActive, setForceActive] = createSignal(0);
@@ -1077,7 +1077,7 @@ function Career() {
     requestAnimationFrame(() => updateForceActive());
   }
   return (() => {
-    const _el$ = _tmpl$$5(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
+    const _el$ = _tmpl$$6(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
     _el$6.innerHTML = careerPath;
     _el$7.innerHTML = careerPath;
     insert(_el$8, createComponent(For, {
@@ -1198,6 +1198,1147 @@ function Career() {
   })();
 }
 delegateEvents(["click"]);
+function getDefaultExportFromCjs(x2) {
+  return x2 && x2.__esModule && Object.prototype.hasOwnProperty.call(x2, "default") ? x2["default"] : x2;
+}
+var collectionUtils = { exports: {} };
+var utils$3 = collectionUtils.exports = {};
+utils$3.forEach = function(collection, callback) {
+  for (var i = 0; i < collection.length; i++) {
+    var result = callback(collection[i]);
+    if (result) {
+      return result;
+    }
+  }
+};
+var collectionUtilsExports = collectionUtils.exports;
+var elementUtils = function(options) {
+  var getState2 = options.stateHandler.getState;
+  function isDetectable(element) {
+    var state = getState2(element);
+    return state && !!state.isDetectable;
+  }
+  function markAsDetectable(element) {
+    getState2(element).isDetectable = true;
+  }
+  function isBusy(element) {
+    return !!getState2(element).busy;
+  }
+  function markBusy(element, busy) {
+    getState2(element).busy = !!busy;
+  }
+  return {
+    isDetectable,
+    markAsDetectable,
+    isBusy,
+    markBusy
+  };
+};
+var listenerHandler = function(idHandler2) {
+  var eventListeners = {};
+  function getListeners(element) {
+    var id = idHandler2.get(element);
+    if (id === void 0) {
+      return [];
+    }
+    return eventListeners[id] || [];
+  }
+  function addListener(element, listener) {
+    var id = idHandler2.get(element);
+    if (!eventListeners[id]) {
+      eventListeners[id] = [];
+    }
+    eventListeners[id].push(listener);
+  }
+  function removeListener(element, listener) {
+    var listeners = getListeners(element);
+    for (var i = 0, len = listeners.length; i < len; ++i) {
+      if (listeners[i] === listener) {
+        listeners.splice(i, 1);
+        break;
+      }
+    }
+  }
+  function removeAllListeners(element) {
+    var listeners = getListeners(element);
+    if (!listeners) {
+      return;
+    }
+    listeners.length = 0;
+  }
+  return {
+    get: getListeners,
+    add: addListener,
+    removeListener,
+    removeAllListeners
+  };
+};
+var idGenerator = function() {
+  var idCount = 1;
+  function generate() {
+    return idCount++;
+  }
+  return {
+    generate
+  };
+};
+var idHandler = function(options) {
+  var idGenerator2 = options.idGenerator;
+  var getState2 = options.stateHandler.getState;
+  function getId(element) {
+    var state = getState2(element);
+    if (state && state.id !== void 0) {
+      return state.id;
+    }
+    return null;
+  }
+  function setId(element) {
+    var state = getState2(element);
+    if (!state) {
+      throw new Error("setId required the element to have a resize detection state.");
+    }
+    var id = idGenerator2.generate();
+    state.id = id;
+    return id;
+  }
+  return {
+    get: getId,
+    set: setId
+  };
+};
+var reporter = function(quiet) {
+  function noop2() {
+  }
+  var reporter2 = {
+    log: noop2,
+    warn: noop2,
+    error: noop2
+  };
+  if (!quiet && window.console) {
+    var attachFunction = function(reporter3, name) {
+      reporter3[name] = function reporterProxy() {
+        var f = console[name];
+        if (f.apply) {
+          f.apply(console, arguments);
+        } else {
+          for (var i = 0; i < arguments.length; i++) {
+            f(arguments[i]);
+          }
+        }
+      };
+    };
+    attachFunction(reporter2, "log");
+    attachFunction(reporter2, "warn");
+    attachFunction(reporter2, "error");
+  }
+  return reporter2;
+};
+var browserDetector$2 = { exports: {} };
+var detector = browserDetector$2.exports = {};
+detector.isIE = function(version) {
+  function isAnyIeVersion() {
+    var agent = navigator.userAgent.toLowerCase();
+    return agent.indexOf("msie") !== -1 || agent.indexOf("trident") !== -1 || agent.indexOf(" edge/") !== -1;
+  }
+  if (!isAnyIeVersion()) {
+    return false;
+  }
+  if (!version) {
+    return true;
+  }
+  var ieVersion = function() {
+    var undef, v = 3, div = document.createElement("div"), all = div.getElementsByTagName("i");
+    do {
+      div.innerHTML = "<!--[if gt IE " + ++v + "]><i></i><![endif]-->";
+    } while (all[0]);
+    return v > 4 ? v : undef;
+  }();
+  return version === ieVersion;
+};
+detector.isLegacyOpera = function() {
+  return !!window.opera;
+};
+var browserDetectorExports = browserDetector$2.exports;
+var utils$2 = { exports: {} };
+var utils$1 = utils$2.exports = {};
+utils$1.getOption = getOption$1;
+function getOption$1(options, name, defaultValue) {
+  var value = options[name];
+  if ((value === void 0 || value === null) && defaultValue !== void 0) {
+    return defaultValue;
+  }
+  return value;
+}
+var utilsExports = utils$2.exports;
+var utils = utilsExports;
+var batchProcessor = function batchProcessorMaker(options) {
+  options = options || {};
+  var reporter2 = options.reporter;
+  var asyncProcess = utils.getOption(options, "async", true);
+  var autoProcess = utils.getOption(options, "auto", true);
+  if (autoProcess && !asyncProcess) {
+    reporter2 && reporter2.warn("Invalid options combination. auto=true and async=false is invalid. Setting async=true.");
+    asyncProcess = true;
+  }
+  var batch = Batch();
+  var asyncFrameHandler;
+  var isProcessing = false;
+  function addFunction(level, fn) {
+    if (!isProcessing && autoProcess && asyncProcess && batch.size() === 0) {
+      processBatchAsync();
+    }
+    batch.add(level, fn);
+  }
+  function processBatch() {
+    isProcessing = true;
+    while (batch.size()) {
+      var processingBatch = batch;
+      batch = Batch();
+      processingBatch.process();
+    }
+    isProcessing = false;
+  }
+  function forceProcessBatch(localAsyncProcess) {
+    if (isProcessing) {
+      return;
+    }
+    if (localAsyncProcess === void 0) {
+      localAsyncProcess = asyncProcess;
+    }
+    if (asyncFrameHandler) {
+      cancelFrame(asyncFrameHandler);
+      asyncFrameHandler = null;
+    }
+    if (localAsyncProcess) {
+      processBatchAsync();
+    } else {
+      processBatch();
+    }
+  }
+  function processBatchAsync() {
+    asyncFrameHandler = requestFrame(processBatch);
+  }
+  function cancelFrame(listener) {
+    var cancel = clearTimeout;
+    return cancel(listener);
+  }
+  function requestFrame(callback) {
+    var raf = function(fn) {
+      return setTimeout(fn, 0);
+    };
+    return raf(callback);
+  }
+  return {
+    add: addFunction,
+    force: forceProcessBatch
+  };
+};
+function Batch() {
+  var batch = {};
+  var size = 0;
+  var topLevel = 0;
+  var bottomLevel = 0;
+  function add2(level, fn) {
+    if (!fn) {
+      fn = level;
+      level = 0;
+    }
+    if (level > topLevel) {
+      topLevel = level;
+    } else if (level < bottomLevel) {
+      bottomLevel = level;
+    }
+    if (!batch[level]) {
+      batch[level] = [];
+    }
+    batch[level].push(fn);
+    size++;
+  }
+  function process() {
+    for (var level = bottomLevel; level <= topLevel; level++) {
+      var fns = batch[level];
+      for (var i = 0; i < fns.length; i++) {
+        var fn = fns[i];
+        fn();
+      }
+    }
+  }
+  function getSize() {
+    return size;
+  }
+  return {
+    add: add2,
+    process,
+    size: getSize
+  };
+}
+var prop = "_erd";
+function initState(element) {
+  element[prop] = {};
+  return getState(element);
+}
+function getState(element) {
+  return element[prop];
+}
+function cleanState(element) {
+  delete element[prop];
+}
+var stateHandler$1 = {
+  initState,
+  getState,
+  cleanState
+};
+var browserDetector$1 = browserDetectorExports;
+var object = function(options) {
+  options = options || {};
+  var reporter2 = options.reporter;
+  var batchProcessor2 = options.batchProcessor;
+  var getState2 = options.stateHandler.getState;
+  if (!reporter2) {
+    throw new Error("Missing required dependency: reporter.");
+  }
+  function addListener(element, listener) {
+    function listenerProxy() {
+      listener(element);
+    }
+    if (browserDetector$1.isIE(8)) {
+      getState2(element).object = {
+        proxy: listenerProxy
+      };
+      element.attachEvent("onresize", listenerProxy);
+    } else {
+      var object2 = getObject(element);
+      if (!object2) {
+        throw new Error("Element is not detectable by this strategy.");
+      }
+      object2.contentDocument.defaultView.addEventListener("resize", listenerProxy);
+    }
+  }
+  function buildCssTextString(rules) {
+    var seperator = options.important ? " !important; " : "; ";
+    return (rules.join(seperator) + seperator).trim();
+  }
+  function makeDetectable(options2, element, callback) {
+    if (!callback) {
+      callback = element;
+      element = options2;
+      options2 = null;
+    }
+    options2 = options2 || {};
+    options2.debug;
+    function injectObject(element2, callback2) {
+      var OBJECT_STYLE = buildCssTextString(["display: block", "position: absolute", "top: 0", "left: 0", "width: 100%", "height: 100%", "border: none", "padding: 0", "margin: 0", "opacity: 0", "z-index: -1000", "pointer-events: none"]);
+      var positionCheckPerformed = false;
+      var style2 = window.getComputedStyle(element2);
+      var width = element2.offsetWidth;
+      var height = element2.offsetHeight;
+      getState2(element2).startSize = {
+        width,
+        height
+      };
+      function mutateDom() {
+        function alterPositionStyles() {
+          if (style2.position === "static") {
+            element2.style.setProperty("position", "relative", options2.important ? "important" : "");
+            var removeRelativeStyles = function(reporter3, element3, style3, property) {
+              function getNumericalValue(value2) {
+                return value2.replace(/[^-\d\.]/g, "");
+              }
+              var value = style3[property];
+              if (value !== "auto" && getNumericalValue(value) !== "0") {
+                reporter3.warn("An element that is positioned static has style." + property + "=" + value + " which is ignored due to the static positioning. The element will need to be positioned relative, so the style." + property + " will be set to 0. Element: ", element3);
+                element3.style.setProperty(property, "0", options2.important ? "important" : "");
+              }
+            };
+            removeRelativeStyles(reporter2, element2, style2, "top");
+            removeRelativeStyles(reporter2, element2, style2, "right");
+            removeRelativeStyles(reporter2, element2, style2, "bottom");
+            removeRelativeStyles(reporter2, element2, style2, "left");
+          }
+        }
+        function onObjectLoad() {
+          if (!positionCheckPerformed) {
+            alterPositionStyles();
+          }
+          function getDocument(element3, callback3) {
+            if (!element3.contentDocument) {
+              var state = getState2(element3);
+              if (state.checkForObjectDocumentTimeoutId) {
+                window.clearTimeout(state.checkForObjectDocumentTimeoutId);
+              }
+              state.checkForObjectDocumentTimeoutId = setTimeout(function checkForObjectDocument() {
+                state.checkForObjectDocumentTimeoutId = 0;
+                getDocument(element3, callback3);
+              }, 100);
+              return;
+            }
+            callback3(element3.contentDocument);
+          }
+          var objectElement = this;
+          getDocument(objectElement, function onObjectDocumentReady(objectDocument) {
+            callback2(element2);
+          });
+        }
+        if (style2.position !== "") {
+          alterPositionStyles();
+          positionCheckPerformed = true;
+        }
+        var object2 = document.createElement("object");
+        object2.style.cssText = OBJECT_STYLE;
+        object2.tabIndex = -1;
+        object2.type = "text/html";
+        object2.setAttribute("aria-hidden", "true");
+        object2.onload = onObjectLoad;
+        if (!browserDetector$1.isIE()) {
+          object2.data = "about:blank";
+        }
+        if (!getState2(element2)) {
+          return;
+        }
+        element2.appendChild(object2);
+        getState2(element2).object = object2;
+        if (browserDetector$1.isIE()) {
+          object2.data = "about:blank";
+        }
+      }
+      if (batchProcessor2) {
+        batchProcessor2.add(mutateDom);
+      } else {
+        mutateDom();
+      }
+    }
+    if (browserDetector$1.isIE(8)) {
+      callback(element);
+    } else {
+      injectObject(element, callback);
+    }
+  }
+  function getObject(element) {
+    return getState2(element).object;
+  }
+  function uninstall(element) {
+    if (!getState2(element)) {
+      return;
+    }
+    var object2 = getObject(element);
+    if (!object2) {
+      return;
+    }
+    if (browserDetector$1.isIE(8)) {
+      element.detachEvent("onresize", object2.proxy);
+    } else {
+      element.removeChild(object2);
+    }
+    if (getState2(element).checkForObjectDocumentTimeoutId) {
+      window.clearTimeout(getState2(element).checkForObjectDocumentTimeoutId);
+    }
+    delete getState2(element).object;
+  }
+  return {
+    makeDetectable,
+    addListener,
+    uninstall
+  };
+};
+var forEach$1 = collectionUtilsExports.forEach;
+var scroll = function(options) {
+  options = options || {};
+  var reporter2 = options.reporter;
+  var batchProcessor2 = options.batchProcessor;
+  var getState2 = options.stateHandler.getState;
+  options.stateHandler.hasState;
+  var idHandler2 = options.idHandler;
+  if (!batchProcessor2) {
+    throw new Error("Missing required dependency: batchProcessor");
+  }
+  if (!reporter2) {
+    throw new Error("Missing required dependency: reporter.");
+  }
+  var scrollbarSizes = getScrollbarSizes();
+  var styleId = "erd_scroll_detection_scrollbar_style";
+  var detectionContainerClass = "erd_scroll_detection_container";
+  function initDocument(targetDocument) {
+    injectScrollStyle(targetDocument, styleId, detectionContainerClass);
+  }
+  initDocument(window.document);
+  function buildCssTextString(rules) {
+    var seperator = options.important ? " !important; " : "; ";
+    return (rules.join(seperator) + seperator).trim();
+  }
+  function getScrollbarSizes() {
+    var width = 500;
+    var height = 500;
+    var child = document.createElement("div");
+    child.style.cssText = buildCssTextString(["position: absolute", "width: " + width * 2 + "px", "height: " + height * 2 + "px", "visibility: hidden", "margin: 0", "padding: 0"]);
+    var container = document.createElement("div");
+    container.style.cssText = buildCssTextString(["position: absolute", "width: " + width + "px", "height: " + height + "px", "overflow: scroll", "visibility: none", "top: " + -width * 3 + "px", "left: " + -height * 3 + "px", "visibility: hidden", "margin: 0", "padding: 0"]);
+    container.appendChild(child);
+    document.body.insertBefore(container, document.body.firstChild);
+    var widthSize = width - container.clientWidth;
+    var heightSize = height - container.clientHeight;
+    document.body.removeChild(container);
+    return {
+      width: widthSize,
+      height: heightSize
+    };
+  }
+  function injectScrollStyle(targetDocument, styleId2, containerClass) {
+    function injectStyle(style3, method) {
+      method = method || function(element) {
+        targetDocument.head.appendChild(element);
+      };
+      var styleElement = targetDocument.createElement("style");
+      styleElement.innerHTML = style3;
+      styleElement.id = styleId2;
+      method(styleElement);
+      return styleElement;
+    }
+    if (!targetDocument.getElementById(styleId2)) {
+      var containerAnimationClass = containerClass + "_animation";
+      var containerAnimationActiveClass = containerClass + "_animation_active";
+      var style2 = "/* Created by the element-resize-detector library. */\n";
+      style2 += "." + containerClass + " > div::-webkit-scrollbar { " + buildCssTextString(["display: none"]) + " }\n\n";
+      style2 += "." + containerAnimationActiveClass + " { " + buildCssTextString(["-webkit-animation-duration: 0.1s", "animation-duration: 0.1s", "-webkit-animation-name: " + containerAnimationClass, "animation-name: " + containerAnimationClass]) + " }\n";
+      style2 += "@-webkit-keyframes " + containerAnimationClass + " { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }\n";
+      style2 += "@keyframes " + containerAnimationClass + " { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }";
+      injectStyle(style2);
+    }
+  }
+  function addAnimationClass(element) {
+    element.className += " " + detectionContainerClass + "_animation_active";
+  }
+  function addEvent(el, name, cb) {
+    if (el.addEventListener) {
+      el.addEventListener(name, cb);
+    } else if (el.attachEvent) {
+      el.attachEvent("on" + name, cb);
+    } else {
+      return reporter2.error("[scroll] Don't know how to add event listeners.");
+    }
+  }
+  function removeEvent(el, name, cb) {
+    if (el.removeEventListener) {
+      el.removeEventListener(name, cb);
+    } else if (el.detachEvent) {
+      el.detachEvent("on" + name, cb);
+    } else {
+      return reporter2.error("[scroll] Don't know how to remove event listeners.");
+    }
+  }
+  function getExpandElement(element) {
+    return getState2(element).container.childNodes[0].childNodes[0].childNodes[0];
+  }
+  function getShrinkElement(element) {
+    return getState2(element).container.childNodes[0].childNodes[0].childNodes[1];
+  }
+  function addListener(element, listener) {
+    var listeners = getState2(element).listeners;
+    if (!listeners.push) {
+      throw new Error("Cannot add listener to an element that is not detectable.");
+    }
+    getState2(element).listeners.push(listener);
+  }
+  function makeDetectable(options2, element, callback) {
+    if (!callback) {
+      callback = element;
+      element = options2;
+      options2 = null;
+    }
+    options2 = options2 || {};
+    function debug() {
+      if (options2.debug) {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(idHandler2.get(element), "Scroll: ");
+        if (reporter2.log.apply) {
+          reporter2.log.apply(null, args);
+        } else {
+          for (var i = 0; i < args.length; i++) {
+            reporter2.log(args[i]);
+          }
+        }
+      }
+    }
+    function isDetached(element2) {
+      function isInDocument(element3) {
+        var isInShadowRoot = element3.getRootNode && element3.getRootNode().contains(element3);
+        return element3 === element3.ownerDocument.body || element3.ownerDocument.body.contains(element3) || isInShadowRoot;
+      }
+      if (!isInDocument(element2)) {
+        return true;
+      }
+      if (window.getComputedStyle(element2) === null) {
+        return true;
+      }
+      return false;
+    }
+    function isUnrendered(element2) {
+      var container = getState2(element2).container.childNodes[0];
+      var style2 = window.getComputedStyle(container);
+      return !style2.width || style2.width.indexOf("px") === -1;
+    }
+    function getStyle() {
+      var elementStyle = window.getComputedStyle(element);
+      var style2 = {};
+      style2.position = elementStyle.position;
+      style2.width = element.offsetWidth;
+      style2.height = element.offsetHeight;
+      style2.top = elementStyle.top;
+      style2.right = elementStyle.right;
+      style2.bottom = elementStyle.bottom;
+      style2.left = elementStyle.left;
+      style2.widthCSS = elementStyle.width;
+      style2.heightCSS = elementStyle.height;
+      return style2;
+    }
+    function storeStartSize() {
+      var style2 = getStyle();
+      getState2(element).startSize = {
+        width: style2.width,
+        height: style2.height
+      };
+      debug("Element start size", getState2(element).startSize);
+    }
+    function initListeners() {
+      getState2(element).listeners = [];
+    }
+    function storeStyle() {
+      debug("storeStyle invoked.");
+      if (!getState2(element)) {
+        debug("Aborting because element has been uninstalled");
+        return;
+      }
+      var style2 = getStyle();
+      getState2(element).style = style2;
+    }
+    function storeCurrentSize(element2, width, height) {
+      getState2(element2).lastWidth = width;
+      getState2(element2).lastHeight = height;
+    }
+    function getExpandChildElement(element2) {
+      return getExpandElement(element2).childNodes[0];
+    }
+    function getWidthOffset() {
+      return 2 * scrollbarSizes.width + 1;
+    }
+    function getHeightOffset() {
+      return 2 * scrollbarSizes.height + 1;
+    }
+    function getExpandWidth(width) {
+      return width + 10 + getWidthOffset();
+    }
+    function getExpandHeight(height) {
+      return height + 10 + getHeightOffset();
+    }
+    function getShrinkWidth(width) {
+      return width * 2 + getWidthOffset();
+    }
+    function getShrinkHeight(height) {
+      return height * 2 + getHeightOffset();
+    }
+    function positionScrollbars(element2, width, height) {
+      var expand = getExpandElement(element2);
+      var shrink = getShrinkElement(element2);
+      var expandWidth = getExpandWidth(width);
+      var expandHeight = getExpandHeight(height);
+      var shrinkWidth = getShrinkWidth(width);
+      var shrinkHeight = getShrinkHeight(height);
+      expand.scrollLeft = expandWidth;
+      expand.scrollTop = expandHeight;
+      shrink.scrollLeft = shrinkWidth;
+      shrink.scrollTop = shrinkHeight;
+    }
+    function injectContainerElement() {
+      var container = getState2(element).container;
+      if (!container) {
+        container = document.createElement("div");
+        container.className = detectionContainerClass;
+        container.style.cssText = buildCssTextString(["visibility: hidden", "display: inline", "width: 0px", "height: 0px", "z-index: -1", "overflow: hidden", "margin: 0", "padding: 0"]);
+        getState2(element).container = container;
+        addAnimationClass(container);
+        element.appendChild(container);
+        var onAnimationStart = function() {
+          getState2(element).onRendered && getState2(element).onRendered();
+        };
+        addEvent(container, "animationstart", onAnimationStart);
+        getState2(element).onAnimationStart = onAnimationStart;
+      }
+      return container;
+    }
+    function injectScrollElements() {
+      function alterPositionStyles() {
+        var style2 = getState2(element).style;
+        if (style2.position === "static") {
+          element.style.setProperty("position", "relative", options2.important ? "important" : "");
+          var removeRelativeStyles = function(reporter3, element2, style3, property) {
+            function getNumericalValue(value2) {
+              return value2.replace(/[^-\d\.]/g, "");
+            }
+            var value = style3[property];
+            if (value !== "auto" && getNumericalValue(value) !== "0") {
+              reporter3.warn("An element that is positioned static has style." + property + "=" + value + " which is ignored due to the static positioning. The element will need to be positioned relative, so the style." + property + " will be set to 0. Element: ", element2);
+              element2.style[property] = 0;
+            }
+          };
+          removeRelativeStyles(reporter2, element, style2, "top");
+          removeRelativeStyles(reporter2, element, style2, "right");
+          removeRelativeStyles(reporter2, element, style2, "bottom");
+          removeRelativeStyles(reporter2, element, style2, "left");
+        }
+      }
+      function getLeftTopBottomRightCssText(left, top, bottom, right) {
+        left = !left ? "0" : left + "px";
+        top = !top ? "0" : top + "px";
+        bottom = !bottom ? "0" : bottom + "px";
+        right = !right ? "0" : right + "px";
+        return ["left: " + left, "top: " + top, "right: " + right, "bottom: " + bottom];
+      }
+      debug("Injecting elements");
+      if (!getState2(element)) {
+        debug("Aborting because element has been uninstalled");
+        return;
+      }
+      alterPositionStyles();
+      var rootContainer = getState2(element).container;
+      if (!rootContainer) {
+        rootContainer = injectContainerElement();
+      }
+      var scrollbarWidth = scrollbarSizes.width;
+      var scrollbarHeight = scrollbarSizes.height;
+      var containerContainerStyle = buildCssTextString(["position: absolute", "flex: none", "overflow: hidden", "z-index: -1", "visibility: hidden", "width: 100%", "height: 100%", "left: 0px", "top: 0px"]);
+      var containerStyle = buildCssTextString(["position: absolute", "flex: none", "overflow: hidden", "z-index: -1", "visibility: hidden"].concat(getLeftTopBottomRightCssText(-(1 + scrollbarWidth), -(1 + scrollbarHeight), -scrollbarHeight, -scrollbarWidth)));
+      var expandStyle = buildCssTextString(["position: absolute", "flex: none", "overflow: scroll", "z-index: -1", "visibility: hidden", "width: 100%", "height: 100%"]);
+      var shrinkStyle = buildCssTextString(["position: absolute", "flex: none", "overflow: scroll", "z-index: -1", "visibility: hidden", "width: 100%", "height: 100%"]);
+      var expandChildStyle = buildCssTextString(["position: absolute", "left: 0", "top: 0"]);
+      var shrinkChildStyle = buildCssTextString(["position: absolute", "width: 200%", "height: 200%"]);
+      var containerContainer = document.createElement("div");
+      var container = document.createElement("div");
+      var expand = document.createElement("div");
+      var expandChild = document.createElement("div");
+      var shrink = document.createElement("div");
+      var shrinkChild = document.createElement("div");
+      containerContainer.dir = "ltr";
+      containerContainer.style.cssText = containerContainerStyle;
+      containerContainer.className = detectionContainerClass;
+      container.className = detectionContainerClass;
+      container.style.cssText = containerStyle;
+      expand.style.cssText = expandStyle;
+      expandChild.style.cssText = expandChildStyle;
+      shrink.style.cssText = shrinkStyle;
+      shrinkChild.style.cssText = shrinkChildStyle;
+      expand.appendChild(expandChild);
+      shrink.appendChild(shrinkChild);
+      container.appendChild(expand);
+      container.appendChild(shrink);
+      containerContainer.appendChild(container);
+      rootContainer.appendChild(containerContainer);
+      function onExpandScroll() {
+        var state = getState2(element);
+        if (state && state.onExpand) {
+          state.onExpand();
+        } else {
+          debug("Aborting expand scroll handler: element has been uninstalled");
+        }
+      }
+      function onShrinkScroll() {
+        var state = getState2(element);
+        if (state && state.onShrink) {
+          state.onShrink();
+        } else {
+          debug("Aborting shrink scroll handler: element has been uninstalled");
+        }
+      }
+      addEvent(expand, "scroll", onExpandScroll);
+      addEvent(shrink, "scroll", onShrinkScroll);
+      getState2(element).onExpandScroll = onExpandScroll;
+      getState2(element).onShrinkScroll = onShrinkScroll;
+    }
+    function registerListenersAndPositionElements() {
+      function updateChildSizes(element2, width, height) {
+        var expandChild = getExpandChildElement(element2);
+        var expandWidth = getExpandWidth(width);
+        var expandHeight = getExpandHeight(height);
+        expandChild.style.setProperty("width", expandWidth + "px", options2.important ? "important" : "");
+        expandChild.style.setProperty("height", expandHeight + "px", options2.important ? "important" : "");
+      }
+      function updateDetectorElements(done) {
+        var width = element.offsetWidth;
+        var height = element.offsetHeight;
+        var sizeChanged = width !== getState2(element).lastWidth || height !== getState2(element).lastHeight;
+        debug("Storing current size", width, height);
+        storeCurrentSize(element, width, height);
+        batchProcessor2.add(0, function performUpdateChildSizes() {
+          if (!sizeChanged) {
+            return;
+          }
+          if (!getState2(element)) {
+            debug("Aborting because element has been uninstalled");
+            return;
+          }
+          if (!areElementsInjected()) {
+            debug("Aborting because element container has not been initialized");
+            return;
+          }
+          if (options2.debug) {
+            var w = element.offsetWidth;
+            var h = element.offsetHeight;
+            if (w !== width || h !== height) {
+              reporter2.warn(idHandler2.get(element), "Scroll: Size changed before updating detector elements.");
+            }
+          }
+          updateChildSizes(element, width, height);
+        });
+        batchProcessor2.add(1, function updateScrollbars() {
+          if (!getState2(element)) {
+            debug("Aborting because element has been uninstalled");
+            return;
+          }
+          if (!areElementsInjected()) {
+            debug("Aborting because element container has not been initialized");
+            return;
+          }
+          positionScrollbars(element, width, height);
+        });
+        if (sizeChanged && done) {
+          batchProcessor2.add(2, function() {
+            if (!getState2(element)) {
+              debug("Aborting because element has been uninstalled");
+              return;
+            }
+            if (!areElementsInjected()) {
+              debug("Aborting because element container has not been initialized");
+              return;
+            }
+            done();
+          });
+        }
+      }
+      function areElementsInjected() {
+        return !!getState2(element).container;
+      }
+      function notifyListenersIfNeeded() {
+        function isFirstNotify() {
+          return getState2(element).lastNotifiedWidth === void 0;
+        }
+        debug("notifyListenersIfNeeded invoked");
+        var state = getState2(element);
+        if (isFirstNotify() && state.lastWidth === state.startSize.width && state.lastHeight === state.startSize.height) {
+          return debug("Not notifying: Size is the same as the start size, and there has been no notification yet.");
+        }
+        if (state.lastWidth === state.lastNotifiedWidth && state.lastHeight === state.lastNotifiedHeight) {
+          return debug("Not notifying: Size already notified");
+        }
+        debug("Current size not notified, notifying...");
+        state.lastNotifiedWidth = state.lastWidth;
+        state.lastNotifiedHeight = state.lastHeight;
+        forEach$1(getState2(element).listeners, function(listener) {
+          listener(element);
+        });
+      }
+      function handleRender() {
+        debug("startanimation triggered.");
+        if (isUnrendered(element)) {
+          debug("Ignoring since element is still unrendered...");
+          return;
+        }
+        debug("Element rendered.");
+        var expand = getExpandElement(element);
+        var shrink = getShrinkElement(element);
+        if (expand.scrollLeft === 0 || expand.scrollTop === 0 || shrink.scrollLeft === 0 || shrink.scrollTop === 0) {
+          debug("Scrollbars out of sync. Updating detector elements...");
+          updateDetectorElements(notifyListenersIfNeeded);
+        }
+      }
+      function handleScroll() {
+        debug("Scroll detected.");
+        if (isUnrendered(element)) {
+          debug("Scroll event fired while unrendered. Ignoring...");
+          return;
+        }
+        updateDetectorElements(notifyListenersIfNeeded);
+      }
+      debug("registerListenersAndPositionElements invoked.");
+      if (!getState2(element)) {
+        debug("Aborting because element has been uninstalled");
+        return;
+      }
+      getState2(element).onRendered = handleRender;
+      getState2(element).onExpand = handleScroll;
+      getState2(element).onShrink = handleScroll;
+      var style2 = getState2(element).style;
+      updateChildSizes(element, style2.width, style2.height);
+    }
+    function finalizeDomMutation() {
+      debug("finalizeDomMutation invoked.");
+      if (!getState2(element)) {
+        debug("Aborting because element has been uninstalled");
+        return;
+      }
+      var style2 = getState2(element).style;
+      storeCurrentSize(element, style2.width, style2.height);
+      positionScrollbars(element, style2.width, style2.height);
+    }
+    function ready() {
+      callback(element);
+    }
+    function install() {
+      debug("Installing...");
+      initListeners();
+      storeStartSize();
+      batchProcessor2.add(0, storeStyle);
+      batchProcessor2.add(1, injectScrollElements);
+      batchProcessor2.add(2, registerListenersAndPositionElements);
+      batchProcessor2.add(3, finalizeDomMutation);
+      batchProcessor2.add(4, ready);
+    }
+    debug("Making detectable...");
+    if (isDetached(element)) {
+      debug("Element is detached");
+      injectContainerElement();
+      debug("Waiting until element is attached...");
+      getState2(element).onRendered = function() {
+        debug("Element is now attached");
+        install();
+      };
+    } else {
+      install();
+    }
+  }
+  function uninstall(element) {
+    var state = getState2(element);
+    if (!state) {
+      return;
+    }
+    state.onExpandScroll && removeEvent(getExpandElement(element), "scroll", state.onExpandScroll);
+    state.onShrinkScroll && removeEvent(getShrinkElement(element), "scroll", state.onShrinkScroll);
+    state.onAnimationStart && removeEvent(state.container, "animationstart", state.onAnimationStart);
+    state.container && element.removeChild(state.container);
+  }
+  return {
+    makeDetectable,
+    addListener,
+    uninstall,
+    initDocument
+  };
+};
+var forEach = collectionUtilsExports.forEach;
+var elementUtilsMaker = elementUtils;
+var listenerHandlerMaker = listenerHandler;
+var idGeneratorMaker = idGenerator;
+var idHandlerMaker = idHandler;
+var reporterMaker = reporter;
+var browserDetector = browserDetectorExports;
+var batchProcessorMaker2 = batchProcessor;
+var stateHandler = stateHandler$1;
+var objectStrategyMaker = object;
+var scrollStrategyMaker = scroll;
+function isCollection(obj) {
+  return Array.isArray(obj) || obj.length !== void 0;
+}
+function toArray(collection) {
+  if (!Array.isArray(collection)) {
+    var array = [];
+    forEach(collection, function(obj) {
+      array.push(obj);
+    });
+    return array;
+  } else {
+    return collection;
+  }
+}
+function isElement(obj) {
+  return obj && obj.nodeType === 1;
+}
+var elementResizeDetector = function(options) {
+  options = options || {};
+  var idHandler2;
+  if (options.idHandler) {
+    idHandler2 = {
+      get: function(element) {
+        return options.idHandler.get(element, true);
+      },
+      set: options.idHandler.set
+    };
+  } else {
+    var idGenerator2 = idGeneratorMaker();
+    var defaultIdHandler = idHandlerMaker({
+      idGenerator: idGenerator2,
+      stateHandler
+    });
+    idHandler2 = defaultIdHandler;
+  }
+  var reporter2 = options.reporter;
+  if (!reporter2) {
+    var quiet = reporter2 === false;
+    reporter2 = reporterMaker(quiet);
+  }
+  var batchProcessor2 = getOption(options, "batchProcessor", batchProcessorMaker2({ reporter: reporter2 }));
+  var globalOptions = {};
+  globalOptions.callOnAdd = !!getOption(options, "callOnAdd", true);
+  globalOptions.debug = !!getOption(options, "debug", false);
+  var eventListenerHandler = listenerHandlerMaker(idHandler2);
+  var elementUtils2 = elementUtilsMaker({
+    stateHandler
+  });
+  var detectionStrategy;
+  var desiredStrategy = getOption(options, "strategy", "object");
+  var importantCssRules = getOption(options, "important", false);
+  var strategyOptions = {
+    reporter: reporter2,
+    batchProcessor: batchProcessor2,
+    stateHandler,
+    idHandler: idHandler2,
+    important: importantCssRules
+  };
+  if (desiredStrategy === "scroll") {
+    if (browserDetector.isLegacyOpera()) {
+      reporter2.warn("Scroll strategy is not supported on legacy Opera. Changing to object strategy.");
+      desiredStrategy = "object";
+    } else if (browserDetector.isIE(9)) {
+      reporter2.warn("Scroll strategy is not supported on IE9. Changing to object strategy.");
+      desiredStrategy = "object";
+    }
+  }
+  if (desiredStrategy === "scroll") {
+    detectionStrategy = scrollStrategyMaker(strategyOptions);
+  } else if (desiredStrategy === "object") {
+    detectionStrategy = objectStrategyMaker(strategyOptions);
+  } else {
+    throw new Error("Invalid strategy name: " + desiredStrategy);
+  }
+  var onReadyCallbacks = {};
+  function listenTo(options2, elements, listener) {
+    function onResizeCallback(element) {
+      var listeners = eventListenerHandler.get(element);
+      forEach(listeners, function callListenerProxy(listener2) {
+        listener2(element);
+      });
+    }
+    function addListener(callOnAdd2, element, listener2) {
+      eventListenerHandler.add(element, listener2);
+      if (callOnAdd2) {
+        listener2(element);
+      }
+    }
+    if (!listener) {
+      listener = elements;
+      elements = options2;
+      options2 = {};
+    }
+    if (!elements) {
+      throw new Error("At least one element required.");
+    }
+    if (!listener) {
+      throw new Error("Listener required.");
+    }
+    if (isElement(elements)) {
+      elements = [elements];
+    } else if (isCollection(elements)) {
+      elements = toArray(elements);
+    } else {
+      return reporter2.error("Invalid arguments. Must be a DOM element or a collection of DOM elements.");
+    }
+    var elementsReady = 0;
+    var callOnAdd = getOption(options2, "callOnAdd", globalOptions.callOnAdd);
+    var onReadyCallback = getOption(options2, "onReady", function noop2() {
+    });
+    var debug = getOption(options2, "debug", globalOptions.debug);
+    forEach(elements, function attachListenerToElement(element) {
+      if (!stateHandler.getState(element)) {
+        stateHandler.initState(element);
+        idHandler2.set(element);
+      }
+      var id = idHandler2.get(element);
+      debug && reporter2.log("Attaching listener to element", id, element);
+      if (!elementUtils2.isDetectable(element)) {
+        debug && reporter2.log(id, "Not detectable.");
+        if (elementUtils2.isBusy(element)) {
+          debug && reporter2.log(id, "System busy making it detectable");
+          addListener(callOnAdd, element, listener);
+          onReadyCallbacks[id] = onReadyCallbacks[id] || [];
+          onReadyCallbacks[id].push(function onReady() {
+            elementsReady++;
+            if (elementsReady === elements.length) {
+              onReadyCallback();
+            }
+          });
+          return;
+        }
+        debug && reporter2.log(id, "Making detectable...");
+        elementUtils2.markBusy(element, true);
+        return detectionStrategy.makeDetectable({ debug, important: importantCssRules }, element, function onElementDetectable(element2) {
+          debug && reporter2.log(id, "onElementDetectable");
+          if (stateHandler.getState(element2)) {
+            elementUtils2.markAsDetectable(element2);
+            elementUtils2.markBusy(element2, false);
+            detectionStrategy.addListener(element2, onResizeCallback);
+            addListener(callOnAdd, element2, listener);
+            var state = stateHandler.getState(element2);
+            if (state && state.startSize) {
+              var width = element2.offsetWidth;
+              var height = element2.offsetHeight;
+              if (state.startSize.width !== width || state.startSize.height !== height) {
+                onResizeCallback(element2);
+              }
+            }
+            if (onReadyCallbacks[id]) {
+              forEach(onReadyCallbacks[id], function(callback) {
+                callback();
+              });
+            }
+          } else {
+            debug && reporter2.log(id, "Element uninstalled before being detectable.");
+          }
+          delete onReadyCallbacks[id];
+          elementsReady++;
+          if (elementsReady === elements.length) {
+            onReadyCallback();
+          }
+        });
+      }
+      debug && reporter2.log(id, "Already detecable, adding listener.");
+      addListener(callOnAdd, element, listener);
+      elementsReady++;
+    });
+    if (elementsReady === elements.length) {
+      onReadyCallback();
+    }
+  }
+  function uninstall(elements) {
+    if (!elements) {
+      return reporter2.error("At least one element is required.");
+    }
+    if (isElement(elements)) {
+      elements = [elements];
+    } else if (isCollection(elements)) {
+      elements = toArray(elements);
+    } else {
+      return reporter2.error("Invalid arguments. Must be a DOM element or a collection of DOM elements.");
+    }
+    forEach(elements, function(element) {
+      eventListenerHandler.removeAllListeners(element);
+      detectionStrategy.uninstall(element);
+      stateHandler.cleanState(element);
+    });
+  }
+  function initDocument(targetDocument) {
+    detectionStrategy.initDocument && detectionStrategy.initDocument(targetDocument);
+  }
+  return {
+    listenTo,
+    removeListener: eventListenerHandler.removeListener,
+    removeAllListeners: eventListenerHandler.removeAllListeners,
+    uninstall,
+    initDocument
+  };
+};
+function getOption(options, name, defaultValue) {
+  var value = options[name];
+  if ((value === void 0 || value === null) && defaultValue !== void 0) {
+    return defaultValue;
+  }
+  return value;
+}
+const elementResizeDetectorMaker = /* @__PURE__ */ getDefaultExportFromCjs(elementResizeDetector);
 class InternMap extends Map {
   constructor(entries, key = keyof) {
     super();
@@ -4985,9 +6126,9 @@ class Box3 {
     this.max.copy(center).add(halfSize);
     return this;
   }
-  setFromObject(object, precise = false) {
+  setFromObject(object2, precise = false) {
     this.makeEmpty();
-    return this.expandByObject(object, precise);
+    return this.expandByObject(object2, precise);
   }
   clone() {
     return new this.constructor().copy(this);
@@ -5026,22 +6167,22 @@ class Box3 {
     this.max.addScalar(scalar);
     return this;
   }
-  expandByObject(object, precise = false) {
-    object.updateWorldMatrix(false, false);
-    if (object.boundingBox !== void 0) {
-      if (object.boundingBox === null) {
-        object.computeBoundingBox();
+  expandByObject(object2, precise = false) {
+    object2.updateWorldMatrix(false, false);
+    if (object2.boundingBox !== void 0) {
+      if (object2.boundingBox === null) {
+        object2.computeBoundingBox();
       }
-      _box$3.copy(object.boundingBox);
-      _box$3.applyMatrix4(object.matrixWorld);
+      _box$3.copy(object2.boundingBox);
+      _box$3.applyMatrix4(object2.matrixWorld);
       this.union(_box$3);
     } else {
-      const geometry = object.geometry;
+      const geometry = object2.geometry;
       if (geometry !== void 0) {
         if (precise && geometry.attributes !== void 0 && geometry.attributes.position !== void 0) {
           const position = geometry.attributes.position;
           for (let i = 0, l = position.count; i < l; i++) {
-            _vector$a.fromBufferAttribute(position, i).applyMatrix4(object.matrixWorld);
+            _vector$a.fromBufferAttribute(position, i).applyMatrix4(object2.matrixWorld);
             this.expandByPoint(_vector$a);
           }
         } else {
@@ -5049,12 +6190,12 @@ class Box3 {
             geometry.computeBoundingBox();
           }
           _box$3.copy(geometry.boundingBox);
-          _box$3.applyMatrix4(object.matrixWorld);
+          _box$3.applyMatrix4(object2.matrixWorld);
           this.union(_box$3);
         }
       }
     }
-    const children = object.children;
+    const children = object2.children;
     for (let i = 0, l = children.length; i < l; i++) {
       this.expandByObject(children[i], precise);
     }
@@ -6762,41 +7903,41 @@ class Object3D extends EventDispatcher {
       this.quaternion.premultiply(_q1.invert());
     }
   }
-  add(object) {
+  add(object2) {
     if (arguments.length > 1) {
       for (let i = 0; i < arguments.length; i++) {
         this.add(arguments[i]);
       }
       return this;
     }
-    if (object === this) {
-      console.error("THREE.Object3D.add: object can't be added as a child of itself.", object);
+    if (object2 === this) {
+      console.error("THREE.Object3D.add: object can't be added as a child of itself.", object2);
       return this;
     }
-    if (object && object.isObject3D) {
-      if (object.parent !== null) {
-        object.parent.remove(object);
+    if (object2 && object2.isObject3D) {
+      if (object2.parent !== null) {
+        object2.parent.remove(object2);
       }
-      object.parent = this;
-      this.children.push(object);
-      object.dispatchEvent(_addedEvent);
+      object2.parent = this;
+      this.children.push(object2);
+      object2.dispatchEvent(_addedEvent);
     } else {
-      console.error("THREE.Object3D.add: object not an instance of THREE.Object3D.", object);
+      console.error("THREE.Object3D.add: object not an instance of THREE.Object3D.", object2);
     }
     return this;
   }
-  remove(object) {
+  remove(object2) {
     if (arguments.length > 1) {
       for (let i = 0; i < arguments.length; i++) {
         this.remove(arguments[i]);
       }
       return this;
     }
-    const index2 = this.children.indexOf(object);
+    const index2 = this.children.indexOf(object2);
     if (index2 !== -1) {
-      object.parent = null;
+      object2.parent = null;
       this.children.splice(index2, 1);
-      object.dispatchEvent(_removedEvent);
+      object2.dispatchEvent(_removedEvent);
     }
     return this;
   }
@@ -6809,23 +7950,23 @@ class Object3D extends EventDispatcher {
   }
   clear() {
     for (let i = 0; i < this.children.length; i++) {
-      const object = this.children[i];
-      object.parent = null;
-      object.dispatchEvent(_removedEvent);
+      const object2 = this.children[i];
+      object2.parent = null;
+      object2.dispatchEvent(_removedEvent);
     }
     this.children.length = 0;
     return this;
   }
-  attach(object) {
+  attach(object2) {
     this.updateWorldMatrix(true, false);
     _m1$1.copy(this.matrixWorld).invert();
-    if (object.parent !== null) {
-      object.parent.updateWorldMatrix(true, false);
-      _m1$1.multiply(object.parent.matrixWorld);
+    if (object2.parent !== null) {
+      object2.parent.updateWorldMatrix(true, false);
+      _m1$1.multiply(object2.parent.matrixWorld);
     }
-    object.applyMatrix4(_m1$1);
-    this.add(object);
-    object.updateWorldMatrix(false, true);
+    object2.applyMatrix4(_m1$1);
+    this.add(object2);
+    object2.updateWorldMatrix(false, true);
     return this;
   }
   getObjectById(id) {
@@ -6839,9 +7980,9 @@ class Object3D extends EventDispatcher {
       return this;
     for (let i = 0, l = this.children.length; i < l; i++) {
       const child = this.children[i];
-      const object = child.getObjectByProperty(name, value);
-      if (object !== void 0) {
-        return object;
+      const object2 = child.getObjectByProperty(name, value);
+      if (object2 !== void 0) {
+        return object2;
       }
     }
     return void 0;
@@ -6968,34 +8109,34 @@ class Object3D extends EventDispatcher {
         generator: "Object3D.toJSON"
       };
     }
-    const object = {};
-    object.uuid = this.uuid;
-    object.type = this.type;
+    const object2 = {};
+    object2.uuid = this.uuid;
+    object2.type = this.type;
     if (this.name !== "")
-      object.name = this.name;
+      object2.name = this.name;
     if (this.castShadow === true)
-      object.castShadow = true;
+      object2.castShadow = true;
     if (this.receiveShadow === true)
-      object.receiveShadow = true;
+      object2.receiveShadow = true;
     if (this.visible === false)
-      object.visible = false;
+      object2.visible = false;
     if (this.frustumCulled === false)
-      object.frustumCulled = false;
+      object2.frustumCulled = false;
     if (this.renderOrder !== 0)
-      object.renderOrder = this.renderOrder;
+      object2.renderOrder = this.renderOrder;
     if (Object.keys(this.userData).length > 0)
-      object.userData = this.userData;
-    object.layers = this.layers.mask;
-    object.matrix = this.matrix.toArray();
-    object.up = this.up.toArray();
+      object2.userData = this.userData;
+    object2.layers = this.layers.mask;
+    object2.matrix = this.matrix.toArray();
+    object2.up = this.up.toArray();
     if (this.matrixAutoUpdate === false)
-      object.matrixAutoUpdate = false;
+      object2.matrixAutoUpdate = false;
     if (this.isInstancedMesh) {
-      object.type = "InstancedMesh";
-      object.count = this.count;
-      object.instanceMatrix = this.instanceMatrix.toJSON();
+      object2.type = "InstancedMesh";
+      object2.count = this.count;
+      object2.instanceMatrix = this.instanceMatrix.toJSON();
       if (this.instanceColor !== null)
-        object.instanceColor = this.instanceColor.toJSON();
+        object2.instanceColor = this.instanceColor.toJSON();
     }
     function serialize(library, element) {
       if (library[element.uuid] === void 0) {
@@ -7006,16 +8147,16 @@ class Object3D extends EventDispatcher {
     if (this.isScene) {
       if (this.background) {
         if (this.background.isColor) {
-          object.background = this.background.toJSON();
+          object2.background = this.background.toJSON();
         } else if (this.background.isTexture) {
-          object.background = this.background.toJSON(meta).uuid;
+          object2.background = this.background.toJSON(meta).uuid;
         }
       }
       if (this.environment && this.environment.isTexture && this.environment.isRenderTargetTexture !== true) {
-        object.environment = this.environment.toJSON(meta).uuid;
+        object2.environment = this.environment.toJSON(meta).uuid;
       }
     } else if (this.isMesh || this.isLine || this.isPoints) {
-      object.geometry = serialize(meta.geometries, this.geometry);
+      object2.geometry = serialize(meta.geometries, this.geometry);
       const parameters = this.geometry.parameters;
       if (parameters !== void 0 && parameters.shapes !== void 0) {
         const shapes = parameters.shapes;
@@ -7030,11 +8171,11 @@ class Object3D extends EventDispatcher {
       }
     }
     if (this.isSkinnedMesh) {
-      object.bindMode = this.bindMode;
-      object.bindMatrix = this.bindMatrix.toArray();
+      object2.bindMode = this.bindMode;
+      object2.bindMatrix = this.bindMatrix.toArray();
       if (this.skeleton !== void 0) {
         serialize(meta.skeletons, this.skeleton);
-        object.skeleton = this.skeleton.uuid;
+        object2.skeleton = this.skeleton.uuid;
       }
     }
     if (this.material !== void 0) {
@@ -7043,22 +8184,22 @@ class Object3D extends EventDispatcher {
         for (let i = 0, l = this.material.length; i < l; i++) {
           uuids.push(serialize(meta.materials, this.material[i]));
         }
-        object.material = uuids;
+        object2.material = uuids;
       } else {
-        object.material = serialize(meta.materials, this.material);
+        object2.material = serialize(meta.materials, this.material);
       }
     }
     if (this.children.length > 0) {
-      object.children = [];
+      object2.children = [];
       for (let i = 0; i < this.children.length; i++) {
-        object.children.push(this.children[i].toJSON(meta).object);
+        object2.children.push(this.children[i].toJSON(meta).object);
       }
     }
     if (this.animations.length > 0) {
-      object.animations = [];
+      object2.animations = [];
       for (let i = 0; i < this.animations.length; i++) {
         const animation = this.animations[i];
-        object.animations.push(serialize(meta.animations, animation));
+        object2.animations.push(serialize(meta.animations, animation));
       }
     }
     if (isRootObject) {
@@ -7087,7 +8228,7 @@ class Object3D extends EventDispatcher {
       if (nodes.length > 0)
         output.nodes = nodes;
     }
-    output.object = object;
+    output.object = object2;
     return output;
     function extractFromCache(cache) {
       const values = [];
@@ -9218,7 +10359,7 @@ class Mesh extends Object3D {
     }
   }
 }
-function checkIntersection(object, material, raycaster, ray, pA, pB, pC, point) {
+function checkIntersection(object2, material, raycaster, ray, pA, pB, pC, point) {
   let intersect;
   if (material.side === BackSide) {
     intersect = ray.intersectTriangle(pC, pB, pA, true, point);
@@ -9228,21 +10369,21 @@ function checkIntersection(object, material, raycaster, ray, pA, pB, pC, point) 
   if (intersect === null)
     return null;
   _intersectionPointWorld.copy(point);
-  _intersectionPointWorld.applyMatrix4(object.matrixWorld);
+  _intersectionPointWorld.applyMatrix4(object2.matrixWorld);
   const distance = raycaster.ray.origin.distanceTo(_intersectionPointWorld);
   if (distance < raycaster.near || distance > raycaster.far)
     return null;
   return {
     distance,
     point: _intersectionPointWorld.clone(),
-    object
+    object: object2
   };
 }
-function checkGeometryIntersection(object, material, raycaster, ray, uv, uv1, normal, a2, b, c2) {
-  object.getVertexPosition(a2, _vA$1);
-  object.getVertexPosition(b, _vB$1);
-  object.getVertexPosition(c2, _vC$1);
-  const intersection = checkIntersection(object, material, raycaster, ray, _vA$1, _vB$1, _vC$1, _intersectionPoint);
+function checkGeometryIntersection(object2, material, raycaster, ray, uv, uv1, normal, a2, b, c2) {
+  object2.getVertexPosition(a2, _vA$1);
+  object2.getVertexPosition(b, _vB$1);
+  object2.getVertexPosition(c2, _vC$1);
+  const intersection = checkIntersection(object2, material, raycaster, ray, _vA$1, _vB$1, _vC$1, _intersectionPoint);
   if (intersection) {
     if (uv) {
       _uvA$1.fromBufferAttribute(uv, a2);
@@ -10081,16 +11222,16 @@ class Frustum {
     }
     return this;
   }
-  intersectsObject(object) {
-    if (object.boundingSphere !== void 0) {
-      if (object.boundingSphere === null)
-        object.computeBoundingSphere();
-      _sphere$4.copy(object.boundingSphere).applyMatrix4(object.matrixWorld);
+  intersectsObject(object2) {
+    if (object2.boundingSphere !== void 0) {
+      if (object2.boundingSphere === null)
+        object2.computeBoundingSphere();
+      _sphere$4.copy(object2.boundingSphere).applyMatrix4(object2.matrixWorld);
     } else {
-      const geometry = object.geometry;
+      const geometry = object2.geometry;
       if (geometry.boundingSphere === null)
         geometry.computeBoundingSphere();
-      _sphere$4.copy(geometry.boundingSphere).applyMatrix4(object.matrixWorld);
+      _sphere$4.copy(geometry.boundingSphere).applyMatrix4(object2.matrixWorld);
     }
     return this.intersectsSphere(_sphere$4);
   }
@@ -11203,7 +12344,7 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
   const defaultState = createBindingState(null);
   let currentState = defaultState;
   let forceUpdate = false;
-  function setup(object, material, program, geometry, index2) {
+  function setup(object2, material, program, geometry, index2) {
     let updateBuffers = false;
     if (vaoAvailable) {
       const state = getBindingState(geometry, program, material);
@@ -11211,9 +12352,9 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
         currentState = state;
         bindVertexArrayObject(currentState.object);
       }
-      updateBuffers = needsUpdate(object, geometry, program, index2);
+      updateBuffers = needsUpdate(object2, geometry, program, index2);
       if (updateBuffers)
-        saveCache(object, geometry, program, index2);
+        saveCache(object2, geometry, program, index2);
     } else {
       const wireframe = material.wireframe === true;
       if (currentState.geometry !== geometry.id || currentState.program !== program.id || currentState.wireframe !== wireframe) {
@@ -11228,7 +12369,7 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
     }
     if (updateBuffers || forceUpdate) {
       forceUpdate = false;
-      setupVertexAttributes(object, material, program, geometry);
+      setupVertexAttributes(object2, material, program, geometry);
       if (index2 !== null) {
         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, attributes.get(index2).buffer);
       }
@@ -11290,7 +12431,7 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
       index: null
     };
   }
-  function needsUpdate(object, geometry, program, index2) {
+  function needsUpdate(object2, geometry, program, index2) {
     const cachedAttributes = currentState.attributes;
     const geometryAttributes = geometry.attributes;
     let attributesNum = 0;
@@ -11301,10 +12442,10 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
         const cachedAttribute = cachedAttributes[name];
         let geometryAttribute = geometryAttributes[name];
         if (geometryAttribute === void 0) {
-          if (name === "instanceMatrix" && object.instanceMatrix)
-            geometryAttribute = object.instanceMatrix;
-          if (name === "instanceColor" && object.instanceColor)
-            geometryAttribute = object.instanceColor;
+          if (name === "instanceMatrix" && object2.instanceMatrix)
+            geometryAttribute = object2.instanceMatrix;
+          if (name === "instanceColor" && object2.instanceColor)
+            geometryAttribute = object2.instanceColor;
         }
         if (cachedAttribute === void 0)
           return true;
@@ -11321,7 +12462,7 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
       return true;
     return false;
   }
-  function saveCache(object, geometry, program, index2) {
+  function saveCache(object2, geometry, program, index2) {
     const cache = {};
     const attributes2 = geometry.attributes;
     let attributesNum = 0;
@@ -11331,10 +12472,10 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
       if (programAttribute.location >= 0) {
         let attribute = attributes2[name];
         if (attribute === void 0) {
-          if (name === "instanceMatrix" && object.instanceMatrix)
-            attribute = object.instanceMatrix;
-          if (name === "instanceColor" && object.instanceColor)
-            attribute = object.instanceColor;
+          if (name === "instanceMatrix" && object2.instanceMatrix)
+            attribute = object2.instanceMatrix;
+          if (name === "instanceColor" && object2.instanceColor)
+            attribute = object2.instanceColor;
         }
         const data = {};
         data.attribute = attribute;
@@ -11390,8 +12531,8 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
       gl.vertexAttribPointer(index2, size, type, normalized, stride, offset);
     }
   }
-  function setupVertexAttributes(object, material, program, geometry) {
-    if (capabilities.isWebGL2 === false && (object.isInstancedMesh || geometry.isInstancedBufferGeometry)) {
+  function setupVertexAttributes(object2, material, program, geometry) {
+    if (capabilities.isWebGL2 === false && (object2.isInstancedMesh || geometry.isInstancedBufferGeometry)) {
       if (extensions.get("ANGLE_instanced_arrays") === null)
         return;
     }
@@ -11404,10 +12545,10 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
       if (programAttribute.location >= 0) {
         let geometryAttribute = geometryAttributes[name];
         if (geometryAttribute === void 0) {
-          if (name === "instanceMatrix" && object.instanceMatrix)
-            geometryAttribute = object.instanceMatrix;
-          if (name === "instanceColor" && object.instanceColor)
-            geometryAttribute = object.instanceColor;
+          if (name === "instanceMatrix" && object2.instanceMatrix)
+            geometryAttribute = object2.instanceMatrix;
+          if (name === "instanceColor" && object2.instanceColor)
+            geometryAttribute = object2.instanceColor;
         }
         if (geometryAttribute !== void 0) {
           const normalized = geometryAttribute.normalized;
@@ -11427,7 +12568,7 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
               for (let i = 0; i < programAttribute.locationSize; i++) {
                 enableAttributeAndDivisor(programAttribute.location + i, data.meshPerAttribute);
               }
-              if (object.isInstancedMesh !== true && geometry._maxInstanceCount === void 0) {
+              if (object2.isInstancedMesh !== true && geometry._maxInstanceCount === void 0) {
                 geometry._maxInstanceCount = data.meshPerAttribute * data.count;
               }
             } else {
@@ -11452,7 +12593,7 @@ function WebGLBindingStates(gl, extensions, attributes, capabilities) {
               for (let i = 0; i < programAttribute.locationSize; i++) {
                 enableAttributeAndDivisor(programAttribute.location + i, geometryAttribute.meshPerAttribute);
               }
-              if (object.isInstancedMesh !== true && geometry._maxInstanceCount === void 0) {
+              if (object2.isInstancedMesh !== true && geometry._maxInstanceCount === void 0) {
                 geometry._maxInstanceCount = geometryAttribute.meshPerAttribute * geometryAttribute.count;
               }
             } else {
@@ -12664,7 +13805,7 @@ function WebGLGeometries(gl, attributes, info, bindingStates) {
     }
     info.memory.geometries--;
   }
-  function get2(object, geometry) {
+  function get2(object2, geometry) {
     if (geometries[geometry.id] === true)
       return geometry;
     geometry.addEventListener("dispose", onGeometryDispose);
@@ -12841,8 +13982,8 @@ function WebGLMorphtargets(gl, capabilities, textures) {
   for (let i = 0; i < 8; i++) {
     workInfluences[i] = [i, 0];
   }
-  function update4(object, geometry, program) {
-    const objectInfluences = object.morphTargetInfluences;
+  function update4(object2, geometry, program) {
+    const objectInfluences = object2.morphTargetInfluences;
     if (capabilities.isWebGL2 === true) {
       const morphAttribute = geometry.morphAttributes.position || geometry.morphAttributes.normal || geometry.morphAttributes.color;
       const morphTargetsCount = morphAttribute !== void 0 ? morphAttribute.length : 0;
@@ -12990,28 +14131,28 @@ function WebGLMorphtargets(gl, capabilities, textures) {
 }
 function WebGLObjects(gl, geometries, attributes, info) {
   let updateMap = /* @__PURE__ */ new WeakMap();
-  function update4(object) {
+  function update4(object2) {
     const frame2 = info.render.frame;
-    const geometry = object.geometry;
-    const buffergeometry = geometries.get(object, geometry);
+    const geometry = object2.geometry;
+    const buffergeometry = geometries.get(object2, geometry);
     if (updateMap.get(buffergeometry) !== frame2) {
       geometries.update(buffergeometry);
       updateMap.set(buffergeometry, frame2);
     }
-    if (object.isInstancedMesh) {
-      if (object.hasEventListener("dispose", onInstancedMeshDispose) === false) {
-        object.addEventListener("dispose", onInstancedMeshDispose);
+    if (object2.isInstancedMesh) {
+      if (object2.hasEventListener("dispose", onInstancedMeshDispose) === false) {
+        object2.addEventListener("dispose", onInstancedMeshDispose);
       }
-      if (updateMap.get(object) !== frame2) {
-        attributes.update(object.instanceMatrix, gl.ARRAY_BUFFER);
-        if (object.instanceColor !== null) {
-          attributes.update(object.instanceColor, gl.ARRAY_BUFFER);
+      if (updateMap.get(object2) !== frame2) {
+        attributes.update(object2.instanceMatrix, gl.ARRAY_BUFFER);
+        if (object2.instanceColor !== null) {
+          attributes.update(object2.instanceColor, gl.ARRAY_BUFFER);
         }
-        updateMap.set(object, frame2);
+        updateMap.set(object2, frame2);
       }
     }
-    if (object.isSkinnedMesh) {
-      const skeleton = object.skeleton;
+    if (object2.isSkinnedMesh) {
+      const skeleton = object2.skeleton;
       if (updateMap.get(skeleton) !== frame2) {
         skeleton.update();
         updateMap.set(skeleton, frame2);
@@ -13632,8 +14773,8 @@ class WebGLUniforms {
     if (u !== void 0)
       u.setValue(gl, value, textures);
   }
-  setOptional(gl, object, name) {
-    const v = object[name];
+  setOptional(gl, object2, name) {
+    const v = object2[name];
     if (v !== void 0)
       this.setValue(gl, name, v);
   }
@@ -14351,9 +15492,9 @@ function WebGLPrograms(renderer3, cubemaps, cubeuvmaps, extensions, capabilities
       return "uv";
     return `uv${value}`;
   }
-  function getParameters(material, lights, shadows, scene3, object) {
+  function getParameters(material, lights, shadows, scene3, object2) {
     const fog = scene3.fog;
-    const geometry = object.geometry;
+    const geometry = object2.geometry;
     const environment = material.isMeshStandardMaterial ? scene3.environment : null;
     const envMap = (material.isMeshStandardMaterial ? cubeuvmaps : cubemaps).get(material.envMap || environment);
     const envMapCubeUVHeight = !!envMap && envMap.mapping === CubeUVReflectionMapping ? envMap.image.height : null;
@@ -14387,7 +15528,7 @@ function WebGLPrograms(renderer3, cubemaps, cubeuvmaps, extensions, capabilities
       customFragmentShaderID = _customShaders.getFragmentShaderID(material);
     }
     const currentRenderTarget = renderer3.getRenderTarget();
-    const IS_INSTANCEDMESH = object.isInstancedMesh === true;
+    const IS_INSTANCEDMESH = object2.isInstancedMesh === true;
     const HAS_MAP = !!material.map;
     const HAS_MATCAP = !!material.matcap;
     const HAS_ENVMAP = !!envMap;
@@ -14445,7 +15586,7 @@ function WebGLPrograms(renderer3, cubemaps, cubeuvmaps, extensions, capabilities
       glslVersion: material.glslVersion,
       precision,
       instancing: IS_INSTANCEDMESH,
-      instancingColor: IS_INSTANCEDMESH && object.instanceColor !== null,
+      instancingColor: IS_INSTANCEDMESH && object2.instanceColor !== null,
       supportsVertexTextures: SUPPORTS_VERTEX_TEXTURES,
       outputColorSpace: currentRenderTarget === null ? renderer3.outputColorSpace : currentRenderTarget.isXRRenderTarget === true ? currentRenderTarget.texture.colorSpace : LinearSRGBColorSpace,
       map: HAS_MAP,
@@ -14518,14 +15659,14 @@ function WebGLPrograms(renderer3, cubemaps, cubeuvmaps, extensions, capabilities
       vertexUv1s: HAS_ATTRIBUTE_UV1,
       vertexUv2s: HAS_ATTRIBUTE_UV2,
       vertexUv3s: HAS_ATTRIBUTE_UV3,
-      pointsUvs: object.isPoints === true && !!geometry.attributes.uv && (HAS_MAP || HAS_ALPHAMAP),
+      pointsUvs: object2.isPoints === true && !!geometry.attributes.uv && (HAS_MAP || HAS_ALPHAMAP),
       fog: !!fog,
       useFog: material.fog === true,
       fogExp2: fog && fog.isFogExp2,
       flatShading: material.flatShading === true,
       sizeAttenuation: material.sizeAttenuation === true,
       logarithmicDepthBuffer,
-      skinning: object.isSkinnedMesh === true,
+      skinning: object2.isSkinnedMesh === true,
       morphTargets: geometry.morphAttributes.position !== void 0,
       morphNormals: geometry.morphAttributes.normal !== void 0,
       morphColors: geometry.morphAttributes.color !== void 0,
@@ -14771,19 +15912,19 @@ function WebGLPrograms(renderer3, cubemaps, cubeuvmaps, extensions, capabilities
 }
 function WebGLProperties() {
   let properties = /* @__PURE__ */ new WeakMap();
-  function get2(object) {
-    let map = properties.get(object);
+  function get2(object2) {
+    let map = properties.get(object2);
     if (map === void 0) {
       map = {};
-      properties.set(object, map);
+      properties.set(object2, map);
     }
     return map;
   }
-  function remove(object) {
-    properties.delete(object);
+  function remove(object2) {
+    properties.delete(object2);
   }
-  function update4(object, key, value) {
-    properties.get(object)[key] = value;
+  function update4(object2, key, value) {
+    properties.get(object2)[key] = value;
   }
   function dispose2() {
     properties = /* @__PURE__ */ new WeakMap();
@@ -14831,35 +15972,35 @@ function WebGLRenderList() {
     transmissive.length = 0;
     transparent.length = 0;
   }
-  function getNextRenderItem(object, geometry, material, groupOrder, z2, group) {
+  function getNextRenderItem(object2, geometry, material, groupOrder, z2, group) {
     let renderItem = renderItems[renderItemsIndex];
     if (renderItem === void 0) {
       renderItem = {
-        id: object.id,
-        object,
+        id: object2.id,
+        object: object2,
         geometry,
         material,
         groupOrder,
-        renderOrder: object.renderOrder,
+        renderOrder: object2.renderOrder,
         z: z2,
         group
       };
       renderItems[renderItemsIndex] = renderItem;
     } else {
-      renderItem.id = object.id;
-      renderItem.object = object;
+      renderItem.id = object2.id;
+      renderItem.object = object2;
       renderItem.geometry = geometry;
       renderItem.material = material;
       renderItem.groupOrder = groupOrder;
-      renderItem.renderOrder = object.renderOrder;
+      renderItem.renderOrder = object2.renderOrder;
       renderItem.z = z2;
       renderItem.group = group;
     }
     renderItemsIndex++;
     return renderItem;
   }
-  function push(object, geometry, material, groupOrder, z2, group) {
-    const renderItem = getNextRenderItem(object, geometry, material, groupOrder, z2, group);
+  function push(object2, geometry, material, groupOrder, z2, group) {
+    const renderItem = getNextRenderItem(object2, geometry, material, groupOrder, z2, group);
     if (material.transmission > 0) {
       transmissive.push(renderItem);
     } else if (material.transparent === true) {
@@ -14868,8 +16009,8 @@ function WebGLRenderList() {
       opaque.push(renderItem);
     }
   }
-  function unshift(object, geometry, material, groupOrder, z2, group) {
-    const renderItem = getNextRenderItem(object, geometry, material, groupOrder, z2, group);
+  function unshift(object2, geometry, material, groupOrder, z2, group) {
+    const renderItem = getNextRenderItem(object2, geometry, material, groupOrder, z2, group);
     if (material.transmission > 0) {
       transmissive.unshift(renderItem);
     } else if (material.transparent === true) {
@@ -15540,9 +16681,9 @@ function WebGLShadowMap(_renderer, _objects, _capabilities) {
     _renderer.clear();
     _renderer.renderBufferDirect(camera3, null, geometry, shadowMaterialHorizontal, fullScreenMesh, null);
   }
-  function getDepthMaterial(object, material, light, type) {
+  function getDepthMaterial(object2, material, light, type) {
     let result = null;
-    const customMaterial = light.isPointLight === true ? object.customDistanceMaterial : object.customDepthMaterial;
+    const customMaterial = light.isPointLight === true ? object2.customDistanceMaterial : object2.customDepthMaterial;
     if (customMaterial !== void 0) {
       result = customMaterial;
     } else {
@@ -15586,32 +16727,32 @@ function WebGLShadowMap(_renderer, _objects, _capabilities) {
     }
     return result;
   }
-  function renderObject(object, camera3, shadowCamera, light, type) {
-    if (object.visible === false)
+  function renderObject(object2, camera3, shadowCamera, light, type) {
+    if (object2.visible === false)
       return;
-    const visible = object.layers.test(camera3.layers);
-    if (visible && (object.isMesh || object.isLine || object.isPoints)) {
-      if ((object.castShadow || object.receiveShadow && type === VSMShadowMap) && (!object.frustumCulled || _frustum.intersectsObject(object))) {
-        object.modelViewMatrix.multiplyMatrices(shadowCamera.matrixWorldInverse, object.matrixWorld);
-        const geometry = _objects.update(object);
-        const material = object.material;
+    const visible = object2.layers.test(camera3.layers);
+    if (visible && (object2.isMesh || object2.isLine || object2.isPoints)) {
+      if ((object2.castShadow || object2.receiveShadow && type === VSMShadowMap) && (!object2.frustumCulled || _frustum.intersectsObject(object2))) {
+        object2.modelViewMatrix.multiplyMatrices(shadowCamera.matrixWorldInverse, object2.matrixWorld);
+        const geometry = _objects.update(object2);
+        const material = object2.material;
         if (Array.isArray(material)) {
           const groups = geometry.groups;
           for (let k = 0, kl = groups.length; k < kl; k++) {
             const group = groups[k];
             const groupMaterial = material[group.materialIndex];
             if (groupMaterial && groupMaterial.visible) {
-              const depthMaterial = getDepthMaterial(object, groupMaterial, light, type);
-              _renderer.renderBufferDirect(shadowCamera, null, geometry, depthMaterial, object, group);
+              const depthMaterial = getDepthMaterial(object2, groupMaterial, light, type);
+              _renderer.renderBufferDirect(shadowCamera, null, geometry, depthMaterial, object2, group);
             }
           }
         } else if (material.visible) {
-          const depthMaterial = getDepthMaterial(object, material, light, type);
-          _renderer.renderBufferDirect(shadowCamera, null, geometry, depthMaterial, object, null);
+          const depthMaterial = getDepthMaterial(object2, material, light, type);
+          _renderer.renderBufferDirect(shadowCamera, null, geometry, depthMaterial, object2, null);
         }
       }
     }
-    const children = object.children;
+    const children = object2.children;
     for (let i = 0, l = children.length; i < l; i++) {
       renderObject(children[i], camera3, shadowCamera, light, type);
     }
@@ -16356,7 +17497,7 @@ function WebGLState(gl, extensions, capabilities) {
     reset
   };
 }
-function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, info) {
+function WebGLTextures(_gl, extensions, state, properties, capabilities, utils2, info) {
   const isWebGL2 = capabilities.isWebGL2;
   const maxTextures = capabilities.maxTextures;
   const maxCubemapSize = capabilities.maxCubemapSize;
@@ -16779,8 +17920,8 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
       const needsPowerOfTwo = textureNeedsPowerOfTwo(texture) && isPowerOfTwo$1(texture.image) === false;
       let image = resizeImage(texture.image, needsPowerOfTwo, false, maxTextureSize);
       image = verifyColorSpace(texture, image);
-      const supportsMips = isPowerOfTwo$1(image) || isWebGL2, glFormat = utils.convert(texture.format, texture.colorSpace);
-      let glType = utils.convert(texture.type), glInternalFormat = getInternalFormat(texture.internalFormat, glFormat, glType, texture.colorSpace);
+      const supportsMips = isPowerOfTwo$1(image) || isWebGL2, glFormat = utils2.convert(texture.format, texture.colorSpace);
+      let glType = utils2.convert(texture.type), glInternalFormat = getInternalFormat(texture.internalFormat, glFormat, glType, texture.colorSpace);
       setTextureParameters(textureType, texture, supportsMips);
       let mipmap;
       const mipmaps = texture.mipmaps;
@@ -16808,7 +17949,7 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
           if (texture.type !== UnsignedShortType && texture.type !== UnsignedIntType) {
             console.warn("THREE.WebGLRenderer: Use UnsignedShortType or UnsignedIntType for DepthFormat DepthTexture.");
             texture.type = UnsignedIntType;
-            glType = utils.convert(texture.type);
+            glType = utils2.convert(texture.type);
           }
         }
         if (texture.format === DepthStencilFormat && glInternalFormat === _gl.DEPTH_COMPONENT) {
@@ -16816,7 +17957,7 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
           if (texture.type !== UnsignedInt248Type) {
             console.warn("THREE.WebGLRenderer: Use UnsignedInt248Type for DepthStencilFormat DepthTexture.");
             texture.type = UnsignedInt248Type;
-            glType = utils.convert(texture.type);
+            glType = utils2.convert(texture.type);
           }
         }
         if (allocateMemory) {
@@ -16989,7 +18130,7 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
         }
         cubeImage[i] = verifyColorSpace(texture, cubeImage[i]);
       }
-      const image = cubeImage[0], supportsMips = isPowerOfTwo$1(image) || isWebGL2, glFormat = utils.convert(texture.format, texture.colorSpace), glType = utils.convert(texture.type), glInternalFormat = getInternalFormat(texture.internalFormat, glFormat, glType, texture.colorSpace);
+      const image = cubeImage[0], supportsMips = isPowerOfTwo$1(image) || isWebGL2, glFormat = utils2.convert(texture.format, texture.colorSpace), glType = utils2.convert(texture.type), glInternalFormat = getInternalFormat(texture.internalFormat, glFormat, glType, texture.colorSpace);
       const useTexStorage = isWebGL2 && texture.isVideoTexture !== true;
       const allocateMemory = sourceProperties.__version === void 0 || forceUpload === true;
       let levels = getMipLevels(texture, image, supportsMips);
@@ -17072,8 +18213,8 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
     textureProperties.__version = texture.version;
   }
   function setupFrameBufferTexture(framebuffer, renderTarget, texture, attachment, textureTarget, level) {
-    const glFormat = utils.convert(texture.format, texture.colorSpace);
-    const glType = utils.convert(texture.type);
+    const glFormat = utils2.convert(texture.format, texture.colorSpace);
+    const glType = utils2.convert(texture.type);
     const glInternalFormat = getInternalFormat(texture.internalFormat, glFormat, glType, texture.colorSpace);
     const renderTargetProperties = properties.get(renderTarget);
     if (!renderTargetProperties.__hasExternalTextures) {
@@ -17130,8 +18271,8 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
       const textures = renderTarget.isWebGLMultipleRenderTargets === true ? renderTarget.texture : [renderTarget.texture];
       for (let i = 0; i < textures.length; i++) {
         const texture = textures[i];
-        const glFormat = utils.convert(texture.format, texture.colorSpace);
-        const glType = utils.convert(texture.type);
+        const glFormat = utils2.convert(texture.format, texture.colorSpace);
+        const glType = utils2.convert(texture.type);
         const glInternalFormat = getInternalFormat(texture.internalFormat, glFormat, glType, texture.colorSpace);
         const samples = getRenderTargetSamples(renderTarget);
         if (isMultisample && useMultisampledRTT(renderTarget) === false) {
@@ -17268,8 +18409,8 @@ function WebGLTextures(_gl, extensions, state, properties, capabilities, utils, 
           const texture2 = textures[i];
           renderTargetProperties.__webglColorRenderbuffer[i] = _gl.createRenderbuffer();
           _gl.bindRenderbuffer(_gl.RENDERBUFFER, renderTargetProperties.__webglColorRenderbuffer[i]);
-          const glFormat = utils.convert(texture2.format, texture2.colorSpace);
-          const glType = utils.convert(texture2.type);
+          const glFormat = utils2.convert(texture2.format, texture2.colorSpace);
+          const glType = utils2.convert(texture2.type);
           const glInternalFormat = getInternalFormat(texture2.internalFormat, glFormat, glType, texture2.colorSpace, renderTarget.isXRRenderTarget === true);
           const samples = getRenderTargetSamples(renderTarget);
           _gl.renderbufferStorageMultisample(_gl.RENDERBUFFER, samples, glInternalFormat, renderTarget.width, renderTarget.height);
@@ -18983,16 +20124,16 @@ class WebGLRenderer {
     let properties, textures, cubemaps, cubeuvmaps, attributes, geometries, objects;
     let programCache, materials, renderLists, renderStates, clipping, shadowMap;
     let background, morphtargets, bufferRenderer, indexedBufferRenderer;
-    let utils, bindingStates, uniformsGroups;
+    let utils2, bindingStates, uniformsGroups;
     function initGLContext() {
       extensions = new WebGLExtensions(_gl);
       capabilities = new WebGLCapabilities(_gl, extensions, parameters);
       extensions.init(capabilities);
-      utils = new WebGLUtils(_gl, extensions, capabilities);
+      utils2 = new WebGLUtils(_gl, extensions, capabilities);
       state = new WebGLState(_gl, extensions, capabilities);
       info = new WebGLInfo(_gl);
       properties = new WebGLProperties();
-      textures = new WebGLTextures(_gl, extensions, state, properties, capabilities, utils, info);
+      textures = new WebGLTextures(_gl, extensions, state, properties, capabilities, utils2, info);
       cubemaps = new WebGLCubeMaps(_this);
       cubeuvmaps = new WebGLCubeUVMaps(_this);
       attributes = new WebGLAttributes(_gl, capabilities);
@@ -19238,11 +20379,11 @@ class WebGLRenderer {
         }
       }
     }
-    this.renderBufferDirect = function(camera3, scene3, geometry, material, object, group) {
+    this.renderBufferDirect = function(camera3, scene3, geometry, material, object2, group) {
       if (scene3 === null)
         scene3 = _emptyScene;
-      const frontFaceCW = object.isMesh && object.matrixWorld.determinant() < 0;
-      const program = setProgram(camera3, scene3, geometry, material, object);
+      const frontFaceCW = object2.isMesh && object2.matrixWorld.determinant() < 0;
+      const program = setProgram(camera3, scene3, geometry, material, object2);
       state.setMaterial(material, frontFaceCW);
       let index2 = geometry.index;
       let rangeFactor = 1;
@@ -19270,7 +20411,7 @@ class WebGLRenderer {
       const drawCount = drawEnd - drawStart;
       if (drawCount < 0 || drawCount === Infinity)
         return;
-      bindingStates.setup(object, material, program, geometry, index2);
+      bindingStates.setup(object2, material, program, geometry, index2);
       let attribute;
       let renderer3 = bufferRenderer;
       if (index2 !== null) {
@@ -19278,32 +20419,32 @@ class WebGLRenderer {
         renderer3 = indexedBufferRenderer;
         renderer3.setIndex(attribute);
       }
-      if (object.isMesh) {
+      if (object2.isMesh) {
         if (material.wireframe === true) {
           state.setLineWidth(material.wireframeLinewidth * getTargetPixelRatio());
           renderer3.setMode(_gl.LINES);
         } else {
           renderer3.setMode(_gl.TRIANGLES);
         }
-      } else if (object.isLine) {
+      } else if (object2.isLine) {
         let lineWidth = material.linewidth;
         if (lineWidth === void 0)
           lineWidth = 1;
         state.setLineWidth(lineWidth * getTargetPixelRatio());
-        if (object.isLineSegments) {
+        if (object2.isLineSegments) {
           renderer3.setMode(_gl.LINES);
-        } else if (object.isLineLoop) {
+        } else if (object2.isLineLoop) {
           renderer3.setMode(_gl.LINE_LOOP);
         } else {
           renderer3.setMode(_gl.LINE_STRIP);
         }
-      } else if (object.isPoints) {
+      } else if (object2.isPoints) {
         renderer3.setMode(_gl.POINTS);
-      } else if (object.isSprite) {
+      } else if (object2.isSprite) {
         renderer3.setMode(_gl.TRIANGLES);
       }
-      if (object.isInstancedMesh) {
-        renderer3.renderInstances(drawStart, drawCount, object.count);
+      if (object2.isInstancedMesh) {
+        renderer3.renderInstances(drawStart, drawCount, object2.count);
       } else if (geometry.isInstancedBufferGeometry) {
         const maxInstanceCount = geometry._maxInstanceCount !== void 0 ? geometry._maxInstanceCount : Infinity;
         const instanceCount = Math.min(geometry.instanceCount, maxInstanceCount);
@@ -19313,41 +20454,41 @@ class WebGLRenderer {
       }
     };
     this.compile = function(scene3, camera3) {
-      function prepare(material, scene4, object) {
+      function prepare(material, scene4, object2) {
         if (material.transparent === true && material.side === DoubleSide && material.forceSinglePass === false) {
           material.side = BackSide;
           material.needsUpdate = true;
-          getProgram(material, scene4, object);
+          getProgram(material, scene4, object2);
           material.side = FrontSide;
           material.needsUpdate = true;
-          getProgram(material, scene4, object);
+          getProgram(material, scene4, object2);
           material.side = DoubleSide;
         } else {
-          getProgram(material, scene4, object);
+          getProgram(material, scene4, object2);
         }
       }
       currentRenderState = renderStates.get(scene3);
       currentRenderState.init();
       renderStateStack.push(currentRenderState);
-      scene3.traverseVisible(function(object) {
-        if (object.isLight && object.layers.test(camera3.layers)) {
-          currentRenderState.pushLight(object);
-          if (object.castShadow) {
-            currentRenderState.pushShadow(object);
+      scene3.traverseVisible(function(object2) {
+        if (object2.isLight && object2.layers.test(camera3.layers)) {
+          currentRenderState.pushLight(object2);
+          if (object2.castShadow) {
+            currentRenderState.pushShadow(object2);
           }
         }
       });
       currentRenderState.setupLights(_this._useLegacyLights);
-      scene3.traverse(function(object) {
-        const material = object.material;
+      scene3.traverse(function(object2) {
+        const material = object2.material;
         if (material) {
           if (Array.isArray(material)) {
             for (let i = 0; i < material.length; i++) {
               const material2 = material[i];
-              prepare(material2, scene3, object);
+              prepare(material2, scene3, object2);
             }
           } else {
-            prepare(material, scene3, object);
+            prepare(material, scene3, object2);
           }
         }
       });
@@ -19451,47 +20592,47 @@ class WebGLRenderer {
         currentRenderList = null;
       }
     };
-    function projectObject(object, camera3, groupOrder, sortObjects) {
-      if (object.visible === false)
+    function projectObject(object2, camera3, groupOrder, sortObjects) {
+      if (object2.visible === false)
         return;
-      const visible = object.layers.test(camera3.layers);
+      const visible = object2.layers.test(camera3.layers);
       if (visible) {
-        if (object.isGroup) {
-          groupOrder = object.renderOrder;
-        } else if (object.isLOD) {
-          if (object.autoUpdate === true)
-            object.update(camera3);
-        } else if (object.isLight) {
-          currentRenderState.pushLight(object);
-          if (object.castShadow) {
-            currentRenderState.pushShadow(object);
+        if (object2.isGroup) {
+          groupOrder = object2.renderOrder;
+        } else if (object2.isLOD) {
+          if (object2.autoUpdate === true)
+            object2.update(camera3);
+        } else if (object2.isLight) {
+          currentRenderState.pushLight(object2);
+          if (object2.castShadow) {
+            currentRenderState.pushShadow(object2);
           }
-        } else if (object.isSprite) {
-          if (!object.frustumCulled || _frustum.intersectsSprite(object)) {
+        } else if (object2.isSprite) {
+          if (!object2.frustumCulled || _frustum.intersectsSprite(object2)) {
             if (sortObjects) {
-              _vector3.setFromMatrixPosition(object.matrixWorld).applyMatrix4(_projScreenMatrix);
+              _vector3.setFromMatrixPosition(object2.matrixWorld).applyMatrix4(_projScreenMatrix);
             }
-            const geometry = objects.update(object);
-            const material = object.material;
+            const geometry = objects.update(object2);
+            const material = object2.material;
             if (material.visible) {
-              currentRenderList.push(object, geometry, material, groupOrder, _vector3.z, null);
+              currentRenderList.push(object2, geometry, material, groupOrder, _vector3.z, null);
             }
           }
-        } else if (object.isMesh || object.isLine || object.isPoints) {
-          if (!object.frustumCulled || _frustum.intersectsObject(object)) {
-            const geometry = objects.update(object);
-            const material = object.material;
+        } else if (object2.isMesh || object2.isLine || object2.isPoints) {
+          if (!object2.frustumCulled || _frustum.intersectsObject(object2)) {
+            const geometry = objects.update(object2);
+            const material = object2.material;
             if (sortObjects) {
-              if (object.boundingSphere !== void 0) {
-                if (object.boundingSphere === null)
-                  object.computeBoundingSphere();
-                _vector3.copy(object.boundingSphere.center);
+              if (object2.boundingSphere !== void 0) {
+                if (object2.boundingSphere === null)
+                  object2.computeBoundingSphere();
+                _vector3.copy(object2.boundingSphere.center);
               } else {
                 if (geometry.boundingSphere === null)
                   geometry.computeBoundingSphere();
                 _vector3.copy(geometry.boundingSphere.center);
               }
-              _vector3.applyMatrix4(object.matrixWorld).applyMatrix4(_projScreenMatrix);
+              _vector3.applyMatrix4(object2.matrixWorld).applyMatrix4(_projScreenMatrix);
             }
             if (Array.isArray(material)) {
               const groups = geometry.groups;
@@ -19499,16 +20640,16 @@ class WebGLRenderer {
                 const group = groups[i];
                 const groupMaterial = material[group.materialIndex];
                 if (groupMaterial && groupMaterial.visible) {
-                  currentRenderList.push(object, geometry, groupMaterial, groupOrder, _vector3.z, group);
+                  currentRenderList.push(object2, geometry, groupMaterial, groupOrder, _vector3.z, group);
                 }
               }
             } else if (material.visible) {
-              currentRenderList.push(object, geometry, material, groupOrder, _vector3.z, null);
+              currentRenderList.push(object2, geometry, material, groupOrder, _vector3.z, null);
             }
           }
         }
       }
-      const children = object.children;
+      const children = object2.children;
       for (let i = 0, l = children.length; i < l; i++) {
         projectObject(children[i], camera3, groupOrder, sortObjects);
       }
@@ -19566,15 +20707,15 @@ class WebGLRenderer {
       let renderTargetNeedsUpdate = false;
       for (let i = 0, l = transmissiveObjects.length; i < l; i++) {
         const renderItem = transmissiveObjects[i];
-        const object = renderItem.object;
+        const object2 = renderItem.object;
         const geometry = renderItem.geometry;
         const material = renderItem.material;
         const group = renderItem.group;
-        if (material.side === DoubleSide && object.layers.test(camera3.layers)) {
+        if (material.side === DoubleSide && object2.layers.test(camera3.layers)) {
           const currentSide = material.side;
           material.side = BackSide;
           material.needsUpdate = true;
-          renderObject(object, scene3, camera3, geometry, material, group);
+          renderObject(object2, scene3, camera3, geometry, material, group);
           material.side = currentSide;
           material.needsUpdate = true;
           renderTargetNeedsUpdate = true;
@@ -19592,41 +20733,41 @@ class WebGLRenderer {
       const overrideMaterial = scene3.isScene === true ? scene3.overrideMaterial : null;
       for (let i = 0, l = renderList.length; i < l; i++) {
         const renderItem = renderList[i];
-        const object = renderItem.object;
+        const object2 = renderItem.object;
         const geometry = renderItem.geometry;
         const material = overrideMaterial === null ? renderItem.material : overrideMaterial;
         const group = renderItem.group;
-        if (object.layers.test(camera3.layers)) {
-          renderObject(object, scene3, camera3, geometry, material, group);
+        if (object2.layers.test(camera3.layers)) {
+          renderObject(object2, scene3, camera3, geometry, material, group);
         }
       }
     }
-    function renderObject(object, scene3, camera3, geometry, material, group) {
-      object.onBeforeRender(_this, scene3, camera3, geometry, material, group);
-      object.modelViewMatrix.multiplyMatrices(camera3.matrixWorldInverse, object.matrixWorld);
-      object.normalMatrix.getNormalMatrix(object.modelViewMatrix);
-      material.onBeforeRender(_this, scene3, camera3, geometry, object, group);
+    function renderObject(object2, scene3, camera3, geometry, material, group) {
+      object2.onBeforeRender(_this, scene3, camera3, geometry, material, group);
+      object2.modelViewMatrix.multiplyMatrices(camera3.matrixWorldInverse, object2.matrixWorld);
+      object2.normalMatrix.getNormalMatrix(object2.modelViewMatrix);
+      material.onBeforeRender(_this, scene3, camera3, geometry, object2, group);
       if (material.transparent === true && material.side === DoubleSide && material.forceSinglePass === false) {
         material.side = BackSide;
         material.needsUpdate = true;
-        _this.renderBufferDirect(camera3, scene3, geometry, material, object, group);
+        _this.renderBufferDirect(camera3, scene3, geometry, material, object2, group);
         material.side = FrontSide;
         material.needsUpdate = true;
-        _this.renderBufferDirect(camera3, scene3, geometry, material, object, group);
+        _this.renderBufferDirect(camera3, scene3, geometry, material, object2, group);
         material.side = DoubleSide;
       } else {
-        _this.renderBufferDirect(camera3, scene3, geometry, material, object, group);
+        _this.renderBufferDirect(camera3, scene3, geometry, material, object2, group);
       }
-      object.onAfterRender(_this, scene3, camera3, geometry, material, group);
+      object2.onAfterRender(_this, scene3, camera3, geometry, material, group);
     }
-    function getProgram(material, scene3, object) {
+    function getProgram(material, scene3, object2) {
       if (scene3.isScene !== true)
         scene3 = _emptyScene;
       const materialProperties = properties.get(material);
       const lights = currentRenderState.state.lights;
       const shadowsArray = currentRenderState.state.shadowsArray;
       const lightsStateVersion = lights.state.version;
-      const parameters2 = programCache.getParameters(material, lights.state, shadowsArray, scene3, object);
+      const parameters2 = programCache.getParameters(material, lights.state, shadowsArray, scene3, object2);
       const programCacheKey = programCache.getProgramCacheKey(parameters2);
       let programs = materialProperties.programs;
       materialProperties.environment = material.isMeshStandardMaterial ? scene3.environment : null;
@@ -19645,7 +20786,7 @@ class WebGLRenderer {
         }
       } else {
         parameters2.uniforms = programCache.getUniforms(material);
-        material.onBuild(object, parameters2, _this);
+        material.onBuild(object2, parameters2, _this);
         material.onBeforeCompile(parameters2, _this);
         program = programCache.acquireProgram(parameters2, programCacheKey);
         programs.set(programCacheKey, program);
@@ -19701,7 +20842,7 @@ class WebGLRenderer {
       materialProperties.vertexTangents = parameters2.vertexTangents;
       materialProperties.toneMapping = parameters2.toneMapping;
     }
-    function setProgram(camera3, scene3, geometry, material, object) {
+    function setProgram(camera3, scene3, geometry, material, object2) {
       if (scene3.isScene !== true)
         scene3 = _emptyScene;
       textures.resetTextureUnits();
@@ -19736,17 +20877,17 @@ class WebGLRenderer {
           needsProgramChange = true;
         } else if (materialProperties.outputColorSpace !== colorSpace) {
           needsProgramChange = true;
-        } else if (object.isInstancedMesh && materialProperties.instancing === false) {
+        } else if (object2.isInstancedMesh && materialProperties.instancing === false) {
           needsProgramChange = true;
-        } else if (!object.isInstancedMesh && materialProperties.instancing === true) {
+        } else if (!object2.isInstancedMesh && materialProperties.instancing === true) {
           needsProgramChange = true;
-        } else if (object.isSkinnedMesh && materialProperties.skinning === false) {
+        } else if (object2.isSkinnedMesh && materialProperties.skinning === false) {
           needsProgramChange = true;
-        } else if (!object.isSkinnedMesh && materialProperties.skinning === true) {
+        } else if (!object2.isSkinnedMesh && materialProperties.skinning === true) {
           needsProgramChange = true;
-        } else if (object.isInstancedMesh && materialProperties.instancingColor === true && object.instanceColor === null) {
+        } else if (object2.isInstancedMesh && materialProperties.instancingColor === true && object2.instanceColor === null) {
           needsProgramChange = true;
-        } else if (object.isInstancedMesh && materialProperties.instancingColor === false && object.instanceColor !== null) {
+        } else if (object2.isInstancedMesh && materialProperties.instancingColor === false && object2.instanceColor !== null) {
           needsProgramChange = true;
         } else if (materialProperties.envMap !== envMap) {
           needsProgramChange = true;
@@ -19775,7 +20916,7 @@ class WebGLRenderer {
       }
       let program = materialProperties.currentProgram;
       if (needsProgramChange === true) {
-        program = getProgram(material, scene3, object);
+        program = getProgram(material, scene3, object2);
       }
       let refreshProgram = false;
       let refreshMaterial = false;
@@ -19816,14 +20957,14 @@ class WebGLRenderer {
         if (material.isMeshPhongMaterial || material.isMeshToonMaterial || material.isMeshLambertMaterial || material.isMeshBasicMaterial || material.isMeshStandardMaterial || material.isShaderMaterial) {
           p_uniforms.setValue(_gl, "isOrthographic", camera3.isOrthographicCamera === true);
         }
-        if (material.isMeshPhongMaterial || material.isMeshToonMaterial || material.isMeshLambertMaterial || material.isMeshBasicMaterial || material.isMeshStandardMaterial || material.isShaderMaterial || material.isShadowMaterial || object.isSkinnedMesh) {
+        if (material.isMeshPhongMaterial || material.isMeshToonMaterial || material.isMeshLambertMaterial || material.isMeshBasicMaterial || material.isMeshStandardMaterial || material.isShaderMaterial || material.isShadowMaterial || object2.isSkinnedMesh) {
           p_uniforms.setValue(_gl, "viewMatrix", camera3.matrixWorldInverse);
         }
       }
-      if (object.isSkinnedMesh) {
-        p_uniforms.setOptional(_gl, object, "bindMatrix");
-        p_uniforms.setOptional(_gl, object, "bindMatrixInverse");
-        const skeleton = object.skeleton;
+      if (object2.isSkinnedMesh) {
+        p_uniforms.setOptional(_gl, object2, "bindMatrix");
+        p_uniforms.setOptional(_gl, object2, "bindMatrixInverse");
+        const skeleton = object2.skeleton;
         if (skeleton) {
           if (capabilities.floatVertexTextures) {
             if (skeleton.boneTexture === null)
@@ -19837,11 +20978,11 @@ class WebGLRenderer {
       }
       const morphAttributes = geometry.morphAttributes;
       if (morphAttributes.position !== void 0 || morphAttributes.normal !== void 0 || morphAttributes.color !== void 0 && capabilities.isWebGL2 === true) {
-        morphtargets.update(object, geometry, program);
+        morphtargets.update(object2, geometry, program);
       }
-      if (refreshMaterial || materialProperties.receiveShadow !== object.receiveShadow) {
-        materialProperties.receiveShadow = object.receiveShadow;
-        p_uniforms.setValue(_gl, "receiveShadow", object.receiveShadow);
+      if (refreshMaterial || materialProperties.receiveShadow !== object2.receiveShadow) {
+        materialProperties.receiveShadow = object2.receiveShadow;
+        p_uniforms.setValue(_gl, "receiveShadow", object2.receiveShadow);
       }
       if (material.isMeshGouraudMaterial && material.envMap !== null) {
         m_uniforms.envMap.value = envMap;
@@ -19863,11 +21004,11 @@ class WebGLRenderer {
         material.uniformsNeedUpdate = false;
       }
       if (material.isSpriteMaterial) {
-        p_uniforms.setValue(_gl, "center", object.center);
+        p_uniforms.setValue(_gl, "center", object2.center);
       }
-      p_uniforms.setValue(_gl, "modelViewMatrix", object.modelViewMatrix);
-      p_uniforms.setValue(_gl, "normalMatrix", object.normalMatrix);
-      p_uniforms.setValue(_gl, "modelMatrix", object.matrixWorld);
+      p_uniforms.setValue(_gl, "modelViewMatrix", object2.modelViewMatrix);
+      p_uniforms.setValue(_gl, "normalMatrix", object2.normalMatrix);
+      p_uniforms.setValue(_gl, "modelMatrix", object2.matrixWorld);
       if (material.isShaderMaterial || material.isRawShaderMaterial) {
         const groups = material.uniformsGroups;
         for (let i = 0, l = groups.length; i < l; i++) {
@@ -20005,19 +21146,19 @@ class WebGLRenderer {
           const texture = renderTarget.texture;
           const textureFormat = texture.format;
           const textureType = texture.type;
-          if (textureFormat !== RGBAFormat && utils.convert(textureFormat) !== _gl.getParameter(_gl.IMPLEMENTATION_COLOR_READ_FORMAT)) {
+          if (textureFormat !== RGBAFormat && utils2.convert(textureFormat) !== _gl.getParameter(_gl.IMPLEMENTATION_COLOR_READ_FORMAT)) {
             console.error("THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not in RGBA or implementation defined format.");
             return;
           }
           const halfFloatSupportedByExt = textureType === HalfFloatType && (extensions.has("EXT_color_buffer_half_float") || capabilities.isWebGL2 && extensions.has("EXT_color_buffer_float"));
-          if (textureType !== UnsignedByteType && utils.convert(textureType) !== _gl.getParameter(_gl.IMPLEMENTATION_COLOR_READ_TYPE) && // Edge and Chrome Mac < 52 (#9513)
+          if (textureType !== UnsignedByteType && utils2.convert(textureType) !== _gl.getParameter(_gl.IMPLEMENTATION_COLOR_READ_TYPE) && // Edge and Chrome Mac < 52 (#9513)
           !(textureType === FloatType && (capabilities.isWebGL2 || extensions.has("OES_texture_float") || extensions.has("WEBGL_color_buffer_float"))) && // Chrome Mac >= 52 and Firefox
           !halfFloatSupportedByExt) {
             console.error("THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not in UnsignedByteType or implementation defined type.");
             return;
           }
           if (x2 >= 0 && x2 <= renderTarget.width - width && (y2 >= 0 && y2 <= renderTarget.height - height)) {
-            _gl.readPixels(x2, y2, width, height, utils.convert(textureFormat), utils.convert(textureType), buffer);
+            _gl.readPixels(x2, y2, width, height, utils2.convert(textureFormat), utils2.convert(textureType), buffer);
           }
         } finally {
           const framebuffer2 = _currentRenderTarget !== null ? properties.get(_currentRenderTarget).__webglFramebuffer : null;
@@ -20036,8 +21177,8 @@ class WebGLRenderer {
     this.copyTextureToTexture = function(position, srcTexture, dstTexture, level = 0) {
       const width = srcTexture.image.width;
       const height = srcTexture.image.height;
-      const glFormat = utils.convert(dstTexture.format);
-      const glType = utils.convert(dstTexture.type);
+      const glFormat = utils2.convert(dstTexture.format);
+      const glType = utils2.convert(dstTexture.type);
       textures.setTexture2D(dstTexture, 0);
       _gl.pixelStorei(_gl.UNPACK_FLIP_Y_WEBGL, dstTexture.flipY);
       _gl.pixelStorei(_gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, dstTexture.premultiplyAlpha);
@@ -20063,8 +21204,8 @@ class WebGLRenderer {
       const width = sourceBox.max.x - sourceBox.min.x + 1;
       const height = sourceBox.max.y - sourceBox.min.y + 1;
       const depth2 = sourceBox.max.z - sourceBox.min.z + 1;
-      const glFormat = utils.convert(dstTexture.format);
-      const glType = utils.convert(dstTexture.type);
+      const glFormat = utils2.convert(dstTexture.format);
+      const glType = utils2.convert(dstTexture.type);
       let glTarget;
       if (dstTexture.isData3DTexture) {
         textures.setTexture3D(dstTexture, 0);
@@ -21856,18 +22997,18 @@ class LightShadow {
     return new this.constructor().copy(this);
   }
   toJSON() {
-    const object = {};
+    const object2 = {};
     if (this.bias !== 0)
-      object.bias = this.bias;
+      object2.bias = this.bias;
     if (this.normalBias !== 0)
-      object.normalBias = this.normalBias;
+      object2.normalBias = this.normalBias;
     if (this.radius !== 1)
-      object.radius = this.radius;
+      object2.radius = this.radius;
     if (this.mapSize.x !== 512 || this.mapSize.y !== 512)
-      object.mapSize = this.mapSize.toArray();
-    object.camera = this.camera.toJSON(false).object;
-    delete object.camera.matrix;
-    return object;
+      object2.mapSize = this.mapSize.toArray();
+    object2.camera = this.camera.toJSON(false).object;
+    delete object2.camera.matrix;
+    return object2;
   }
 }
 class DirectionalLightShadow extends LightShadow {
@@ -21975,8 +23116,8 @@ class Raycaster {
       console.error("THREE.Raycaster: Unsupported camera type: " + camera3.type);
     }
   }
-  intersectObject(object, recursive = true, intersects = []) {
-    intersectObject(object, this, intersects, recursive);
+  intersectObject(object2, recursive = true, intersects = []) {
+    intersectObject(object2, this, intersects, recursive);
     intersects.sort(ascSort);
     return intersects;
   }
@@ -21991,12 +23132,12 @@ class Raycaster {
 function ascSort(a2, b) {
   return a2.distance - b.distance;
 }
-function intersectObject(object, raycaster, intersects, recursive) {
-  if (object.layers.test(raycaster.layers)) {
-    object.raycast(raycaster, intersects);
+function intersectObject(object2, raycaster, intersects, recursive) {
+  if (object2.layers.test(raycaster.layers)) {
+    object2.raycast(raycaster, intersects);
   }
   if (recursive === true) {
-    const children = object.children;
+    const children = object2.children;
     for (let i = 0, l = children.length; i < l; i++) {
       intersectObject(children[i], raycaster, intersects, true);
     }
@@ -22067,9 +23208,9 @@ class CSS2DObject extends Object3D {
     this.element.setAttribute("draggable", false);
     this.center = new Vector2(0.5, 0.5);
     this.addEventListener("removed", function() {
-      this.traverse(function(object) {
-        if (object.element instanceof Element && object.element.parentNode !== null) {
-          object.element.parentNode.removeChild(object.element);
+      this.traverse(function(object2) {
+        if (object2.element instanceof Element && object2.element.parentNode !== null) {
+          object2.element.parentNode.removeChild(object2.element);
         }
       });
     });
@@ -22121,28 +23262,28 @@ class CSS2DRenderer {
       domElement.style.width = width + "px";
       domElement.style.height = height + "px";
     };
-    function renderObject(object, scene3, camera3) {
-      if (object.isCSS2DObject) {
-        _vector.setFromMatrixPosition(object.matrixWorld);
+    function renderObject(object2, scene3, camera3) {
+      if (object2.isCSS2DObject) {
+        _vector.setFromMatrixPosition(object2.matrixWorld);
         _vector.applyMatrix4(_viewProjectionMatrix);
-        const visible = object.visible === true && (_vector.z >= -1 && _vector.z <= 1) && object.layers.test(camera3.layers) === true;
-        object.element.style.display = visible === true ? "" : "none";
+        const visible = object2.visible === true && (_vector.z >= -1 && _vector.z <= 1) && object2.layers.test(camera3.layers) === true;
+        object2.element.style.display = visible === true ? "" : "none";
         if (visible === true) {
-          object.onBeforeRender(_this, scene3, camera3);
-          const element = object.element;
-          element.style.transform = "translate(" + -100 * object.center.x + "%," + -100 * object.center.y + "%)translate(" + (_vector.x * _widthHalf + _widthHalf) + "px," + (-_vector.y * _heightHalf + _heightHalf) + "px)";
+          object2.onBeforeRender(_this, scene3, camera3);
+          const element = object2.element;
+          element.style.transform = "translate(" + -100 * object2.center.x + "%," + -100 * object2.center.y + "%)translate(" + (_vector.x * _widthHalf + _widthHalf) + "px," + (-_vector.y * _heightHalf + _heightHalf) + "px)";
           if (element.parentNode !== domElement) {
             domElement.appendChild(element);
           }
-          object.onAfterRender(_this, scene3, camera3);
+          object2.onAfterRender(_this, scene3, camera3);
         }
         const objectData = {
-          distanceToCameraSquared: getDistanceToSquared(camera3, object)
+          distanceToCameraSquared: getDistanceToSquared(camera3, object2)
         };
-        cache.objects.set(object, objectData);
+        cache.objects.set(object2, objectData);
       }
-      for (let i = 0, l = object.children.length; i < l; i++) {
-        renderObject(object.children[i], scene3, camera3);
+      for (let i = 0, l = object2.children.length; i < l; i++) {
+        renderObject(object2.children[i], scene3, camera3);
       }
     }
     function getDistanceToSquared(object1, object2) {
@@ -22152,9 +23293,9 @@ class CSS2DRenderer {
     }
     function filterAndFlatten(scene3) {
       const result = [];
-      scene3.traverse(function(object) {
-        if (object.isCSS2DObject)
-          result.push(object);
+      scene3.traverse(function(object2) {
+        if (object2.isCSS2DObject)
+          result.push(object2);
       });
       return result;
     }
@@ -22227,17 +23368,17 @@ class DragControls extends EventDispatcher {
         _raycaster.setFromCamera(_pointer, _camera2);
         _raycaster.intersectObjects(_objects, true, _intersections);
         if (_intersections.length > 0) {
-          const object = _intersections[0].object;
-          _plane$1.setFromNormalAndCoplanarPoint(_camera2.getWorldDirection(_plane$1.normal), _worldPosition.setFromMatrixPosition(object.matrixWorld));
-          if (_hovered !== object && _hovered !== null) {
+          const object2 = _intersections[0].object;
+          _plane$1.setFromNormalAndCoplanarPoint(_camera2.getWorldDirection(_plane$1.normal), _worldPosition.setFromMatrixPosition(object2.matrixWorld));
+          if (_hovered !== object2 && _hovered !== null) {
             scope.dispatchEvent({ type: "hoveroff", object: _hovered });
             _domElement.style.cursor = "auto";
             _hovered = null;
           }
-          if (_hovered !== object) {
-            scope.dispatchEvent({ type: "hoveron", object });
+          if (_hovered !== object2) {
+            scope.dispatchEvent({ type: "hoveron", object: object2 });
             _domElement.style.cursor = "pointer";
-            _hovered = object;
+            _hovered = object2;
           }
         } else {
           if (_hovered !== null) {
@@ -23446,9 +24587,6 @@ function forceRadial(radius, x2, y2, z2) {
     return arguments.length ? (z2 = +_, force) : z2;
   };
   return force;
-}
-function getDefaultExportFromCjs(x2) {
-  return x2 && x2.__esModule && Object.prototype.hasOwnProperty.call(x2, "default") ? x2["default"] : x2;
 }
 var ngraph_events = function eventify(subject) {
   validateSubject(subject);
@@ -24739,7 +25877,7 @@ function requireNgraph_random() {
       throw new Error("customRandom does not match expected API: next() function is missing");
     }
     return {
-      forEach,
+      forEach: forEach2,
       /**
        * Shuffles array randomly, in place.
        */
@@ -24755,7 +25893,7 @@ function requireNgraph_random() {
       }
       return array;
     }
-    function forEach(callback) {
+    function forEach2(callback) {
       var i, j, t;
       for (i = array.length - 1; i > 0; --i) {
         j = localRandom.next(i + 1);
@@ -25740,20 +26878,20 @@ function index$2(_ref2) {
       updateFn.call(comp, state, changedProps);
       changedProps = {};
     }, 1);
-    props.forEach(function(prop) {
-      comp[prop.name] = getSetProp(prop);
+    props.forEach(function(prop2) {
+      comp[prop2.name] = getSetProp(prop2);
       function getSetProp(_ref3) {
-        var prop2 = _ref3.name, _ref3$triggerUpdate = _ref3.triggerUpdate, redigest = _ref3$triggerUpdate === void 0 ? false : _ref3$triggerUpdate, _ref3$onChange = _ref3.onChange, onChange13 = _ref3$onChange === void 0 ? function(newVal, state2) {
+        var prop3 = _ref3.name, _ref3$triggerUpdate = _ref3.triggerUpdate, redigest = _ref3$triggerUpdate === void 0 ? false : _ref3$triggerUpdate, _ref3$onChange = _ref3.onChange, onChange13 = _ref3$onChange === void 0 ? function(newVal, state2) {
         } : _ref3$onChange, _ref3$defaultVal = _ref3.defaultVal, defaultVal = _ref3$defaultVal === void 0 ? null : _ref3$defaultVal;
         return function(_) {
-          var curVal = state[prop2];
+          var curVal = state[prop3];
           if (!arguments.length) {
             return curVal;
           }
           var val = _ === void 0 ? defaultVal : _;
-          state[prop2] = val;
+          state[prop3] = val;
           onChange13.call(comp, val, state, curVal);
-          !changedProps.hasOwnProperty(prop2) && (changedProps[prop2] = curVal);
+          !changedProps.hasOwnProperty(prop3) && (changedProps[prop3] = curVal);
           if (redigest) {
             digest();
           }
@@ -25775,8 +26913,8 @@ function index$2(_ref2) {
       return comp[alias] = comp[target];
     });
     comp.resetProps = function() {
-      props.forEach(function(prop) {
-        comp[prop.name](prop.defaultVal);
+      props.forEach(function(prop2) {
+        comp[prop2.name](prop2.defaultVal);
       });
       return comp;
     };
@@ -26015,12 +27153,12 @@ function _iterableToArrayLimit$2(arr, i) {
     return _arr;
   }
 }
-function ownKeys$2(object, enumerableOnly) {
-  var keys = Object.keys(object);
+function ownKeys$2(object2, enumerableOnly) {
+  var keys = Object.keys(object2);
   if (Object.getOwnPropertySymbols) {
-    var symbols = Object.getOwnPropertySymbols(object);
+    var symbols = Object.getOwnPropertySymbols(object2);
     enumerableOnly && (symbols = symbols.filter(function(sym) {
-      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      return Object.getOwnPropertyDescriptor(object2, sym).enumerable;
     })), keys.push.apply(keys, symbols);
   }
   return keys;
@@ -27245,12 +28383,12 @@ function _iterableToArrayLimit$1(arr, i) {
     return _arr;
   }
 }
-function ownKeys$1(object, enumerableOnly) {
-  var keys = Object.keys(object);
+function ownKeys$1(object2, enumerableOnly) {
+  var keys = Object.keys(object2);
   if (Object.getOwnPropertySymbols) {
-    var symbols = Object.getOwnPropertySymbols(object);
+    var symbols = Object.getOwnPropertySymbols(object2);
     enumerableOnly && (symbols = symbols.filter(function(sym) {
-      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      return Object.getOwnPropertyDescriptor(object2, sym).enumerable;
     })), keys.push.apply(keys, symbols);
   }
   return keys;
@@ -28639,11 +29777,11 @@ const _changeEvent$2 = { type: "change" };
 const _startEvent$1 = { type: "start" };
 const _endEvent$1 = { type: "end" };
 class TrackballControls extends EventDispatcher {
-  constructor(object, domElement) {
+  constructor(object2, domElement) {
     super();
     const scope = this;
     const STATE = { NONE: -1, ROTATE: 0, ZOOM: 1, PAN: 2, TOUCH_ROTATE: 3, TOUCH_ZOOM_PAN: 4 };
-    this.object = object;
+    this.object = object2;
     this.domElement = domElement;
     this.domElement.style.touchAction = "none";
     this.enabled = true;
@@ -29095,9 +30233,9 @@ const _ray = new Ray();
 const _plane = new Plane();
 const TILT_LIMIT = Math.cos(70 * MathUtils.DEG2RAD);
 class OrbitControls extends EventDispatcher {
-  constructor(object, domElement) {
+  constructor(object2, domElement) {
     super();
-    this.object = object;
+    this.object = object2;
     this.domElement = domElement;
     this.domElement.style.touchAction = "none";
     this.enabled = true;
@@ -29163,7 +30301,7 @@ class OrbitControls extends EventDispatcher {
     };
     this.update = function() {
       const offset = new Vector3();
-      const quat = new Quaternion().setFromUnitVectors(object.up, new Vector3(0, 1, 0));
+      const quat = new Quaternion().setFromUnitVectors(object2.up, new Vector3(0, 1, 0));
       const quatInverse = quat.clone().invert();
       const lastPosition = new Vector3();
       const lastQuaternion = new Quaternion();
@@ -29256,7 +30394,7 @@ class OrbitControls extends EventDispatcher {
               _ray.origin.copy(scope.object.position);
               _ray.direction.set(0, 0, -1).transformDirection(scope.object.matrix);
               if (Math.abs(scope.object.up.dot(_ray.direction)) < TILT_LIMIT) {
-                object.lookAt(scope.target);
+                object2.lookAt(scope.target);
               } else {
                 _plane.setFromNormalAndCoplanarPoint(scope.object.up, scope.target);
                 _ray.intersectPlane(_plane, scope.target);
@@ -29405,7 +30543,7 @@ class OrbitControls extends EventDispatcher {
       const h = rect.height;
       mouse.x = x2 / w * 2 - 1;
       mouse.y = -(y2 / h) * 2 + 1;
-      dollyDirection.set(mouse.x, mouse.y, 1).unproject(object).sub(object.position).normalize();
+      dollyDirection.set(mouse.x, mouse.y, 1).unproject(object2).sub(object2.position).normalize();
     }
     function clampDistance(dist) {
       return Math.max(scope.minDistance, Math.min(scope.maxDistance, dist));
@@ -29819,9 +30957,9 @@ class OrbitControls extends EventDispatcher {
 }
 const _changeEvent = { type: "change" };
 class FlyControls extends EventDispatcher {
-  constructor(object, domElement) {
+  constructor(object2, domElement) {
     super();
-    this.object = object;
+    this.object = object2;
     this.domElement = domElement;
     this.enabled = true;
     this.movementSpeed = 1;
@@ -31296,8 +32434,8 @@ var Tween = (
         this._propertiesAreSetUp = true;
         if (!this._isDynamic) {
           var tmp2 = {};
-          for (var prop in this._valuesEnd)
-            tmp2[prop] = this._valuesEnd[prop];
+          for (var prop2 in this._valuesEnd)
+            tmp2[prop2] = this._valuesEnd[prop2];
           this._valuesEnd = tmp2;
         }
         this._setupProperties(this._object, this._valuesStart, this._valuesEnd, this._valuesStartRepeat, overrideStartingValues);
@@ -31338,15 +32476,15 @@ var Tween = (
         if ((propType === "object" || startValueIsArray) && startValue && !isInterpolationList) {
           _valuesStart[property] = startValueIsArray ? [] : {};
           var nestedObject = startValue;
-          for (var prop in nestedObject) {
-            _valuesStart[property][prop] = nestedObject[prop];
+          for (var prop2 in nestedObject) {
+            _valuesStart[property][prop2] = nestedObject[prop2];
           }
           _valuesStartRepeat[property] = startValueIsArray ? [] : {};
           var endValues = _valuesEnd[property];
           if (!this._isDynamic) {
             var tmp2 = {};
-            for (var prop in endValues)
-              tmp2[prop] = endValues[prop];
+            for (var prop2 in endValues)
+              tmp2[prop2] = endValues[prop2];
             _valuesEnd[property] = endValues = tmp2;
           }
           this._setupProperties(nestedObject, _valuesStart[property], endValues, _valuesStartRepeat[property], overrideStartingValues);
@@ -32239,12 +33377,12 @@ function styleInject(css, ref) {
 }
 var css_248z = ".graph-info-msg {\n  top: 50%;\n  width: 100%;\n  text-align: center;\n  color: lavender;\n  opacity: 0.7;\n  font-size: 22px;\n  position: absolute;\n  font-family: Sans-serif;\n}\n\n.scene-container .clickable {\n  cursor: pointer;\n}\n\n.scene-container .grabbable {\n  cursor: move;\n  cursor: grab;\n  cursor: -moz-grab;\n  cursor: -webkit-grab;\n}\n\n.scene-container .grabbable:active {\n  cursor: grabbing;\n  cursor: -moz-grabbing;\n  cursor: -webkit-grabbing;\n}";
 styleInject(css_248z);
-function ownKeys(object, enumerableOnly) {
-  var keys = Object.keys(object);
+function ownKeys(object2, enumerableOnly) {
+  var keys = Object.keys(object2);
   if (Object.getOwnPropertySymbols) {
-    var symbols = Object.getOwnPropertySymbols(object);
+    var symbols = Object.getOwnPropertySymbols(object2);
     enumerableOnly && (symbols = symbols.filter(function(sym) {
-      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      return Object.getOwnPropertyDescriptor(object2, sym).enumerable;
     })), keys.push.apply(keys, symbols);
   }
   return keys;
@@ -32328,11 +33466,11 @@ function linkKapsule(kapsulePropName, kapsuleType) {
   var dummyK = new kapsuleType();
   dummyK._destructor && dummyK._destructor();
   return {
-    linkProp: function linkProp(prop) {
+    linkProp: function linkProp(prop2) {
       return {
-        "default": dummyK[prop](),
+        "default": dummyK[prop2](),
         onChange: function onChange13(v, state) {
-          state[kapsulePropName][prop](v);
+          state[kapsulePropName][prop2](v);
         },
         triggerUpdate: false
       };
@@ -32697,15 +33835,15 @@ var _3dForceGraph = index$2({
     this._animationCycle();
   }
 });
-function getGraphObj(object) {
-  var obj = object;
+function getGraphObj(object2) {
+  var obj = object2;
   while (obj && !obj.hasOwnProperty("__graphObjType")) {
     obj = obj.parent;
   }
   return obj;
 }
 const skills_component = "";
-const _tmpl$$4 = /* @__PURE__ */ template(`<div class="skills-wrapper"><div><button class="button">Deactivate Skill-Tree</button></div><div><button class="button">Reveal my Skill-Tree</button></div><div></div><div><button class="button">Deactivate Skill-Tree`);
+const _tmpl$$5 = /* @__PURE__ */ template(`<div><div class="title">Skills</div><div class="card skills"><div class="skills-wrapper"><div><button class="button">Deactivate Skill-Tree</button></div><div><button class="button">Reveal my Skill-Tree</button></div><div></div><div><button class="button">Deactivate Skill-Tree`);
 function Skills() {
   let graph2;
   onMount(() => initTree(graph2));
@@ -33092,17 +34230,24 @@ function Skills() {
       });
     }, 1e3 / 30);
     let lastWidth = 0;
-    function refreshWidth() {
+    function refreshWidth(triggerRecheck, force) {
       const width = graphElement.offsetWidth;
-      if (lastWidth === width) {
-        requestAnimationFrame(() => refreshWidth());
+      if (lastWidth === width && !force) {
+        if (triggerRecheck) {
+          requestAnimationFrame(() => refreshWidth(true, force));
+        }
         return;
       }
       myGraph.width(width);
+      console.log("Updated to ", width);
       lastWidth = width;
-      requestAnimationFrame(() => refreshWidth());
+      if (triggerRecheck) {
+        requestAnimationFrame(() => refreshWidth(true, force));
+      }
     }
-    requestAnimationFrame(() => refreshWidth());
+    requestAnimationFrame(() => refreshWidth(true, true));
+    document.addEventListener("resize", () => refreshWidth(false, true));
+    elementResizeDetectorMaker().listenTo(graphElement, () => refreshWidth(false));
   }
   function isChildOf(parent, child, links) {
     let currentChildId = child.id;
@@ -33192,17 +34337,17 @@ function Skills() {
     return node;
   }
   return (() => {
-    const _el$ = _tmpl$$4(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.firstChild, _el$6 = _el$4.nextSibling, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild;
-    _el$3.$$click = () => setDisabled(!disabled());
-    _el$5.$$click = () => setDisabled(!disabled());
-    const _ref$ = graph2;
-    typeof _ref$ === "function" ? use(_ref$, _el$6) : graph2 = _el$6;
+    const _el$ = _tmpl$$5(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$10 = _el$9.nextSibling, _el$11 = _el$10.firstChild;
+    _el$6.$$click = () => setDisabled(!disabled());
     _el$8.$$click = () => setDisabled(!disabled());
+    const _ref$ = graph2;
+    typeof _ref$ === "function" ? use(_ref$, _el$9) : graph2 = _el$9;
+    _el$11.$$click = () => setDisabled(!disabled());
     createRenderEffect((_p$) => {
       const _v$ = "deactivate-toggle " + (disabled() ? "active" : ""), _v$2 = "card overlay " + (disabled() ? "active" : ""), _v$3 = "deactivate-toggle " + (disabled() ? "active" : "");
-      _v$ !== _p$._v$ && className(_el$2, _p$._v$ = _v$);
-      _v$2 !== _p$._v$2 && className(_el$4, _p$._v$2 = _v$2);
-      _v$3 !== _p$._v$3 && className(_el$7, _p$._v$3 = _v$3);
+      _v$ !== _p$._v$ && className(_el$5, _p$._v$ = _v$);
+      _v$2 !== _p$._v$2 && className(_el$7, _p$._v$2 = _v$2);
+      _v$3 !== _p$._v$3 && className(_el$10, _p$._v$3 = _v$3);
       return _p$;
     }, {
       _v$: void 0,
@@ -33214,10 +34359,10 @@ function Skills() {
 }
 delegateEvents(["click"]);
 const project_component = "";
-const _tmpl$$3 = /* @__PURE__ */ template(`<div class="card project"><div class="project__title"></div><div class="project__image"><img></div><div class="project__description"></div><div class="project_tech_stack dp-f g-8 mt-16 fw-wrap">`), _tmpl$2$2 = /* @__PURE__ */ template(`<div class="tag">`);
+const _tmpl$$4 = /* @__PURE__ */ template(`<div class="card project"><div class="project__title"></div><div class="project__image"><img></div><div class="project__description"></div><div class="project_tech_stack dp-f g-8 mt-16 fw-wrap">`), _tmpl$2$2 = /* @__PURE__ */ template(`<div class="tag">`);
 function Project(props) {
   return (() => {
-    const _el$ = _tmpl$$3(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling, _el$6 = _el$5.nextSibling;
+    const _el$ = _tmpl$$4(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling, _el$6 = _el$5.nextSibling;
     insert(_el$2, () => props.title);
     insert(_el$5, () => props.children);
     insert(_el$6, createComponent(For, {
@@ -33234,62 +34379,74 @@ function Project(props) {
     return _el$;
   })();
 }
-const _tmpl$$2 = /* @__PURE__ */ template(`<p>avsn.de (short for: adventurespiele.net) is a german news magazine about video games. Specifically spoken, it's about adventure video games. It offers &gt; 1000 walkthroughs through games, rates &gt; 300 games in form of reviews and provides almost every kind of material to players: Trailers, Screenshots, Patches, Savegames and many more.`), _tmpl$2$1 = /* @__PURE__ */ template(`<p>It also offers a video game database which causes the whole website database to be &gt; 150 MB. This part of the website contains data about any video game of the genre, including release dates, publisher and developer information, runtime requirements, system requirements and so on.`), _tmpl$3 = /* @__PURE__ */ template(`<p>I am the system administrator of this project and actively develop this platform since 2006.`), _tmpl$4 = /* @__PURE__ */ template(`<p>strawberry-py is a rest api framework written by me. It enables developers to easily write APIs in a form known from ASP.NET for C# or SpringBoot for Java. It uses decorators to declare controllers, endpoints and parameters.`), _tmpl$5 = /* @__PURE__ */ template(`<p>The AWS SSO console is a tool for working on multiple AWS accounts at the same time, while not having to re-login to another account using the SSO login feature.`), _tmpl$6 = /* @__PURE__ */ template(`<p>The issue with the usual web console is that you can only use one account at one time. Switching accounts - even in a different browser tab - causes the old session to invalidate, not being usable anymore.`), _tmpl$7 = /* @__PURE__ */ template(`<p>This tool actually creates individual browser session using electron browser windows, resulting in having different session instances with a unique cookie set. The login and session cookies are being shared automatically though, so you do not have to login every time you need a new session.`), _tmpl$8 = /* @__PURE__ */ template(`<p>This tool was written by me and is available as an electron app for Windows (Installer), Linux (Snap) and Mac (pkg). For Mac Users, it also supports native window tabs, so there's no need to manage multiple windows. They are all grouped into one using tabs. This way, you would have the same experience as if you are working in a browser.`), _tmpl$9 = /* @__PURE__ */ template(`<p>Skwid aims to be a Makefile replacement and a multi-technology project manager at the same time.`), _tmpl$10 = /* @__PURE__ */ template(`<ul><li>A modular project configuration, including tasks, variables and more.</li><li>A single definition language, independent from the technology used.</li><li>Declarative and documentable definition language.</li><li>Logical Flow Control of your project processes</li><li>Pluggable job system - Missing something? Add it! o/`), _tmpl$11 = /* @__PURE__ */ template(`<p>This tool was written by me and for now, it is available as an app for Mac OS and Linux based Systems only. In the future, I plan to release it for Windows, too. It should also be available as chocolatey, snap/apt and brew package, without the need to install Node.js`), _tmpl$12 = /* @__PURE__ */ template(`<p>Shoplet is a private project of mine with a focus on support small shoplets`), _tmpl$13 = /* @__PURE__ */ template(`<ul><li>It is built upon the serverless way of thinking.</li><li>Except for Keycloak and the relational databases, all required tools and services are using serverless services of AWS.</li><li>Frontend build with the newcomer framework solidjs</li><li>Docker and docker-compose for local environments`);
+const _tmpl$$3 = /* @__PURE__ */ template(`<p>avsn.de (short for: adventurespiele.net) is a german news magazine about video games. Specifically spoken, it's about adventure video games. It offers &gt; 1000 walkthroughs through games, rates &gt; 300 games in form of reviews and provides almost every kind of material to players: Trailers, Screenshots, Patches, Savegames and many more.`), _tmpl$2$1 = /* @__PURE__ */ template(`<p>It also offers a video game database which causes the whole website database to be &gt; 150 MB. This part of the website contains data about any video game of the genre, including release dates, publisher and developer information, runtime requirements, system requirements and so on.`), _tmpl$3 = /* @__PURE__ */ template(`<p>I am the system administrator of this project and actively develop this platform since 2006.`), _tmpl$4 = /* @__PURE__ */ template(`<p>strawberry-py is a rest api framework written by me. It enables developers to easily write APIs in a form known from ASP.NET for C# or SpringBoot for Java. It uses decorators to declare controllers, endpoints and parameters.`), _tmpl$5 = /* @__PURE__ */ template(`<p>The AWS SSO console is a tool for working on multiple AWS accounts at the same time, while not having to re-login to another account using the SSO login feature.`), _tmpl$6 = /* @__PURE__ */ template(`<p>The issue with the usual web console is that you can only use one account at one time. Switching accounts - even in a different browser tab - causes the old session to invalidate, not being usable anymore.`), _tmpl$7 = /* @__PURE__ */ template(`<p>This tool actually creates individual browser session using electron browser windows, resulting in having different session instances with a unique cookie set. The login and session cookies are being shared automatically though, so you do not have to login every time you need a new session.`), _tmpl$8 = /* @__PURE__ */ template(`<p>This tool was written by me and is available as an electron app for Windows (Installer), Linux (Snap) and Mac (pkg). For Mac Users, it also supports native window tabs, so there's no need to manage multiple windows. They are all grouped into one using tabs. This way, you would have the same experience as if you are working in a browser.`), _tmpl$9 = /* @__PURE__ */ template(`<p>Skwid aims to be a Makefile replacement and a multi-technology project manager at the same time.`), _tmpl$10 = /* @__PURE__ */ template(`<ul><li>A modular project configuration, including tasks, variables and more.</li><li>A single definition language, independent from the technology used.</li><li>Declarative and documentable definition language.</li><li>Logical Flow Control of your project processes</li><li>Pluggable job system - Missing something? Add it! o/`), _tmpl$11 = /* @__PURE__ */ template(`<p>This tool was written by me and for now, it is available as an app for Mac OS and Linux based Systems only. In the future, I plan to release it for Windows, too. It should also be available as chocolatey, snap/apt and brew package, without the need to install Node.js`), _tmpl$12 = /* @__PURE__ */ template(`<p>Shoplet is a private project of mine with a focus on support small shoplets`), _tmpl$13 = /* @__PURE__ */ template(`<ul><li>It is built upon the serverless way of thinking.</li><li>Except for Keycloak and the relational databases, all required tools and services are using serverless services of AWS.</li><li>Frontend build with the newcomer framework solidjs</li><li>Docker and docker-compose for local environments`), _tmpl$14 = /* @__PURE__ */ template(`<div><div class="title">Projects and references</div><div class="projects">`);
 function Projects() {
-  return [createComponent(Project, {
-    title: "avsn.de",
-    image: "/assets/images/portfolio/avsn.de.png",
-    link: "https://www.avsn.de",
-    techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "PostNuke"],
-    get children() {
-      return [_tmpl$$2(), _tmpl$2$1(), _tmpl$3()];
-    }
-  }), createComponent(Project, {
-    title: "strawberry-py",
-    image: "/assets/images/portfolio/strawberry-py.png",
-    link: "https://www.github.com/Hobart2967/strawberry-py",
-    techStack: ["Python", "OpenApi", "AWS Lambda", "AWS API Gateway"],
-    get children() {
-      return _tmpl$4();
-    }
-  }), createComponent(Project, {
-    title: "aws-sso-console",
-    image: "/assets/images/portfolio/aws-sso-console.png",
-    link: "https://www.github.com/Hobart2967/aws-sso-console",
-    techStack: ["Electron", "TypeScript", "Webpack", "Amazon Web Services Console"],
-    get children() {
-      return [_tmpl$5(), _tmpl$6(), _tmpl$7(), _tmpl$8()];
-    }
-  }), createComponent(Project, {
-    title: "skwid",
-    image: "/assets/images/portfolio/skwid.png",
-    link: "https://www.github.com/codewyre/skwid",
-    techStack: ["Node.js", "TypeScript", "Yarn", "Webpack", "semantic-release", "inversify", "jasmine"],
-    get children() {
-      return [_tmpl$9(), _tmpl$10(), _tmpl$11()];
-    }
-  }), createComponent(Project, {
-    title: "shoplet",
-    image: "/assets/images/portfolio/strawberry-py.png",
-    link: null,
-    techStack: ["docker", "docker-compose", "LocalStack", "Terraform", "solidjs", "Node.js", "TypeScript", "Yarn", "Vite", "Open API", "inversify", "Keycloak", "OpenApi", "tsoa", "AWS", "AWS S3", "AWS DynamoDB", "AWS Lambda", "AWS ApiGateway", "AWS CloudFront", "AWS CloudWatch", "AWS SQS", "AWS Route53", "AWS ACM", "AWS SSM", "AWS RDS"],
-    get children() {
-      return [_tmpl$12(), _tmpl$13(), _tmpl$11()];
-    }
-  })];
+  return (() => {
+    const _el$ = _tmpl$14(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
+    insert(_el$3, createComponent(Project, {
+      title: "avsn.de",
+      image: "/assets/images/portfolio/avsn.de.png",
+      link: "https://www.avsn.de",
+      techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "PostNuke"],
+      get children() {
+        return [_tmpl$$3(), _tmpl$2$1(), _tmpl$3()];
+      }
+    }), null);
+    insert(_el$3, createComponent(Project, {
+      title: "strawberry-py",
+      image: "/assets/images/portfolio/strawberry-py.png",
+      link: "https://www.github.com/Hobart2967/strawberry-py",
+      techStack: ["Python", "OpenApi", "AWS Lambda", "AWS API Gateway"],
+      get children() {
+        return _tmpl$4();
+      }
+    }), null);
+    insert(_el$3, createComponent(Project, {
+      title: "aws-sso-console",
+      image: "/assets/images/portfolio/aws-sso-console.png",
+      link: "https://www.github.com/Hobart2967/aws-sso-console",
+      techStack: ["Electron", "TypeScript", "Webpack", "Amazon Web Services Console"],
+      get children() {
+        return [_tmpl$5(), _tmpl$6(), _tmpl$7(), _tmpl$8()];
+      }
+    }), null);
+    insert(_el$3, createComponent(Project, {
+      title: "skwid",
+      image: "/assets/images/portfolio/skwid.png",
+      link: "https://www.github.com/codewyre/skwid",
+      techStack: ["Node.js", "TypeScript", "Yarn", "Webpack", "semantic-release", "inversify", "jasmine"],
+      get children() {
+        return [_tmpl$9(), _tmpl$10(), _tmpl$11()];
+      }
+    }), null);
+    insert(_el$3, createComponent(Project, {
+      title: "shoplet",
+      image: "/assets/images/portfolio/strawberry-py.png",
+      link: null,
+      techStack: ["docker", "docker-compose", "LocalStack", "Terraform", "solidjs", "Node.js", "TypeScript", "Yarn", "Vite", "Open API", "inversify", "Keycloak", "OpenApi", "tsoa", "AWS", "AWS S3", "AWS DynamoDB", "AWS Lambda", "AWS ApiGateway", "AWS CloudFront", "AWS CloudWatch", "AWS SQS", "AWS Route53", "AWS ACM", "AWS SSM", "AWS RDS"],
+      get children() {
+        return [_tmpl$12(), _tmpl$13(), _tmpl$11()];
+      }
+    }), null);
+    return _el$;
+  })();
 }
 const presentation_view = "";
 const legalDialog = "";
-const _tmpl$$1 = /* @__PURE__ */ template(`<div class="card legal-dialog"><div class="dp-f g-8 header"><div><div><h1>Legal notice for www.marcoklein.engineer</h1><div>Marco Klein</div><div>Weidenweg 18</div><div>50389 Wesseling</div></div><div><h1>Contact</h1><div>Email: <a target="_blank" href="mailto:marcoklein.engineer@outlook.com">marcoklein.engineer&#64;outlook.com</a></div></div></div><div><div><h1>Disclaimer for www.marcoklein.engineer</h1><p>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at <a target="_blank" href="mailto:marcoklein.engineer@outlook.com">marcoklein.engineer&#64;outlook.com</a>.</p><h2>Disclaimers for Marco Klein</h2><p>All the information on this website - https://www.marcoklein.engineer - is published in good faith and for general information purpose only. Marco Klein does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (Marco Klein), is strictly at your own risk. Marco Klein will not be liable for any losses and/or damages in connection with the use of our website.</p><p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</p><p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p><h2>Consent</h2><p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p><h2>Update</h2><p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p></div></div></div><div><h1>Privacy Policy for www.marcoklein.engineer</h1><div>At Marco Klein, accessible from https://www.marcoklein.engineer, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Marco Klein and how we use it.</div><div>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</div><div>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Marco Klein. This policy is not applicable to any information collected offline or via channels other than this website.</div><h2>Consent</h2><div>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</div><h2>Information we collect</h2><div>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</div><div>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</div><div>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</div><h2>How we use your information</h2><div>We use the information we collect in various ways, including to:</div><ul><li>Provide, operate, and maintain our website</li><li>Improve, personalize, and expand our website</li><li>Understand and analyze how you use our website</li><li>Develop new products, services, features, and functionality</li><li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li><li>Send you emails</li><li>Find and prevent fraud</li></ul><h2>Log Files</h2><div>Marco Klein follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</div><h2>Cookies and Web Beacons</h2><div>Like any other website, Marco Klein uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</div><div>For more general information on cookies, please read <a href="https://www.generateprivacypolicy.com/#cookies">the Cookies article on Generate Privacy Policy website</a>.</div><h2>Advertising Partners Privacy Policies</h2><div>You may consult this list to find the Privacy Policy for each of the advertising partners of Marco Klein.</div><div>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Marco Klein, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</div><div>Note that Marco Klein has no access to or control over these cookies that are used by third-party advertisers.</div><h2>Third Party Privacy Policies</h2><div>Marco Klein's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </div><div>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</div><h2>Hosting</h2><div>This website is hosted on GitHub as Github Pages. Please refer to the <a href="https://docs.github.com/en/github/site-policy/global-privacy-practices">Github Global Privacy Practices</a> for more detailed information.</div><h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2><div>Under the CCPA, among other rights, California consumers have the right to:</div><ul><li>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</li><li>Request that a business delete any personal data about the consumer that a business has collected.</li><li>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li></ul><div>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</div><h2>GDPR Data Protection Rights</h2><div>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</div><ul><li>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</li><li>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</li><li>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</li><li>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</li><li>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</li><li>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li></ul><div>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</div><h2>Children's Information</h2><div>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</div><div>Marco Klein does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</div></div><div class="button ta-center mt-16">Close`);
+const _tmpl$$2 = /* @__PURE__ */ template(`<div class="card legal-dialog"><div class="dp-f g-8 header"><div><div><h1>Legal notice for www.marcoklein.engineer</h1><div>Marco Klein</div><div>Weidenweg 18</div><div>50389 Wesseling</div></div><div><h1>Contact</h1><div>Email: <a target="_blank" href="mailto:marcoklein.engineer@outlook.com">marcoklein.engineer&#64;outlook.com</a></div></div></div><div><div><h1>Disclaimer for www.marcoklein.engineer</h1><p>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at <a target="_blank" href="mailto:marcoklein.engineer@outlook.com">marcoklein.engineer&#64;outlook.com</a>.</p><h2>Disclaimers for Marco Klein</h2><p>All the information on this website - https://www.marcoklein.engineer - is published in good faith and for general information purpose only. Marco Klein does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (Marco Klein), is strictly at your own risk. Marco Klein will not be liable for any losses and/or damages in connection with the use of our website.</p><p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</p><p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p><h2>Consent</h2><p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p><h2>Update</h2><p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p></div></div></div><div><h1>Privacy Policy for www.marcoklein.engineer</h1><div>At Marco Klein, accessible from https://www.marcoklein.engineer, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Marco Klein and how we use it.</div><div>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</div><div>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Marco Klein. This policy is not applicable to any information collected offline or via channels other than this website.</div><h2>Consent</h2><div>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</div><h2>Information we collect</h2><div>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</div><div>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</div><div>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</div><h2>How we use your information</h2><div>We use the information we collect in various ways, including to:</div><ul><li>Provide, operate, and maintain our website</li><li>Improve, personalize, and expand our website</li><li>Understand and analyze how you use our website</li><li>Develop new products, services, features, and functionality</li><li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li><li>Send you emails</li><li>Find and prevent fraud</li></ul><h2>Log Files</h2><div>Marco Klein follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</div><h2>Cookies and Web Beacons</h2><div>Like any other website, Marco Klein uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</div><div>For more general information on cookies, please read <a href="https://www.generateprivacypolicy.com/#cookies">the Cookies article on Generate Privacy Policy website</a>.</div><h2>Advertising Partners Privacy Policies</h2><div>You may consult this list to find the Privacy Policy for each of the advertising partners of Marco Klein.</div><div>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Marco Klein, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</div><div>Note that Marco Klein has no access to or control over these cookies that are used by third-party advertisers.</div><h2>Third Party Privacy Policies</h2><div>Marco Klein's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </div><div>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</div><h2>Hosting</h2><div>This website is hosted on GitHub as Github Pages. Please refer to the <a href="https://docs.github.com/en/github/site-policy/global-privacy-practices">Github Global Privacy Practices</a> for more detailed information.</div><h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2><div>Under the CCPA, among other rights, California consumers have the right to:</div><ul><li>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</li><li>Request that a business delete any personal data about the consumer that a business has collected.</li><li>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li></ul><div>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</div><h2>GDPR Data Protection Rights</h2><div>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</div><ul><li>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</li><li>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</li><li>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</li><li>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</li><li>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</li><li>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li></ul><div>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</div><h2>Children's Information</h2><div>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</div><div>Marco Klein does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</div></div><div class="button ta-center mt-16">Close`);
 function LegalDialog(props) {
   return (() => {
-    const _el$ = _tmpl$$1(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.nextSibling;
+    const _el$ = _tmpl$$2(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.nextSibling;
     _el$4.$$click = () => props.onClose();
     return _el$;
   })();
 }
 delegateEvents(["click"]);
-const _tmpl$ = /* @__PURE__ */ template(`<div class="overlay"><div class="overlay-backdrop">`), _tmpl$2 = /* @__PURE__ */ template(`<div class="overlay-wrapper"><div class="head "><div class="nav-links side card"><a target="_blank" class="fa-brands fa-github" href="https://github.com/Hobart2967"></a><a target="_blank" class="fa-brands fa-dev" href="https://dev.to/Hobart2967"></a><a target="_blank" class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/klein-marco/"></a><a target="_blank" class="fa-brands fa-xing" href="https://www.xing.com/profile/Marco_Klein51/cv"></a><a target="_blank" class="fa-solid fa-id-card cv" href="/assets/cv_klein_marco_censored.pdf"></a></div><div class="theme side card"><i class="fa-solid fa-moon"></i></div><div class="legal side card"><i class="fa-solid fa-scale-unbalanced-flip"></i></div></div><div class="content"><div class="body"><div class="dp-f f-row row-wrapper"><div class="dp-f f-col left"><div class="card"><div class="dp-f title-box"><div><div class="me"></div></div><div><h1>Marco Klein</h1><h2>Your passionate Full-Stack Software Engineer.</h2></div></div></div><div class="card"><h3>Me, myself and I</h3><div class="row"><p>I am a full-stack software engineer located in Cologne. Whilst living a great passion for frontend development, I really love to implement backends filling their counterpart with data and business processes.</p><p>Also, my ability to develop databases and the surrounding infrastructure make me feel like I have developed something complete when finishing a product.</p><p>In my free time, I fulfil my passion to coding, cars, music and video games. But before you ask what kind of music: Everything I like! There's no special taste or genre I follow, so that description may suit best :)</p><p>I would describe myself as a team-player, being in love with hand-in-hand work. For example, developing against other developers' machines is really fun to me!</p></div></div><div class="card"><h3>Professional Status</h3><div class="row"><p>Today, I am working for <a href="https://www.belonio.de" target="_blank">Belonio</a> as a full stack developer, who is providing a simple, secure and attractive software solution for providing employee benefits in terms of salary extras.</p></div></div><div class="card"><h3>What I have done so far</h3><div class="row"><p>In the past years, I have been working on several things and target devices. This includes hybrid and native mobile apps, web apps, hybrid native desktop apps, rich clients, websites and many more things.</p><p>Backend-wise I have created different systems with NodeJS, C# and a little Java. This all includes a bunch of REST-Apis, Database Backends and even Database Driven Business Logic.</p><p>I have seen and intensively worked on different infrastructural approaches, such as on-premise, self-hosted SaaS or even AWS Cloudbased systems!</p></div></div><div class="card"><h3>Recent technologies I am working with</h3><div class="dp-f g-8 mt-16 fw-wrap"><div class="tag">Amazon Web Services</div><div class="tag">Java</div><div class="tag">C#</div><div class="tag">TypeScript / JavaScript</div><div class="tag">Docker / Docker Compose</div><div class="tag">Angular</div><div class="tag">Node.js</div><div class="tag">.NET (Core)</div><div class="tag">Vite</div><div class="tag">HTML & CSS (incl. Sass, Scss, Less)</div><div class="tag">Sentry</div><div class="tag">nginx</div><div class="tag">MySQL / MariaDB</div><div class="tag">PostgreSQL</div><div class="tag">Ubuntu</div><div class="tag">Windows</div><div class="tag">Hyper-V</div><div class="tag">UTM</div><div class="tag">macOS</div><div class="tag">Windows Subsystem for Linux</div><div class="tag">Cordova / Capacitor</div><div class="tag">Electron</div><div class="tag">Android SDK</div><div class="tag">iOS</div><div class="tag">express.js</div><div class="tag">Spring Boot</div><div class="tag">Swagger / OpenAPI</div><div class="tag">GitHub</div><div class="tag">GitHub Actions</div><div class="tag">GitHub Packages</div><div class="tag">GitLab</div><div class="tag">Yarn / NPM</div><div class="tag">NuGet</div><div class="tag">Ansible</div><div class="tag">Yeoman</div><div class="tag">Godot</div><div class="tag">Blender</div><div class="tag">Terraform</div><div class="tag">Visual Studio Code</div></div></div><div class="card"><h3>Technologies I have been working with in the past</h3><div class="dp-f g-8 mt-16 fw-wrap"><div class="tag">BitBucket</div><div class="tag">Circle CI</div><div class="tag">Azure DevOps</div><div class="tag">Microsoft SQL Server</div><div class="tag">Microsoft Internet Information Services (IIS)</div><div class="tag">PHP</div><div class="tag">Delphi</div><div class="tag">C++</div><div class="tag">Python</div><div class="tag">React</div><div class="tag">angularjs (Version 1)</div><div class="tag">Vue.js</div><div class="tag">pagerduty</div><div class="tag">logz.io</div><div class="tag">jQuery</div><div class="tag">ASP.NET</div><div class="tag">Webpack</div><div class="tag">Grunt</div><div class="tag">Virtual Box</div><div class="tag">VMWare</div><div class="tag">Jira / Confluence</div><div class="tag">Visual Studio Online / Azure / Team Foundation Server</div><div class="tag">Protractor</div><div class="tag">Cypress</div><div class="tag">Apache HTTP Server</div><div class="tag">IntelliJ</div><div class="tag">Visual Studio</div><div class="tag">Microsoft Test Manager</div><div class="tag">Microsoft Virtual Machine Manager</div><div class="tag">Crystal Reports</div><div class="tag">Oracle Databases</div></div></div></div><div class="dp-f f-col right"><div><div class="title">Skills</div><div class="card skills"></div></div><div><div class="title">Projects and references</div><div class="projects"></div></div><div><div class="title">Hobby Project - Game Engineering</div><div class="card hobby-project gwen"><p>My passion for software development was basically originating from the will to create games. Because I discarded the thought of starting a career as a game developer before my studies, I decided to make it a hobby</p><p>This is why and how my first game engineering project started. Currently, it's called GWEN (Game without extra-ordinary name). It is developed using the awesome Godot Game Engine, and shall become an MMORPG, based on inspiration by games like World of Warcraft, Lord of the Rings Online, ARK, Minecraft and some others that I used to play in my spare time. The project itself is work in progress, screenshots and material may follow.</p><p>In parallel, I try to build a Godot-dedicated library based on common software design patterns that have become established over the last years.</p><div class="screenshots"><img src="/assets/images/gwen/gwen1.png"><img src="/assets/images/gwen/gwen2.png"><img src="/assets/images/gwen/gwen3.png">`);
+const _tmpl$$1 = /* @__PURE__ */ template(`<div><div class="title">Hobby Project - Game Engineering</div><div class="card hobby-project gwen"><p>My passion for software development was basically originating from the will to create games. Because I discarded the thought of starting a career as a game developer before my studies, I decided to make it a hobby</p><p>This is why and how my first game engineering project started. Currently, it's called GWEN (Game without extra-ordinary name). It is developed using the awesome Godot Game Engine, and shall become an MMORPG, based on inspiration by games like World of Warcraft, Lord of the Rings Online, ARK, Minecraft and some others that I used to play in my spare time. The project itself is work in progress, screenshots and material may follow.</p><p>In parallel, I try to build a Godot-dedicated library based on common software design patterns that have become established over the last years.</p><div class="screenshots"><img src="/assets/images/gwen/gwen1.png"><img src="/assets/images/gwen/gwen2.png"><img src="/assets/images/gwen/gwen3.png">`);
+function Gwen() {
+  return _tmpl$$1();
+}
+const _tmpl$ = /* @__PURE__ */ template(`<div class="overlay"><div class="overlay-backdrop">`), _tmpl$2 = /* @__PURE__ */ template(`<div class="overlay-wrapper"><div class="head "><div class="nav-links side card"><a target="_blank" class="fa-brands fa-github" href="https://github.com/Hobart2967"></a><a target="_blank" class="fa-brands fa-dev" href="https://dev.to/Hobart2967"></a><a target="_blank" class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/klein-marco/"></a><a target="_blank" class="fa-brands fa-xing" href="https://www.xing.com/profile/Marco_Klein51/cv"></a><a target="_blank" class="fa-solid fa-id-card cv" href="/assets/cv_klein_marco_censored.pdf"></a></div><div class="theme side card"><i class="fa-solid fa-moon"></i></div><div class="legal side card"><i class="fa-solid fa-scale-unbalanced-flip"></i></div></div><div class="content"><div class="body"><div class="dp-f f-row row-wrapper"><div class="dp-f f-col left"><div class="card"><div class="dp-f title-box"><div><div class="me"></div></div><div><h1>Marco Klein</h1><h2>Your passionate Full-Stack Software Engineer.</h2></div></div></div><div class="card"><h3>Me, myself and I</h3><div class="row"><p>I am a full-stack software engineer located in Cologne. Whilst living a great passion for frontend development, I really love to implement backends filling their counterpart with data and business processes.</p><p>Also, my ability to develop databases and the surrounding infrastructure make me feel like I have developed something complete when finishing a product.</p><p>In my free time, I fulfil my passion to coding, cars, music and video games. But before you ask what kind of music: Everything I like! There's no special taste or genre I follow, so that description may suit best :)</p><p>I would describe myself as a team-player, being in love with hand-in-hand work. For example, developing against other developers' machines is really fun to me!</p></div></div><div class="card"><h3>Professional Status</h3><div class="row"><p>Today, I am working for <a href="https://www.belonio.de" target="_blank">Belonio</a> as a full stack developer, who is providing a simple, secure and attractive software solution for providing employee benefits in terms of salary extras.</p></div></div><div class="card"><h3>What I have done so far</h3><div class="row"><p>In the past years, I have been working on several things and target devices. This includes hybrid and native mobile apps, web apps, hybrid native desktop apps, rich clients, websites and many more things.</p><p>Backend-wise I have created different systems with NodeJS, C# and a little Java. This all includes a bunch of REST-Apis, Database Backends and even Database Driven Business Logic.</p><p>I have seen and intensively worked on different infrastructural approaches, such as on-premise, self-hosted SaaS or even AWS Cloudbased systems!</p></div></div><div class="card"><h3>Recent technologies I am working with</h3><div class="dp-f g-8 mt-16 fw-wrap"><div class="tag">Amazon Web Services</div><div class="tag">Java</div><div class="tag">C#</div><div class="tag">TypeScript / JavaScript</div><div class="tag">Docker / Docker Compose</div><div class="tag">Angular</div><div class="tag">Node.js</div><div class="tag">.NET (Core)</div><div class="tag">Vite</div><div class="tag">HTML & CSS (incl. Sass, Scss, Less)</div><div class="tag">Sentry</div><div class="tag">nginx</div><div class="tag">MySQL / MariaDB</div><div class="tag">PostgreSQL</div><div class="tag">Ubuntu</div><div class="tag">Windows</div><div class="tag">Hyper-V</div><div class="tag">UTM</div><div class="tag">macOS</div><div class="tag">Windows Subsystem for Linux</div><div class="tag">Cordova / Capacitor</div><div class="tag">Electron</div><div class="tag">Android SDK</div><div class="tag">iOS</div><div class="tag">express.js</div><div class="tag">Spring Boot</div><div class="tag">Swagger / OpenAPI</div><div class="tag">GitHub</div><div class="tag">GitHub Actions</div><div class="tag">GitHub Packages</div><div class="tag">GitLab</div><div class="tag">Yarn / NPM</div><div class="tag">NuGet</div><div class="tag">Ansible</div><div class="tag">Yeoman</div><div class="tag">Godot</div><div class="tag">Blender</div><div class="tag">Terraform</div><div class="tag">Visual Studio Code</div></div></div><div class="card"><h3>Technologies I have been working with in the past</h3><div class="dp-f g-8 mt-16 fw-wrap"><div class="tag">BitBucket</div><div class="tag">Circle CI</div><div class="tag">Azure DevOps</div><div class="tag">Microsoft SQL Server</div><div class="tag">Microsoft Internet Information Services (IIS)</div><div class="tag">PHP</div><div class="tag">Delphi</div><div class="tag">C++</div><div class="tag">Python</div><div class="tag">React</div><div class="tag">angularjs (Version 1)</div><div class="tag">Vue.js</div><div class="tag">pagerduty</div><div class="tag">logz.io</div><div class="tag">jQuery</div><div class="tag">ASP.NET</div><div class="tag">Webpack</div><div class="tag">Grunt</div><div class="tag">Virtual Box</div><div class="tag">VMWare</div><div class="tag">Jira / Confluence</div><div class="tag">Visual Studio Online / Azure / Team Foundation Server</div><div class="tag">Protractor</div><div class="tag">Cypress</div><div class="tag">Apache HTTP Server</div><div class="tag">IntelliJ</div><div class="tag">Visual Studio</div><div class="tag">Microsoft Test Manager</div><div class="tag">Microsoft Virtual Machine Manager</div><div class="tag">Crystal Reports</div><div class="tag">Oracle Databases</div></div></div></div><div class="dp-f f-col right">`);
 const [modal, setModal] = createSignal(null);
 function PresentationView() {
   const [theme, setTheme] = createSignal("dark");
@@ -33319,7 +34476,7 @@ function PresentationView() {
     }
   }
   return (() => {
-    const _el$ = _tmpl$2(), _el$4 = _el$.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling, _el$9 = _el$4.nextSibling, _el$10 = _el$9.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.firstChild, _el$13 = _el$12.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.firstChild, _el$16 = _el$15.nextSibling, _el$17 = _el$14.nextSibling, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling;
+    const _el$ = _tmpl$2(), _el$4 = _el$.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling, _el$9 = _el$4.nextSibling, _el$10 = _el$9.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.firstChild, _el$13 = _el$12.nextSibling;
     insert(_el$, createComponent(Show, {
       get when() {
         return modal();
@@ -33336,9 +34493,10 @@ function PresentationView() {
     _el$8.$$click = () => showDialog(() => createComponent(LegalDialog, {
       onClose: () => hideModal()
     }));
-    insert(_el$13, createComponent(Career, {}), _el$14);
-    insert(_el$16, createComponent(Skills, {}));
-    insert(_el$19, createComponent(Projects, {}));
+    insert(_el$13, createComponent(Career, {}), null);
+    insert(_el$13, createComponent(Skills, {}), null);
+    insert(_el$13, createComponent(Projects, {}), null);
+    insert(_el$13, createComponent(Gwen, {}), null);
     return _el$;
   })();
   function hideModal() {
