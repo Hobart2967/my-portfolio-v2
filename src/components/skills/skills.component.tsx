@@ -12,9 +12,9 @@ import {
   CSS2DRenderer,
 } from "three/examples/jsm/renderers/CSS2DRenderer";
 import ForceGraph3D from "3d-force-graph";
-import { SkillTree } from "./skill-tree.model";
-import { GraphNode } from "./graph-node";
-import { GraphNodeLink } from "./graph-node-link";
+import { SkillTree } from "./models/skill-tree.model";
+import { GraphNode } from "./models/graph-node";
+import { GraphNodeLink } from "./models/graph-node-link";
 import { createSignal, onMount } from "solid-js";
 
 import "./skills.component.scss";

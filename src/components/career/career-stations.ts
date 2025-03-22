@@ -1,4 +1,4 @@
-import { CareerStation } from './career-station.interface';
+import { CareerStation } from './models/career-station.interface';
 import brightFuture from './assets/bright_future.png';
 import serviceware from './assets/serviceware.png';
 import mauser from './assets/mauser.jpeg';

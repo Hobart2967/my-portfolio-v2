@@ -5,8 +5,8 @@ import careerPath from './assets/carreer-path.svg?raw';
 
 
 import './career.component.scss';
-import { CareerStation } from './career-station.interface';
-import { CompanyInfo } from './company-info.interface';
+import { CareerStation } from './models/career-station.interface';
+import { CompanyInfo } from './models/company-info.interface';
 
 export function Career() {
   const [selectedStation, setSelectedStation] = createSignal<CareerStation>(null);

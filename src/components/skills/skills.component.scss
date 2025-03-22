@@ -1,5 +1,6 @@
 .skills-wrapper {
   position: relative;
+
   .deactivate-toggle {
     display: flex;
     justify-content: center;
@@ -38,8 +39,6 @@
     &+div {
       transition: filter 0.3s ease-in-out;
     }
-
-
 
     &.active {
       + div {
