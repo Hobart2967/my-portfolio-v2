@@ -1,0 +1,10 @@
+{
+  "conventionalCommits.scopes": [
+    "core",
+    "navigation",
+    "home",
+    "career",
+    "skills",
+    "projects"
+  ]
+}
