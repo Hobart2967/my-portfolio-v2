@@ -1,0 +1,30 @@
+type: solution
+
+solution:
+  name: Hobarts Portfolio
+  sources:
+    - type: yarn-workspace
+
+tasks:
+  init:
+    description: Initializes the repository, including symlinks, packages and more.
+    jobs:
+      - name: Check for existence of @codewyre/wyrekit
+        type: command
+        env: {}
+        command: node -e 'console.log(require("fs").existsSync("./wyrekit"))'
+        storeResultAs: 'wyrekitExists'
+
+      - name: Check if @codewyre/wyrekit should be cloned
+        type: condition
+        condition: ${wyrekitExists.value} === false
+        env: {}
+        jobs:
+          - name: Clone wyrekit
+            type: command
+            command: git clone git@github.com:codewyre/wyrekit ./wyrekit
+
+      - name: Install packages
+        type: command
+        env: {}
+        command: yarn --ignore-engines --force

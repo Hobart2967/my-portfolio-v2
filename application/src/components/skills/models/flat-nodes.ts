@@ -1,7 +1,7 @@
-import { GraphNode } from './graph-node';
-import { GraphNodeLink } from './graph-node-link';
+import type { GraphNode } from './graph-node';
+import type { GraphNodeLink } from './graph-node-link';
 
 export interface FlatNodes<T> {
-  nodes: GraphNode<T>[];
-  links: GraphNodeLink[];
+	nodes: Array<GraphNode<T>>;
+	links: GraphNodeLink[];
 }

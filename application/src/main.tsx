@@ -6,7 +6,8 @@ import './main.scss';
 const app = document.getElementById('app');
 
 if (app) {
-  render(
-    () => <PresentationView  />,
-    app);
+	render(
+		() => <PresentationView />,
+		app
+	);
 }

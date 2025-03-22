@@ -1,8 +1,8 @@
 $column-breakpoint: 1068px;
 
-@import "./node_modules/@fortawesome/fontawesome-free/css/fontawesome.css";
-@import "./node_modules/@fortawesome/fontawesome-free/css/brands.css";
-@import "./node_modules/@fortawesome/fontawesome-free/css/solid.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/brands.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/solid.css";
 
 @import "./controls/card.scss";
 @import "./controls/tag.scss";

@@ -1,0 +1,9 @@
+type: project
+
+
+tasks:
+  build:
+    description: Builds this project
+    jobs:
+      - command: yarn build
+        type: command

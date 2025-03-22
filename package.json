@@ -1,0 +1,16 @@
+{
+	"name": "@hobart2967/my-portfolio-v2",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"private": "true",
+	"type": "module",
+	"workspaces": [
+		"application",
+		"wyrekit/typescript/*",
+		"wyrekit/vite/*"
+	],
+	"devDependencies": {
+		"@codewyre/skwid": "^2.6.1"
+	}
+}

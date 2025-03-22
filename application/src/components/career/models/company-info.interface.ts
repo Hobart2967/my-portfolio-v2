@@ -1,5 +1,4 @@
-
 export interface CompanyInfo {
-  name: string;
-  url: string;
+	name: string;
+	url: string;
 }
