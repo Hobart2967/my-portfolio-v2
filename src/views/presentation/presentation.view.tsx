@@ -4,7 +4,7 @@ import { Skills } from '../../components/skills/skills.component';
 
 import { Projects } from '../../components/projects/projects.component';
 import './presentation.view.scss';
-import { LegalDialog } from './legal-dialog/legal-dialog';
+import { LegalDialog } from '../../components/legal-dialog/legal-dialog';
 export const [modal, setModal] = createSignal(null);
 
 

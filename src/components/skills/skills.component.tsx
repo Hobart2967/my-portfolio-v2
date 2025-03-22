@@ -579,21 +579,30 @@ export function Skills() {
 
     let lastWidth = 0;
 
-    function refreshWidth() {
+    function refreshWidth(triggerRecheck?: boolean, force?: boolean) {
       const width = graphElement.offsetWidth;
-      if (lastWidth === width) {
+      if (lastWidth === width && !force) {
+        if (triggerRecheck) {
+          requestAnimationFrame(() => refreshWidth(true, force));
+        }
 
-        requestAnimationFrame(() => refreshWidth());
         return;
       }
 
       myGraph.width(width);
+      console.log('Updated to ', width);
       lastWidth = width;
 
-      requestAnimationFrame(() => refreshWidth());
+      if (triggerRecheck) {
+        requestAnimationFrame(() => refreshWidth(true, force));
+      }
     }
 
-    requestAnimationFrame(() => refreshWidth());
+    requestAnimationFrame(() => refreshWidth(true, true));
+
+    document.addEventListener('resize', () => refreshWidth(false, true));
+
+    elementResizeDetectorMaker().listenTo(graphElement, () => refreshWidth(false));
   }
 
   function isChildOf(parent: any, child: any, links: GraphNodeLink[]) {
