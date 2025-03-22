@@ -1054,7 +1054,7 @@ const stations = [{
 }];
 const careerPath = '<svg viewBox="18.426 -301.115 500.032 867.64" preserveAspectRatio="none">\n  <path\n    d="M 147.491 -42.667 C 147.491 -42.667 71.484 -35.629 36.398 -8.413 C 24.498 0.818 103.26 -17.589 100.514 -5.59 C 99.058 0.772 46.942 3.358 34.826 13.585 C 27.205 20.018 63.558 13.705 60.752 20.917 C 58.202 27.472 45.661 22.516 37.651 30.688 C 33.453 34.972 57.724 26.899 54.654 32.707 C 52.648 36.502 28.989 39.401 23.242 44.965 C 19.682 48.412 36.248 52.173 35.395 55.701 C 33.637 62.974 17.664 69.256 17.853 69.752 C 38.206 123.269 96.679 41.543 93.596 94.569 C 90.916 140.654 15.167 126.148 33.345 149.774 C 49.571 170.862 118.924 142.228 121.603 179.825 C 124.933 226.565 40.523 138.512 68.866 185.634 C 90.356 221.363 154.748 223.234 137.813 249.622 C 135.258 253.603 136.404 259.174 124.703 244.187 C 119.372 237.359 115.686 254.757 109.279 248.524 C 101.88 241.327 102.018 229.663 96.192 225.102 C 91.855 221.706 91.849 228.748 88.315 235.401 C 85.409 240.871 79.042 240.352 80.457 251.218 C 82.282 265.238 32.262 268.976 34.751 278.309 C 41.202 302.496 113.712 266.392 128.972 269.269 C 139.795 271.31 102.114 293.034 107.027 295.265 C 119.19 300.788 162.577 287.405 169.981 294.924 C 185.997 311.189 22.138 359.547 34.597 376.971 C 46.396 393.47 57.321 349.298 95.468 360.808 C 127.088 370.348 23.044 384.962 60.392 405.68 C 70.695 411.395 103.177 362.575 138.114 352.799 C 151.337 349.099 132.561 369.129 145.326 375.124 C 161.202 382.581 167.572 376.237 178.506 379.065 C 210.634 387.374 -13.872 440.84 0.027 461.952 C 15.19 484.985 92.798 427.964 104.373 464.86 C 115.926 501.685 -3.428 478.702 6.559 513.158 C 9.87 524.58 18.393 505.912 20.547 509.886 C 28.772 525.06 5.359 521.197 6.684 528.939 C 7.616 534.384 12.892 539.006 20.336 538.336 C 27.189 537.719 21.356 527.702 29.466 525.916 C 69.961 516.995 94.705 518.599 94.924 527.247 C 96.147 575.41 -8 559.57 13.677 604.7 C 36.883 653.013 84.466 560.438 135.347 577.285 C 197.76 597.95 24.257 615.848 33.765 653.789 C 39.71 677.513 175.691 650.409 197.317 665.529 C 216.689 679.074 114.766 755.796 135.228 767.63 C 159.593 781.721 259.822 699.545 265.884 723.909 C 268.154 733.035 240.48 779.054 257.706 778.58 C 269.195 778.264 261.316 787.395 266.314 794.338 C 268.616 797.535 322.202 782.113 345.111 794.963 C 351.364 798.47 353.414 810.031 356.469 813.228 C 368.969 826.307 376.752 796.36 383.971 796.871 C 388.008 797.157 389.52 817.273 392.38 819.026 C 396.613 821.621 448.167 823.27 458.554 814.285 C 468.101 806.026 499.438 824.973 499.438 824.973"\n    transform="matrix(1, 0, 0, 1, 19.019194, -258.447906)"></path>\n</svg>';
 const career_component = "";
-const _tmpl$$6 = /* @__PURE__ */ template(`<div class="career"><div class="title">I did it - my way! (CV)</div><div class="card"><div><div class="dp-f"><div class="career-path career-path__background"></div><div class="career-path career-path__foreground"></div><div>`), _tmpl$2$3 = /* @__PURE__ */ template(`<div class="career__station"><div class="career__station__title"><div class="career__station__date"> <!>&nbsp;</div><div>. </div><div class="career__station__sub-title">@ `), _tmpl$3$1 = /* @__PURE__ */ template(`<span>`), _tmpl$4$1 = /* @__PURE__ */ template(`<span> / `), _tmpl$5$1 = /* @__PURE__ */ template(`<div><div class="back-bar">&lt; Back to my career path</div><div class="station-details__metadata dp-f"><div class="station-details__metadata__info"><h1></h1><h2>@ </h2><div> <!> until <!> </div></div><div class="station-details__metadata__logo"><img></div></div><div>`), _tmpl$6$1 = /* @__PURE__ */ template(`<a target="_blank">`);
+const _tmpl$$6 = /* @__PURE__ */ template(`<div class="career"><div class="title">I did it - my way! (CV)</div><div class="card"><div><div class="dp-f"><div class="career-path career-path__background"></div><div class="career-path career-path__foreground"></div><div>`), _tmpl$2$3 = /* @__PURE__ */ template(`<div class="career__station"><div class="career__station__title"><div class="career__station__date"> <!>&nbsp;</div><div>. </div><div class="career__station__sub-title">@ `), _tmpl$3$2 = /* @__PURE__ */ template(`<span>`), _tmpl$4$1 = /* @__PURE__ */ template(`<span> / `), _tmpl$5$1 = /* @__PURE__ */ template(`<div><div class="back-bar">&lt; Back to my career path</div><div class="station-details__metadata dp-f"><div class="station-details__metadata__info"><h1></h1><h2>@ </h2><div> <!> until <!> </div></div><div class="station-details__metadata__logo"><img></div></div><div>`), _tmpl$6$1 = /* @__PURE__ */ template(`<a target="_blank">`);
 function Career() {
   const [selectedStation, setSelectedStation] = createSignal(null);
   const [forceActive, setForceActive] = createSignal(0);
@@ -1105,7 +1105,7 @@ function Career() {
             return station.companies;
           },
           children: (item, index3) => [(() => {
-            const _el$19 = _tmpl$3$1();
+            const _el$19 = _tmpl$3$2();
             insert(_el$19, () => typeof item === "string" ? item : item.name);
             return _el$19;
           })(), createComponent(Show, {
@@ -34379,7 +34379,7 @@ function Project(props) {
     return _el$;
   })();
 }
-const _tmpl$$3 = /* @__PURE__ */ template(`<p>avsn.de (short for: adventurespiele.net) is a german news magazine about video games. Specifically spoken, it's about adventure video games. It offers &gt; 1000 walkthroughs through games, rates &gt; 300 games in form of reviews and provides almost every kind of material to players: Trailers, Screenshots, Patches, Savegames and many more.`), _tmpl$2$1 = /* @__PURE__ */ template(`<p>It also offers a video game database which causes the whole website database to be &gt; 150 MB. This part of the website contains data about any video game of the genre, including release dates, publisher and developer information, runtime requirements, system requirements and so on.`), _tmpl$3 = /* @__PURE__ */ template(`<p>I am the system administrator of this project and actively develop this platform since 2006.`), _tmpl$4 = /* @__PURE__ */ template(`<p>strawberry-py is a rest api framework written by me. It enables developers to easily write APIs in a form known from ASP.NET for C# or SpringBoot for Java. It uses decorators to declare controllers, endpoints and parameters.`), _tmpl$5 = /* @__PURE__ */ template(`<p>The AWS SSO console is a tool for working on multiple AWS accounts at the same time, while not having to re-login to another account using the SSO login feature.`), _tmpl$6 = /* @__PURE__ */ template(`<p>The issue with the usual web console is that you can only use one account at one time. Switching accounts - even in a different browser tab - causes the old session to invalidate, not being usable anymore.`), _tmpl$7 = /* @__PURE__ */ template(`<p>This tool actually creates individual browser session using electron browser windows, resulting in having different session instances with a unique cookie set. The login and session cookies are being shared automatically though, so you do not have to login every time you need a new session.`), _tmpl$8 = /* @__PURE__ */ template(`<p>This tool was written by me and is available as an electron app for Windows (Installer), Linux (Snap) and Mac (pkg). For Mac Users, it also supports native window tabs, so there's no need to manage multiple windows. They are all grouped into one using tabs. This way, you would have the same experience as if you are working in a browser.`), _tmpl$9 = /* @__PURE__ */ template(`<p>Skwid aims to be a Makefile replacement and a multi-technology project manager at the same time.`), _tmpl$10 = /* @__PURE__ */ template(`<ul><li>A modular project configuration, including tasks, variables and more.</li><li>A single definition language, independent from the technology used.</li><li>Declarative and documentable definition language.</li><li>Logical Flow Control of your project processes</li><li>Pluggable job system - Missing something? Add it! o/`), _tmpl$11 = /* @__PURE__ */ template(`<p>This tool was written by me and for now, it is available as an app for Mac OS and Linux based Systems only. In the future, I plan to release it for Windows, too. It should also be available as chocolatey, snap/apt and brew package, without the need to install Node.js`), _tmpl$12 = /* @__PURE__ */ template(`<p>Shoplet is a private project of mine with a focus on support small shoplets`), _tmpl$13 = /* @__PURE__ */ template(`<ul><li>It is built upon the serverless way of thinking.</li><li>Except for Keycloak and the relational databases, all required tools and services are using serverless services of AWS.</li><li>Frontend build with the newcomer framework solidjs</li><li>Docker and docker-compose for local environments`), _tmpl$14 = /* @__PURE__ */ template(`<div><div class="title">Projects and references</div><div class="projects">`);
+const _tmpl$$3 = /* @__PURE__ */ template(`<p>avsn.de (short for: adventurespiele.net) is a german news magazine about video games. Specifically spoken, it's about adventure video games. It offers &gt; 1000 walkthroughs through games, rates &gt; 300 games in form of reviews and provides almost every kind of material to players: Trailers, Screenshots, Patches, Savegames and many more.`), _tmpl$2$1 = /* @__PURE__ */ template(`<p>It also offers a video game database which causes the whole website database to be &gt; 150 MB. This part of the website contains data about any video game of the genre, including release dates, publisher and developer information, runtime requirements, system requirements and so on.`), _tmpl$3$1 = /* @__PURE__ */ template(`<p>I am the system administrator of this project and actively develop this platform since 2006.`), _tmpl$4 = /* @__PURE__ */ template(`<p>strawberry-py is a rest api framework written by me. It enables developers to easily write APIs in a form known from ASP.NET for C# or SpringBoot for Java. It uses decorators to declare controllers, endpoints and parameters.`), _tmpl$5 = /* @__PURE__ */ template(`<p>The AWS SSO console is a tool for working on multiple AWS accounts at the same time, while not having to re-login to another account using the SSO login feature.`), _tmpl$6 = /* @__PURE__ */ template(`<p>The issue with the usual web console is that you can only use one account at one time. Switching accounts - even in a different browser tab - causes the old session to invalidate, not being usable anymore.`), _tmpl$7 = /* @__PURE__ */ template(`<p>This tool actually creates individual browser session using electron browser windows, resulting in having different session instances with a unique cookie set. The login and session cookies are being shared automatically though, so you do not have to login every time you need a new session.`), _tmpl$8 = /* @__PURE__ */ template(`<p>This tool was written by me and is available as an electron app for Windows (Installer), Linux (Snap) and Mac (pkg). For Mac Users, it also supports native window tabs, so there's no need to manage multiple windows. They are all grouped into one using tabs. This way, you would have the same experience as if you are working in a browser.`), _tmpl$9 = /* @__PURE__ */ template(`<p>Skwid aims to be a Makefile replacement and a multi-technology project manager at the same time.`), _tmpl$10 = /* @__PURE__ */ template(`<ul><li>A modular project configuration, including tasks, variables and more.</li><li>A single definition language, independent from the technology used.</li><li>Declarative and documentable definition language.</li><li>Logical Flow Control of your project processes</li><li>Pluggable job system - Missing something? Add it! o/`), _tmpl$11 = /* @__PURE__ */ template(`<p>This tool was written by me and for now, it is available as an app for Mac OS and Linux based Systems only. In the future, I plan to release it for Windows, too. It should also be available as chocolatey, snap/apt and brew package, without the need to install Node.js`), _tmpl$12 = /* @__PURE__ */ template(`<p>Shoplet is a private project of mine with a focus on support small shoplets`), _tmpl$13 = /* @__PURE__ */ template(`<ul><li>It is built upon the serverless way of thinking.</li><li>Except for Keycloak and the relational databases, all required tools and services are using serverless services of AWS.</li><li>Frontend build with the newcomer framework solidjs</li><li>Docker and docker-compose for local environments`), _tmpl$14 = /* @__PURE__ */ template(`<div><div class="title">Projects and references</div><div class="projects">`);
 function Projects() {
   return (() => {
     const _el$ = _tmpl$14(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
@@ -34389,7 +34389,7 @@ function Projects() {
       link: "https://www.avsn.de",
       techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "PostNuke"],
       get children() {
-        return [_tmpl$$3(), _tmpl$2$1(), _tmpl$3()];
+        return [_tmpl$$3(), _tmpl$2$1(), _tmpl$3$1()];
       }
     }), null);
     insert(_el$3, createComponent(Project, {
@@ -34446,7 +34446,81 @@ const _tmpl$$1 = /* @__PURE__ */ template(`<div><div class="title">Hobby Project
 function Gwen() {
   return _tmpl$$1();
 }
-const _tmpl$ = /* @__PURE__ */ template(`<div class="overlay"><div class="overlay-backdrop">`), _tmpl$2 = /* @__PURE__ */ template(`<div class="overlay-wrapper"><div class="head "><div class="nav-links side card"><a target="_blank" class="fa-brands fa-github" href="https://github.com/Hobart2967"></a><a target="_blank" class="fa-brands fa-dev" href="https://dev.to/Hobart2967"></a><a target="_blank" class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/klein-marco/"></a><a target="_blank" class="fa-brands fa-xing" href="https://www.xing.com/profile/Marco_Klein51/cv"></a><a target="_blank" class="fa-solid fa-id-card cv" href="/assets/cv_klein_marco_censored.pdf"></a></div><div class="theme side card"><i class="fa-solid fa-moon"></i></div><div class="legal side card"><i class="fa-solid fa-scale-unbalanced-flip"></i></div></div><div class="content"><div class="body"><div class="dp-f f-row row-wrapper"><div class="dp-f f-col left"><div class="card"><div class="dp-f title-box"><div><div class="me"></div></div><div><h1>Marco Klein</h1><h2>Your passionate Full-Stack Software Engineer.</h2></div></div></div><div class="card"><h3>Me, myself and I</h3><div class="row"><p>I am a full-stack software engineer located in Cologne. Whilst living a great passion for frontend development, I really love to implement backends filling their counterpart with data and business processes.</p><p>Also, my ability to develop databases and the surrounding infrastructure make me feel like I have developed something complete when finishing a product.</p><p>In my free time, I fulfil my passion to coding, cars, music and video games. But before you ask what kind of music: Everything I like! There's no special taste or genre I follow, so that description may suit best :)</p><p>I would describe myself as a team-player, being in love with hand-in-hand work. For example, developing against other developers' machines is really fun to me!</p></div></div><div class="card"><h3>Professional Status</h3><div class="row"><p>Today, I am working for <a href="https://www.belonio.de" target="_blank">Belonio</a> as a full stack developer, who is providing a simple, secure and attractive software solution for providing employee benefits in terms of salary extras.</p></div></div><div class="card"><h3>What I have done so far</h3><div class="row"><p>In the past years, I have been working on several things and target devices. This includes hybrid and native mobile apps, web apps, hybrid native desktop apps, rich clients, websites and many more things.</p><p>Backend-wise I have created different systems with NodeJS, C# and a little Java. This all includes a bunch of REST-Apis, Database Backends and even Database Driven Business Logic.</p><p>I have seen and intensively worked on different infrastructural approaches, such as on-premise, self-hosted SaaS or even AWS Cloudbased systems!</p></div></div><div class="card"><h3>Recent technologies I am working with</h3><div class="dp-f g-8 mt-16 fw-wrap"><div class="tag">Amazon Web Services</div><div class="tag">Java</div><div class="tag">C#</div><div class="tag">TypeScript / JavaScript</div><div class="tag">Docker / Docker Compose</div><div class="tag">Angular</div><div class="tag">Node.js</div><div class="tag">.NET (Core)</div><div class="tag">Vite</div><div class="tag">HTML & CSS (incl. Sass, Scss, Less)</div><div class="tag">Sentry</div><div class="tag">nginx</div><div class="tag">MySQL / MariaDB</div><div class="tag">PostgreSQL</div><div class="tag">Ubuntu</div><div class="tag">Windows</div><div class="tag">Hyper-V</div><div class="tag">UTM</div><div class="tag">macOS</div><div class="tag">Windows Subsystem for Linux</div><div class="tag">Cordova / Capacitor</div><div class="tag">Electron</div><div class="tag">Android SDK</div><div class="tag">iOS</div><div class="tag">express.js</div><div class="tag">Spring Boot</div><div class="tag">Swagger / OpenAPI</div><div class="tag">GitHub</div><div class="tag">GitHub Actions</div><div class="tag">GitHub Packages</div><div class="tag">GitLab</div><div class="tag">Yarn / NPM</div><div class="tag">NuGet</div><div class="tag">Ansible</div><div class="tag">Yeoman</div><div class="tag">Godot</div><div class="tag">Blender</div><div class="tag">Terraform</div><div class="tag">Visual Studio Code</div></div></div><div class="card"><h3>Technologies I have been working with in the past</h3><div class="dp-f g-8 mt-16 fw-wrap"><div class="tag">BitBucket</div><div class="tag">Circle CI</div><div class="tag">Azure DevOps</div><div class="tag">Microsoft SQL Server</div><div class="tag">Microsoft Internet Information Services (IIS)</div><div class="tag">PHP</div><div class="tag">Delphi</div><div class="tag">C++</div><div class="tag">Python</div><div class="tag">React</div><div class="tag">angularjs (Version 1)</div><div class="tag">Vue.js</div><div class="tag">pagerduty</div><div class="tag">logz.io</div><div class="tag">jQuery</div><div class="tag">ASP.NET</div><div class="tag">Webpack</div><div class="tag">Grunt</div><div class="tag">Virtual Box</div><div class="tag">VMWare</div><div class="tag">Jira / Confluence</div><div class="tag">Visual Studio Online / Azure / Team Foundation Server</div><div class="tag">Protractor</div><div class="tag">Cypress</div><div class="tag">Apache HTTP Server</div><div class="tag">IntelliJ</div><div class="tag">Visual Studio</div><div class="tag">Microsoft Test Manager</div><div class="tag">Microsoft Virtual Machine Manager</div><div class="tag">Crystal Reports</div><div class="tag">Oracle Databases</div></div></div></div><div class="dp-f f-col right">`);
+const recentlyUsedTech = [
+  "Amazon Web Services",
+  "Java",
+  "C#",
+  "TypeScript / JavaScript",
+  "Docker / Docker Compose",
+  "Angular",
+  "Node.js",
+  ".NET (Core)",
+  "Vite",
+  "HTML & CSS (incl. Sass, Scss, Less)",
+  "Sentry",
+  "nginx",
+  "MySQL / MariaDB",
+  "PostgreSQL",
+  "Ubuntu",
+  "Windows",
+  "Hyper-V",
+  "UTM",
+  "macOS",
+  "Windows Subsystem for Linux",
+  "Cordova / Capacitor",
+  "Electron",
+  "Android SDK",
+  "iOS",
+  "express.js",
+  "Spring Boot",
+  "Swagger / OpenAPI",
+  "GitHub",
+  "GitHub Actions",
+  "GitHub Packages",
+  "GitLab",
+  "Yarn / NPM",
+  "NuGet",
+  "Ansible",
+  "Yeoman",
+  "Godot",
+  "Blender",
+  "Terraform",
+  "Visual Studio Code"
+];
+const previouslyUsedTech = [
+  "BitBucket",
+  "Circle CI",
+  "Azure DevOps",
+  "Microsoft SQL Server",
+  "Microsoft Internet Information Services (IIS)",
+  "PHP",
+  "Delphi",
+  "C++",
+  "Python",
+  "React",
+  "angularjs (Version 1)",
+  "Vue.js",
+  "pagerduty",
+  "logz.io",
+  "jQuery",
+  "ASP.NET",
+  "Webpack",
+  "Grunt",
+  "Virtual Box",
+  "VMWare",
+  "Jira / Confluence",
+  "Visual Studio Online / Azure / Team Foundation Server",
+  "Protractor",
+  "Cypress",
+  "Apache HTTP Server",
+  "IntelliJ",
+  "Visual Studio",
+  "Microsoft Test Manager",
+  "Microsoft Virtual Machine Manager",
+  "Crystal Reports",
+  "Oracle Databases"
+];
+const _tmpl$ = /* @__PURE__ */ template(`<div class="overlay"><div class="overlay-backdrop">`), _tmpl$2 = /* @__PURE__ */ template(`<div class="overlay-wrapper"><div class="head "><div class="nav-links side card"><a target="_blank" class="fa-brands fa-github" href="https://github.com/Hobart2967"></a><a target="_blank" class="fa-brands fa-dev" href="https://dev.to/Hobart2967"></a><a target="_blank" class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/klein-marco/"></a><a target="_blank" class="fa-brands fa-xing" href="https://www.xing.com/profile/Marco_Klein51/cv"></a><a target="_blank" class="fa-solid fa-id-card cv" href="/assets/cv_klein_marco_censored.pdf"></a></div><div class="theme side card"><i class="fa-solid fa-moon"></i></div><div class="legal side card"><i class="fa-solid fa-scale-unbalanced-flip"></i></div></div><div class="content"><div class="body"><div class="dp-f f-row row-wrapper"><div class="dp-f f-col left"><div class="card"><div class="dp-f title-box"><div><div class="me"></div></div><div><h1>Marco Klein</h1><h2>Your passionate Full-Stack Software Engineer.</h2></div></div></div><div class="card"><h3>Me, myself and I</h3><div class="row"><p>I am a full-stack software engineer located in Cologne. Whilst living a great passion for frontend development, I really love to implement backends filling their counterpart with data and business processes.</p><p>Also, my ability to develop databases and the surrounding infrastructure make me feel like I have developed something complete when finishing a product.</p><p>In my free time, I fulfil my passion to coding, cars, music and video games. But before you ask what kind of music: Everything I like! There's no special taste or genre I follow, so that description may suit best :)</p><p>I would describe myself as a team-player, being in love with hand-in-hand work. For example, developing against other developers' machines is really fun to me!</p></div></div><div class="card"><h3>Professional Status</h3><div class="row"><p>Today, I am working for <a href="https://www.belonio.de" target="_blank">Belonio</a> as a full stack developer, who is providing a simple, secure and attractive software solution for providing employee benefits in terms of salary extras.</p></div></div><div class="card"><h3>What I have done so far</h3><div class="row"><p>In the past years, I have been working on several things and target devices. This includes hybrid and native mobile apps, web apps, hybrid native desktop apps, rich clients, websites and many more things.</p><p>Backend-wise I have created different systems with NodeJS, C# and a little Java. This all includes a bunch of REST-Apis, Database Backends and even Database Driven Business Logic.</p><p>I have seen and intensively worked on different infrastructural approaches, such as on-premise, self-hosted SaaS or even AWS Cloudbased systems!</p></div></div><div class="card"><h3>Recent technologies I am working with</h3><div class="dp-f g-8 mt-16 fw-wrap"></div></div><div class="card"><h3>Technologies I have been working with in the past</h3><div class="dp-f g-8 mt-16 fw-wrap"></div></div></div><div class="dp-f f-col right">`), _tmpl$3 = /* @__PURE__ */ template(`<div class="tag">`);
 const [modal, setModal] = createSignal(null);
 function PresentationView() {
   const [theme, setTheme] = createSignal("dark");
@@ -34476,7 +34550,7 @@ function PresentationView() {
     }
   }
   return (() => {
-    const _el$ = _tmpl$2(), _el$4 = _el$.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling, _el$9 = _el$4.nextSibling, _el$10 = _el$9.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.firstChild, _el$13 = _el$12.nextSibling;
+    const _el$ = _tmpl$2(), _el$4 = _el$.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling, _el$9 = _el$4.nextSibling, _el$10 = _el$9.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.firstChild, _el$13 = _el$12.firstChild, _el$14 = _el$13.nextSibling, _el$15 = _el$14.nextSibling, _el$16 = _el$15.nextSibling, _el$17 = _el$16.nextSibling, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$17.nextSibling, _el$21 = _el$20.firstChild, _el$22 = _el$21.nextSibling, _el$23 = _el$12.nextSibling;
     insert(_el$, createComponent(Show, {
       get when() {
         return modal();
@@ -34493,10 +34567,26 @@ function PresentationView() {
     _el$8.$$click = () => showDialog(() => createComponent(LegalDialog, {
       onClose: () => hideModal()
     }));
-    insert(_el$13, createComponent(Career, {}), null);
-    insert(_el$13, createComponent(Skills, {}), null);
-    insert(_el$13, createComponent(Projects, {}), null);
-    insert(_el$13, createComponent(Gwen, {}), null);
+    insert(_el$19, createComponent(For, {
+      each: recentlyUsedTech,
+      children: (item) => (() => {
+        const _el$24 = _tmpl$3();
+        insert(_el$24, item);
+        return _el$24;
+      })()
+    }));
+    insert(_el$22, createComponent(For, {
+      each: previouslyUsedTech,
+      children: (item) => (() => {
+        const _el$25 = _tmpl$3();
+        insert(_el$25, item);
+        return _el$25;
+      })()
+    }));
+    insert(_el$23, createComponent(Career, {}), null);
+    insert(_el$23, createComponent(Skills, {}), null);
+    insert(_el$23, createComponent(Projects, {}), null);
+    insert(_el$23, createComponent(Gwen, {}), null);
     return _el$;
   })();
   function hideModal() {
