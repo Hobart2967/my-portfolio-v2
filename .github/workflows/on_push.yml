@@ -11,11 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-      - run: yarn
-      - run: yarn build
-      - run: yarn prepare-deployment
+      - run: yarn global add @codewyre/skwid
+      - run: |
+          cd application
+          yarn build
+          yarn prepare-deployment
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./application/dist
