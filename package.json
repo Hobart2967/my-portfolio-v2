@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf node_modules/.vite && vite build",
-    "deploy": "gh-pages -d dist",
+    "prepare-deployment": "cp ./CNAME ./dist/CNAME",
     "start": "rm -rf node_modules/.vite && vite"
   },
   "devDependencies": {

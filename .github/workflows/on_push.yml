@@ -9,6 +9,7 @@ jobs:
       - uses: actions/setup-node@v4
       - run: yarn
       - run: yarn build
+      - run: yarn prepare-deployment
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
