@@ -13,8 +13,8 @@ export default defineConfig({
 		solidPlugin(),
 		viteStaticCopy({
 			targets: [{
-				src: path.resolve(__dirname, './src/assets') + '/[!.]*', // 1️⃣
-				dest: './assets' // 2️⃣
+				src: path.resolve(__dirname, './src/assets') + '/[!.]*',
+				dest: './assets'
 			}]
 		})
 	]

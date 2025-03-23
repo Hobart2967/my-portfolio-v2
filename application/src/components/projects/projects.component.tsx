@@ -3,10 +3,12 @@ import { Project } from './project.component';
 export function Projects() {
 	return (
 		<div>
-			<div class="title">Projects and references</div>
+			<div class="title">
+				Projects and references
+			</div>
+
 			<div class="projects">
 				<Project
-					title="avsn.de"
 					image="/assets/images/portfolio/avsn.de.png"
 					link="https://www.avsn.de"
 					techStack={[
@@ -17,7 +19,7 @@ export function Projects() {
 						'JavaScript',
 						'PostNuke'
 					]}
-				>
+					title="avsn.de">
 					<p>
 						avsn.de (short for: adventurespiele.net) is a german news magazine
 						about video games. Specifically spoken, it's about adventure video
@@ -41,7 +43,6 @@ export function Projects() {
 				</Project>
 
 				<Project
-					title="strawberry-py"
 					image="/assets/images/portfolio/strawberry-py.png"
 					link="https://www.github.com/Hobart2967/strawberry-py"
 					techStack={[
@@ -50,7 +51,7 @@ export function Projects() {
 						'AWS Lambda',
 						'AWS API Gateway'
 					]}
-				>
+					title="strawberry-py">
 					<p>
 						strawberry-py is a rest api framework written by me. It enables
 						developers to easily write APIs in a form known from ASP.NET for C# or
@@ -60,7 +61,6 @@ export function Projects() {
 				</Project>
 
 				<Project
-					title="aws-sso-console"
 					image="/assets/images/portfolio/aws-sso-console.png"
 					link="https://www.github.com/Hobart2967/aws-sso-console"
 					techStack={[
@@ -69,7 +69,7 @@ export function Projects() {
 						'Webpack',
 						'Amazon Web Services Console'
 					]}
-				>
+					title="aws-sso-console">
 					<p>
 						The AWS SSO console is a tool for working on multiple AWS accounts at
 						the same time, while not having to re-login to another account using
@@ -100,7 +100,6 @@ export function Projects() {
 				</Project>
 
 				<Project
-					title="skwid"
 					image="/assets/images/portfolio/skwid.png"
 					link="https://www.github.com/codewyre/skwid"
 					techStack={[
@@ -112,7 +111,7 @@ export function Projects() {
 						'inversify',
 						'jasmine'
 					]}
-				>
+					title="skwid">
 					<p>
 						Skwid aims to be a Makefile replacement and a multi-technology project
 						manager at the same time.
@@ -123,12 +122,22 @@ export function Projects() {
 							A modular project configuration, including tasks, variables and
 							more.
 						</li>
+
 						<li>
 							A single definition language, independent from the technology used.
 						</li>
-						<li>Declarative and documentable definition language.</li>
-						<li>Logical Flow Control of your project processes</li>
-						<li>Pluggable job system - Missing something? Add it! \o/</li>
+
+						<li>
+							Declarative and documentable definition language.
+						</li>
+
+						<li>
+							Logical Flow Control of your project processes
+						</li>
+
+						<li>
+							Pluggable job system - Missing something? Add it! \o/
+						</li>
 					</ul>
 
 					<p>
@@ -140,7 +149,6 @@ export function Projects() {
 				</Project>
 
 				<Project
-					title="shoplet"
 					image="/assets/images/portfolio/strawberry-py.png"
 					link={null}
 					techStack={[
@@ -171,7 +179,7 @@ export function Projects() {
 						'AWS SSM',
 						'AWS RDS'
 					]}
-				>
+					title="shoplet">
 					<p>
 						Shoplet is a private project of mine with a focus on support small shoplets
 					</p>
@@ -180,12 +188,19 @@ export function Projects() {
 						<li>
 							It is built upon the serverless way of thinking.
 						</li>
+
 						<li>
 							Except for Keycloak and the relational databases,
 							all required tools and services are using serverless services of AWS.
 						</li>
-						<li>Frontend build with the newcomer framework solidjs</li>
-						<li>Docker and docker-compose for local environments</li>
+
+						<li>
+							Frontend build with the newcomer framework solidjs
+						</li>
+
+						<li>
+							Docker and docker-compose for local environments
+						</li>
 					</ul>
 
 					<p>

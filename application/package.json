@@ -9,16 +9,19 @@
     "build": "rm -rf node_modules/.vite && vite build",
     "prepare-deployment": "cp ./CNAME ./dist/CNAME",
     "start": "rm -rf node_modules/.vite && vite",
-		"postinstall": "cw-localpackage postinstall",
-		"preinstall": "cw-localpackage preinstall"
-	},
+    "postinstall": "cw-localpackage postinstall",
+    "preinstall": "cw-localpackage preinstall"
+  },
   "devDependencies": {
+    "@codewyre/wyrekit-development-compliance": "^1.0.0",
+    "@types/d3": "^7.4.3",
+    "@types/element-resize-detector": "^1.1.6",
+    "@types/three": "^0.174.0",
     "rollup-plugin-copy": "^3.4.0",
     "sass": "^1.63.4",
     "vite": "^4.3.9",
-    "vite-plugin-static-copy": "^0.16.0",
     "vite-plugin-solid": "^2.7.0",
-    "@codewyre/wyrekit-development-compliance": "^1.0.0"
+    "vite-plugin-static-copy": "^0.16.0"
   },
   "dependencies": {
     "3d-force-graph": "^1.72.2",

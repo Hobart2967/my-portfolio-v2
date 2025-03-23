@@ -11,411 +11,40 @@ import {
 	CSS2DObject,
 	CSS2DRenderer
 } from 'three/examples/jsm/renderers/CSS2DRenderer';
-import ForceGraph3D from '3d-force-graph';
+import ForceGraph3D, { ForceGraph3DInstance } from '3d-force-graph';
+
 import { SkillTree } from './models/skill-tree.model';
 import { GraphNode } from './models/graph-node';
 import { GraphNodeLink } from './models/graph-node-link';
 import { createSignal, onMount } from 'solid-js';
 
 import './skills.component.scss';
+import { skills } from './skills';
+
+type Coords = { x: number; y: number; z: number; };
 
 export function Skills() {
-	let graph;
+	let graph: HTMLDivElement | undefined;
 
-	onMount(() => initTree(graph));
+	onMount(() => {
+		if (!graph) {
+			throw new Error('Could not find graph element');
+		}
+
+		initTree(graph);
+	});
 
 	function initTree(graphElement: HTMLDivElement) {
-		const skills: SkillTree = {
-			id: 'me',
-			name: 'My personal skills',
-			vx: 0,
-			vy: 0,
-			vz: 0,
-			children: [
-				{
-					id: 'methods',
-					name: 'Methods',
-					vx: 50,
-					vz: 0,
-					collapsed: false,
-					children: [
-						{
-							id: 'scrum',
-							name: 'Scrum'
-						},
-						{
-							id: 'kanban',
-							name: 'Kanban'
-						}
-					]
-				},
-				{
-					id: 'backend',
-					name: 'Backend Development',
-					vx: 50,
-					vy: 50,
-					vz: 0,
-					collapsed: false,
-					children: [
-						{
-							id: 'asp',
-							name: 'ASP.NET MVC'
-						},
-						{
-							id: 'asp-rest',
-							name: 'ASP.NET REST'
-						},
-						{
-							id: 'express',
-							name: 'express.js REST Apis'
-						},
-						{
-							id: 'node-backends',
-							name: 'Node.js Backends & CLIs'
-						}
-					]
-				},
-				{
-					id: 'dbs',
-					name: 'Managing data',
-					children: [
-						{
-							id: 'dbsys',
-							name: 'Database Systems',
-							children: [
-								{
-									name: 'MySQL / MariaDB',
-									id: 'MySQL'
-								},
-								{
-									name: 'Dynamodb',
-									id: 'Dynamodb'
-								},
-								{
-									name: 'Mongodb',
-									id: 'Mongodb'
-								},
-								{
-									name: 'Oracle',
-									id: 'oracle'
-								},
-								{
-									name: 'Sqlite3',
-									id: 'sqlite3'
-								},
-								{
-									name: 'MS SQL',
-									id: 'mssql'
-								}
-							]
-						},
-						{
-							id: 'MessageQs',
-							name: 'Message Queues',
-							children: [{
-								id: 'MSMQ',
-								name: 'Microsoft Message Queueing'
-							}]
-						},
-						{
-							id: 'graphql',
-							name: 'GraphQL (Basics)'
-						}
-					]
-				},
-				{
-					id: 'devops',
-					name: 'Infrastructure / DevOps',
-					vx: 50,
-					vz: 0,
-					collapsed: false,
-					children: [
-						{
-							id: 'os',
-							name: 'Operating Systems',
-							children: [
-								{
-									id: 'mac',
-									name: 'Mac OS'
-								},
-								{
-									id: 'windows',
-									name: 'Windows'
-								},
-								{
-									id: 'linux',
-									name: 'Linux (Debian, Ubuntu, SuSE, etc.)'
-								}
-							]
-						},
-						{
-							id: 'webservers',
-							name: 'Web Servers',
-							children: [
-								{
-									id: 'apache',
-									name: 'Apache Httpd & Apache2'
-								},
-								{
-									id: 'nginx',
-									name: 'nginx'
-								},
-								{
-									id: 'iis',
-									name: 'IIS'
-								}
-							]
-						},
-						{
-							id: 'docker',
-							name: 'Docker & Docker Compose'
-						},
-						{
-							id: 'aws',
-							name: 'Amazon Web Services (AWS)',
-							children: [
-								{
-									id: 's3',
-									name: 'S3'
-								},
-								{
-									id: 'apigw',
-									name: 'ApiGateway'
-								},
-								{
-									id: 'cloudwatch',
-									name: 'CloudWatch'
-								},
-								{
-									id: 'lambda',
-									name: 'Lambda'
-								},
-								{
-									id: 'dynamodb',
-									name: 'Dynamodb'
-								}
-							]
-						}
-					]
-				},
-				{
-					id: 'general',
-					name: 'General',
-					vz: 0,
-					collapsed: false,
-					children: [
-						{
-							id: 'languages',
-							name: 'Languages',
-							children: [
-								{
-									id: 'german',
-									name: 'German (Mother tongue)'
-								},
-								{
-									id: 'english',
-									name: 'English (C1)'
-								},
-								{
-									id: 'dutch',
-									name: 'Dutch (A2)'
-								}
-							]
-						},
-						{
-							id: 'architecture',
-							name: 'Software Architecture'
-						},
-						{
-							id: 'ausbilderschein',
-							name: 'Instructors Certificate (AEVO, IHK Cologne)'
-						},
-						{
-							id: 'programming-languages',
-							name: 'Programming & Script languages',
-							children: [
-								{
-									id: 'csharp',
-									name: 'C#'
-								},
-								{
-									id: 'js',
-									name: 'JavaScript'
-								},
-								{
-									id: 'java',
-									name: 'Java'
-								},
-								{
-									id: 'ts',
-									name: 'TypeScript'
-								},
-								{
-									id: 'cpp',
-									name: 'C++'
-								},
-								{
-									id: 'vb',
-									name: 'Visual Basic'
-								},
-								{
-									id: 'python',
-									name: 'Python'
-								},
-								{
-									id: 'delphi',
-									name: 'Delphi'
-								},
-								{
-									id: 'php',
-									name: 'PHP'
-								}
-							]
-						},
-						{
-							id: 'vcs',
-							name: 'Version Control Systems',
-							children: [
-								{
-									id: 'git',
-									name: 'Git'
-								},
-								{
-									id: 'tfs',
-									name: 'Team Foundation Server'
-								}
-							]
-						},
-						{
-							id: 'frameworks',
-							name: 'Frameworks and Libraries',
-							children: [
-								{
-									id: 'dotnetcore',
-									name: 'DotNet Core'
-								},
-								{
-									id: 'dotnet',
-									name: '.NET'
-								},
-								{
-									id: 'mono',
-									name: 'Mono C#'
-								},
-								{
-									id: 'node',
-									name: 'NodeJs'
-								}
-							]
-						}
-					]
-				},
-				{
-					id: 'frontend',
-					name: 'Frontend Development',
-					vx: 50,
-					vz: 0,
-					vy: 50,
-					collapsed: false,
-					children: [
-						{
-							id: 'mobile',
-							name: 'Mobile Development',
-							children: [
-								{
-									id: 'android',
-									name: 'Android App Development'
-								},
-								{
-									id: 'ios-hybrid',
-									name: 'Hybrid iOS App Development with Apache Cordova'
-								},
-								{
-									id: 'ios-android',
-									name: 'Hybrid Android App Development with Apache Cordova'
-								}
-							]
-						},
-						{
-							id: 'desktop',
-							name: 'Desktop Development',
-							children: [
-								{
-									id: 'winforms',
-									name: 'Native Windows - Windows Forms'
-								},
-								{
-									id: 'wpf',
-									name: 'Native Windows - WPF & C#'
-								},
-								{
-									id: 'gambas',
-									name: 'Native Linux - Gambas & Visual Basic'
-								},
-								{
-									id: 'desktop-hybrid',
-									name: 'Hybrid Desktop Clients with Electron'
-								}
-							]
-						},
-						{
-							id: 'web',
-							name: 'Web Development',
-							children: [
-								{
-									id: 'webpack',
-									name: 'Webpack'
-								},
-								{
-									id: 'webcomponents',
-									name: 'Web Components (Isolated and pluggable)'
-								},
-								{
-									id: 'ng',
-									name: 'Angular & angular.js',
-									children: [
-										{
-											id: 'ssr',
-											name: 'Server-Side Rendering'
-										},
-										{
-											id: 'csr',
-											name: 'Client-Side Rendering'
-										}
-									]
-								},
-								{
-									id: 'vue',
-									name: 'VueJS'
-								},
-								{
-									id: 'react',
-									name: 'React / Preact'
-								},
-								{
-									id: 'wordpress',
-									name: 'Wordpress'
-								},
-								{
-									id: 'joomla',
-									name: 'Joomla'
-								}
-							]
-						}
-					]
-				}
-			]
-		};
-
 		const nodes: GraphNode<SkillTree>[] = [];
-		const links: GraphNodeLink[] = [];
+		const links: GraphNodeLink<SkillTree>[] = [];
 		parseSkillTree(skills, 1, nodes, links);
 
-		const myGraph = ForceGraph3D({
-			extraRenderers: [new CSS2DRenderer() as any]
-		});
-
-		myGraph.width(200);
+		// HACK: ForceGraph3D is not typed correctly
+		const myGraph: (element: HTMLElement) => ForceGraph3DInstance<GraphNode<SkillTree>, GraphNodeLink<SkillTree>>
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+			= (ForceGraph3D as unknown as any)({
+				extraRenderers: [new CSS2DRenderer()]
+			});
 
 		const groupColors: string[] = [
 			'#1d948f',
@@ -425,12 +54,12 @@ export function Skills() {
 		];
 		const nodeColorScale = d3.scaleOrdinal(d3.schemeRdYlGn[4]);
 		const graph = myGraph(graphElement);
-		let focusedNode: any = null;
+		let focusedNode: GraphNode<SkillTree> | undefined | null = null;
 
 		graph
 		// .linkColor(({targetGroupIndex}: any) => groupColors[targetGroupIndex % groupColors.length])
 			.nodeColor(node => nodeColorScale(node.id as string))
-			.linkThreeObject((link: any) => {
+			.linkThreeObject((link: GraphNodeLink) => {
 				/*
 				 * 2 (nodes) x 3 (r+g+b) bytes between [0, 1]
 				 * For example:
@@ -440,20 +69,22 @@ export function Skills() {
 				 * ]);
 				 */
 				const colors = new Float32Array(
-					[].concat(
-						...[
-							link.sourceGroupIndex,
-							link.targetGroupIndex
-						]
-							.map(groupIndex => groupColors[groupIndex % groupColors.length])
-							.map(x => d3.color(x)
-								.rgb())
-							.map(({ r, g, b }) => [
-								r,
-								g,
-								b
-							].map(v => v / 255))
-					)
+					new Array<number>()
+						.concat(
+							...[
+								link.sourceGroupIndex,
+								link.targetGroupIndex
+							]
+								.map(groupIndex => groupColors[groupIndex % groupColors.length])
+								.map(x => d3.color(x)
+									?.rgb())
+								.filter(x => x !== undefined)
+								.map(({ r, g, b }: d3.RGBColor) => [
+									r,
+									g,
+									b
+								].map(v => v / 255) as number[])
+						)
 				);
 
 				const material = new LineBasicMaterial({ vertexColors: true });
@@ -469,28 +100,32 @@ export function Skills() {
 			})
 
 			.onNodeHover(
-				(node: any) =>
+				node =>
 					graphElement.style.cursor
-            = node && node.children.length
+            = node && (node.children ?? []).length
 							? 'pointer'
-							: null
+							: 'default'
 			)
-			.onNodeClick((node: any) => {
+			.onNodeClick(node => {
 				focusedNode = node;
 				focusNode(node, graph);
 			})
 			.linkPositionUpdate((object3d, { start, end }) => {
 				const line = object3d as Line;
-				const startR = myGraph.nodeRelSize();
-				const endR = myGraph.nodeRelSize();
+				const startR = graph.nodeRelSize();
+				const endR = graph.nodeRelSize();
 				const lineLen = Math.sqrt(
 					[
 						'x',
 						'y',
 						'z'
 					]
-						.map(dim =>
-							Math.pow(((end as any)[dim] || 0) - ((start as any)[dim] || 0), 2))
+						.map(dim => {
+							const endValue = (end as unknown as Record<string, number>)[dim] || 0;
+							const startValue = (start as unknown as Record<string, number>)[dim] || 0;
+
+							return Math.pow(endValue - startValue, 2);
+						})
 						.reduce((acc, v) => acc + v, 0)
 				);
 
@@ -501,6 +136,7 @@ export function Skills() {
 				// calculate coordinate on the node's surface instead of center
 				const positions = [
 					startR / lineLen,
+					// eslint-disable-next-line @stylistic/js/no-mixed-operators
 					1 - endR / lineLen
 				].map(t =>
 					[
@@ -508,9 +144,13 @@ export function Skills() {
 						'y',
 						'z'
 					].map(
-						dim =>
-							(start as any)[dim]
-              + ((end as any)[dim] - (start as any)[dim]) * t
+						dim => {
+							const startValue = (start as unknown as Record<string, number>)[dim];
+							const difference = startValue * t;
+							const endValue = (end as unknown as Record<string, number>)[dim] - difference;
+
+							return startValue + endValue;
+						}
 					));
 
 				const positionsFlat: number[] = [];
@@ -527,11 +167,12 @@ export function Skills() {
 			.linkOpacity(0.9)
 			.linkWidth(() => 4)
 		// .backgroundColor('rgba(0,0,0,0)')
-			.nodeThreeObject((node: any) => {
+			.nodeThreeObject(node => {
 				const nodeEl = document.createElement('div');
 				nodeEl.textContent = `${node.name}`;
 				nodeEl.className = 'skills__node-label';
 				const _2dElement = new CSS2DObject(nodeEl);
+
 				node.element$ = nodeEl;
 				node.spaceObject$ = _2dElement;
 
@@ -540,55 +181,59 @@ export function Skills() {
 			.nodeThreeObjectExtend(true)
 			.width((graphElement as HTMLElement).clientWidth)
 			.height(765)
-			.nodeColor(({ groupIndex, id }: any) =>
+			.nodeColor(({ groupIndex, id }) =>
 				id === 'me'
 					? '#ff0000'
 					: groupColors[groupIndex % groupColors.length])
 			.cooldownTicks(100)
-			.graphData({ nodes: nodes, links: links });
+			.graphData({ nodes: nodes, links });
 
-		myGraph.d3Force('link')
-			.distance(() => 50);
+		graph.d3Force('link')
+			?.distance(() => 50);
 
-		document.defaultView.setTimeout(() => {
+		document.defaultView?.setTimeout(() => {
 			const node = nodes.find(x => x.id === 'me');
 			focusedNode = node;
-			focusNode(node, graph);
+			focusNode(node!, graph);
 		}, 500);
 
-		graphElement
-			.querySelector('canvas')
-			.addEventListener('wheel', function (e) {
-				e.preventDefault();
-				e.stopPropagation();
+		const canvas = graphElement.querySelector('canvas');
+		if (canvas) {
+			canvas
+				.addEventListener('wheel', function (e) {
+					e.preventDefault();
+					e.stopPropagation();
 
-				return false;
-			});
+					return false;
+				});
+		}
 
-		let rotation: Euler = null;
+		let rotation: Euler | null = null;
 
-		document.defaultView.setInterval(() => {
+		document.defaultView!.setInterval(() => {
 			const cameraPosition = graph.cameraPosition();
 
-			if (rotation && (graph as any).rotation.equals(rotation)) {
+			if (rotation && graph.rotation.equals(rotation)) {
 				return;
 			}
 
-			rotation = (graph as any).rotation;
+			rotation = graph.rotation;
 
-			nodes.forEach((x: any) => {
+			nodes.forEach(x => {
 				if (!x.element$) {
 					return;
 				}
 
-				const distance = calculate3dDistance(cameraPosition, x);
+				const distance = calculate3dDistance(cameraPosition, x as Coords);
 				const defaultSize = 24;
 				const minimumSize = 5;
 				const currentSize = (x.element$ as HTMLElement).style.fontSize;
 				const percentage = Math.min(1, distance / 600);
+				const sizeShare = percentage * defaultSize;
+
 				const targetSize = `${Math.max(
 					minimumSize,
-					Math.round((defaultSize - percentage * defaultSize) * 10) / 10
+					Math.round((defaultSize - sizeShare) * 10) / 10
 				)}px`;
 				let focusBoost = 0;
 				if (
@@ -601,8 +246,9 @@ export function Skills() {
 
 				if (targetSize !== currentSize) {
 					(x.element$ as HTMLElement).style.fontSize = targetSize;
+					const partialReduction = 0.8 * percentage;
 					(x.element$ as HTMLElement).style.opacity = `${
-						1 - 0.8 * percentage - focusBoost
+						1 - partialReduction - focusBoost
 					}`;
 				}
 			});
@@ -620,7 +266,7 @@ export function Skills() {
 				return;
 			}
 
-			myGraph.width(width);
+			graph.width(width);
 			console.log('Updated to ', width);
 			lastWidth = width;
 
@@ -637,13 +283,13 @@ export function Skills() {
 			.listenTo(graphElement, () => refreshWidth(false));
 	}
 
-	function isChildOf(parent: any, child: any, links: GraphNodeLink[]) {
+	function isChildOf(parent: GraphNode<SkillTree>, child: GraphNode<SkillTree>, links: GraphNodeLink[]) {
 		let currentChildId = child.id;
-		let currentLink: GraphNodeLink = undefined;
+		let currentLink: GraphNodeLink | undefined = undefined;
 		let isChild = false;
 
 		do {
-			currentLink = links.find(x => (x.target as any).id === currentChildId);
+			currentLink = links.find(x => x.target.id === currentChildId);
 			if (currentLink) {
 				currentChildId = currentLink.source;
 			}
@@ -657,24 +303,39 @@ export function Skills() {
 		return isChild;
 	}
 
-	function focusNode(node: GraphNode<SkillTree>, graph: any) {
-		const maxDistance = node.children
-			.map(child => calculate3dDistance(node, child))
-			.reduce((prev, cur) => Math.max(prev, cur), 0);
+	function focusNode(
+		node: GraphNode<SkillTree>,
+		graph: ForceGraph3DInstance<GraphNode<SkillTree>,
+			GraphNodeLink<SkillTree>>
+	) {
+		if (node.x === undefined || node.y === undefined || node.z === undefined) {
+			return;
+		}
+
+		const maxDistance = (node.children ?? [])
+			.map(child => calculate3dDistance(node as Coords, child as Coords))
+			.reduce<number>((prev, cur) => Math.max(prev ?? 0, cur ?? 0), 0);
 
 		const distance = (maxDistance + 20) * 2;
-		const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+		const ratio = distance / Math.hypot(node.x, node.y, node.z);
+		const distRatio = 1 + ratio;
+
+		const coords = {
+			x: node.x,
+			y: node.y,
+			z: node.z
+		};
 
 		graph.cameraPosition(
 			{ x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
-			node as any,
+			coords,
 			3000
 		);
 	}
 
-	function calculate3dDistance(x: any, y: any) {
-		const { x: x1, y: y1, z: z1 } = x;
-		const { x: x2, y: y2, z: z2 } = y;
+	function calculate3dDistance(a: Coords, b: Coords): number {
+		const { x: x1, y: y1, z: z1 } = a;
+		const { x: x2, y: y2, z: z2 } = b;
 		const distance = Math.sqrt(
 			Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2)
 		);
@@ -721,12 +382,10 @@ export function Skills() {
 			? []
 			: (children || [])
 				.map(child => {
-					const { id: target } = child;
-
 					links.push({
 						sourceGroupIndex: groupIndex,
 						source: id,
-						target,
+						target: child as GraphNode<SkillTree>,
 						targetGroupIndex: groupIndex + 1
 					});
 
@@ -739,28 +398,40 @@ export function Skills() {
 
 	return (
 		<div>
-			<div class="title">Skills</div>
+			<div class="title">
+				Skills
+			</div>
+
 			<div class="card skills">
 				<div class="skills-wrapper">
 					<div class={'deactivate-toggle ' + (disabled()
 						? 'active'
 						: '')}>
-						<button class="button" onClick={() => setDisabled(!disabled())}>
+						<button
+							class="button"
+							onClick={() => setDisabled(!disabled())}>
 							Deactivate Skill-Tree
 						</button>
 					</div>
+
 					<div class={'card overlay ' + (disabled()
 						? 'active'
 						: '')}>
-						<button class="button" onClick={() => setDisabled(!disabled())}>
+						<button
+							class="button"
+							onClick={() => setDisabled(!disabled())}>
 							Reveal my Skill-Tree
 						</button>
 					</div>
+
 					<div ref={graph}></div>
+
 					<div class={'deactivate-toggle ' + (disabled()
 						? 'active'
 						: '')}>
-						<button class="button" onClick={() => setDisabled(!disabled())}>
+						<button
+							class="button"
+							onClick={() => setDisabled(!disabled())}>
 							Deactivate Skill-Tree
 						</button>
 					</div>
