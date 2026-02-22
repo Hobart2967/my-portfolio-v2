@@ -1,0 +1,3 @@
+During my time in school we were advised to do a training on a specific profession we prefer to learn in the future. My deepest desire was to become a professional game developer. Due to the possibilities and connections I had during the year 2006, I was given the chance to do a training inside the offices of a development studio of EA Games. Bright Future was the company developing the `Fußball Manager` title of each year.
+
+While pro-actively extending my trainee-period of two weeks to four in total, I got to know certain tasks of software development in general, but also insights into how video games are created. This was including the regular testing, preparing press media, developing the game itself and seeing how graphical elements evolve.

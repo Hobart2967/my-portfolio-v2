@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"3d-force-graph@^1.72.2":
+"3d-force-graph@1.77.0":
   version "1.77.0"
   resolved "https://registry.yarnpkg.com/3d-force-graph/-/3d-force-graph-1.77.0.tgz#10a47db13179371409ee42d82dba59ec7315058b"
   integrity sha512-w2MlrCeMJxXwhz5gtRZ7mLU4xW5DD2U6VSEfFv8pvnvSNPYPuAIKjbJoZekfv7yFmMaWnNy/2RfRcgC5oGr2KQ==
@@ -2273,7 +2273,7 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@^7.8.5:
+d3@7.9.0:
   version "7.9.0"
   resolved "https://registry.yarnpkg.com/d3/-/d3-7.9.0.tgz#579e7acb3d749caf8860bd1741ae8d371070cd5d"
   integrity sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==
@@ -3771,6 +3771,11 @@ magic-string@^0.30.17:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.5.0"
 
+marked@^17.0.3:
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-17.0.3.tgz#0defa25b1ba288433aa847848475d11109e1b3fd"
+  integrity sha512-jt1v2ObpyOKR8p4XaUJVk3YWRJ5n+i4+rjQopxvV32rSndTJXvIzuUdWWIy/1pFQMkQmvTXawzDNqOH/CUmx6A==
+
 math-intrinsics@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz#a0dd74be81e2aa5c2f27e65ce283605ee4e2b7f9"
@@ -4802,7 +4807,7 @@ three-forcegraph@1:
     ngraph.graph "20"
     tinycolor2 "1"
 
-three-render-objects@^1.35:
+three-render-objects@1.39.3:
   version "1.39.3"
   resolved "https://registry.yarnpkg.com/three-render-objects/-/three-render-objects-1.39.3.tgz#8df8394166bdc07498b38e4dac09a8370616551d"
   integrity sha512-x5oNbAGzStIH0vTKyUqJVr+ojmhjQV8m3f1LdphMpohfjjbYQamoOVt/+gaYq1BiYlRnrzP/fULVYgmrGiGtNw==
@@ -4813,15 +4818,21 @@ three-render-objects@^1.35:
     kapsule "^1.16"
     polished "4"
 
-"three@>=0.118 <1":
+three-render-objects@^1.35:
+  version "1.40.4"
+  resolved "https://registry.yarnpkg.com/three-render-objects/-/three-render-objects-1.40.4.tgz#bfd45ff08900ffc82a4fcf105fd1971c604f2bab"
+  integrity sha512-Ukpu1pei3L5r809izvjsZxwuRcYLiyn6Uvy3lZ9bpMTdvj3i6PeX6w++/hs2ZS3KnEzGjb6YvTvh4UQuwHTDJg==
+  dependencies:
+    "@tweenjs/tween.js" "18 - 25"
+    accessor-fn "1"
+    float-tooltip "^1.7"
+    kapsule "^1.16"
+    polished "4"
+
+three@0.174.0, "three@>=0.118 <1":
   version "0.174.0"
   resolved "https://registry.yarnpkg.com/three/-/three-0.174.0.tgz#53f46d6fd27515231b2af321f798f1e0ecf3f905"
   integrity sha512-p+WG3W6Ov74alh3geCMkGK9NWuT62ee21cV3jEnun201zodVF4tCE5aZa2U122/mkLRmhJJUQmLLW1BH00uQJQ==
-
-three@^0.155.0:
-  version "0.155.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.155.0.tgz#cca9b8ad817830c8b4fdd8f0d9a12a2e413a2672"
-  integrity sha512-sNgCYmDijnIqkD/bMfk+1pHg3YzsxW7V2ChpuP6HCQ8NiZr3RufsXQr8M3SSUMjW4hG+sUk7YbyuY0DncaDTJQ==
 
 tinycolor2@1:
   version "1.6.0"

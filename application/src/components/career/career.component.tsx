@@ -7,6 +7,7 @@ import careerPath from './assets/carreer-path.svg?raw';
 import './career.component.scss';
 import { CareerStation } from './models/career-station.interface';
 import { CompanyInfo } from './models/company-info.interface';
+import { marked } from 'marked';
 
 export function Career() {
 	const [
@@ -215,6 +216,19 @@ export function Career() {
 												{station.end.year}
 											</span>
 										</div>
+
+										<Show when={station.tags
+											? station.tags.length > 0
+											: null}>
+											<div class="tags mt-16">
+												<For each={station.tags}>
+													{tag =>
+														<span class="tag">
+															{tag}
+														</span>}
+												</For>
+											</div>
+										</Show>
 									</div>
 
 									<div class="station-details__metadata__logo">
@@ -224,7 +238,10 @@ export function Career() {
 									</div>
 								</div>
 
-								<div innerHTML={parse(station.description ?? '')}></div>
+								<div
+									class="station-details__description"
+									innerHTML={parse(marked(station.description ?? '', { async: false }))}>
+								</div>
 							</div>
 						</Show>}
 				</For>

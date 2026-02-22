@@ -6,6 +6,7 @@ export interface CareerStation {
 	description?: string;
 	css?: string;
 	school?: boolean;
+	tags?: string[];
 	companyLogo: string;
 	start: {
 		month: number;
