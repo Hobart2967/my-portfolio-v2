@@ -188,6 +188,24 @@ export const stations: CareerStation[] = [
 			year: 2023
 		},
 		end: {
+			month: 8
+				.getMonth() + 1,
+			year: 2025
+		}
+	},
+	{
+		companies: [{ name: 'TIMOCOM GmbH', url: 'https://www.timocom.de' }],
+		job: 'Senior Full-Stack Software Engineer',
+		companyLogo: belonio,
+		css: `
+    filter: drop-shadow(0px 0px 10px #fff);
+  `,
+		description: `At TIMOCOM, I am responsible for developing our login and identity management infrastructure using Keycloak, Java and React. This also includes Kubernetes developments.`,
+		start: {
+			month: 9,
+			year: 2025
+		},
+		end: {
 			month: new Date(Date.now())
 				.getMonth() + 1,
 			year: new Date(Date.now())
