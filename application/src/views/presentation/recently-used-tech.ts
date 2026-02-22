@@ -1,4 +1,6 @@
 export const recentlyUsedTech = [
+	'Azure',
+	'Kubernetes',
 	'Amazon Web Services',
 	'Java',
 	'C#',
