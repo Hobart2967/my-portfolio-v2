@@ -183,15 +183,18 @@ export function PresentationView() {
 										Today, I am working for
 
 										<a
-											href="https://www.belonio.de"
+											href="https://www.timocom.com"
 											rel="noreferrer"
 											target="_blank">
-											Belonio
+											{' '}
+											TIMOCOM GmbH
+
 										</a>
 
-										as a full stack developer, who is providing a simple,
-										secure and attractive software solution for providing
-										employee benefits in terms of salary extras.
+										{' '}
+										as a Full Stack Software Engineer.
+										It's a FreightTech company operating a leading European logistics marketplace
+										and connected products for freight, transport and logistics management.
 									</p>
 								</div>
 							</div>
