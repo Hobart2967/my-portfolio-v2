@@ -19,6 +19,11 @@ export function PresentationView() {
 		setTheme
 	] = createSignal('dark');
 
+	const [
+		showCvTooltip,
+		setShowCvTooltip
+	] = createSignal(!localStorage.getItem('cv-tooltip-dismissed'));
+
 	createEffect(() => {
 		if (document.body.classList.contains(theme())) {
 			return;
@@ -95,8 +100,27 @@ export function PresentationView() {
 					<a
 						class="fa-solid fa-id-card cv"
 						href="/assets/cv_klein_marco_censored.pdf"
+						onClick={() => dismissCvTooltip()}
 						target="_blank">
 					</a>
+
+					<Show when={showCvTooltip()}>
+						<div class="cv-tooltip">
+							<div class="cv-tooltip-content">
+								<button
+									class="close-btn"
+									onClick={() => dismissCvTooltip()}>
+									×
+								</button>
+
+								<p>
+									Looking for a CV?
+								</p>
+							</div>
+
+							<div class="cv-tooltip-arrow"></div>
+						</div>
+					</Show>
 				</div>
 
 				<div class="theme side card">
@@ -275,5 +299,10 @@ export function PresentationView() {
 	function hideModal() {
 		document.body.style.overflow = 'auto';
 		setModal(null);
+	}
+
+	function dismissCvTooltip() {
+		setShowCvTooltip(false);
+		localStorage.setItem('cv-tooltip-dismissed', 'true');
 	}
 }
