@@ -31,7 +31,9 @@ export function Skills() {
 			throw new Error('Could not find graph element');
 		}
 
-		initTree(graph);
+		document.addEventListener('DOMContentLoaded', () => {
+			initTree(graph);
+		});
 	});
 
 	function initTree(graphElement: HTMLDivElement) {

@@ -1,5 +1,6 @@
 .skills-wrapper {
   position: relative;
+	width: calc(100vw - 56px - 32px - 32px - 500px);
 
   .deactivate-toggle {
     display: flex;
