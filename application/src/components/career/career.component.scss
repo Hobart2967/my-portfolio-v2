@@ -14,7 +14,7 @@
 
       .career-path {
         $pathLength: 3543.5290527344;
-        $stationCount: 10;
+        $stationCount: 12;
 
         svg {
           position: absolute;
@@ -149,6 +149,12 @@
       transition: opacity .3s ease-in-out;
 
       padding: 16px;
+
+			.tags {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 8px;
+			}
 
 			&__description {
 				p {
