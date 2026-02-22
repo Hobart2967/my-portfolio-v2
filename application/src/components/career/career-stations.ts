@@ -188,8 +188,7 @@ export const stations: CareerStation[] = [
 			year: 2023
 		},
 		end: {
-			month: 8
-				.getMonth() + 1,
+			month: 8,
 			year: 2025
 		}
 	},
@@ -200,7 +199,7 @@ export const stations: CareerStation[] = [
 		css: `
     filter: drop-shadow(0px 0px 10px #fff);
   `,
-		description: `At TIMOCOM, I am responsible for developing our login and identity management infrastructure using Keycloak, Java and React. This also includes Kubernetes developments.`,
+		description: 'At TIMOCOM, I am responsible for developing our login and identity management infrastructure using Keycloak, Java and React. This also includes Kubernetes developments.',
 		start: {
 			month: 9,
 			year: 2025
